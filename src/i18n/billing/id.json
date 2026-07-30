@@ -1,0 +1,20 @@
+{
+  "title": "Tagihan",
+  "description": "Kelola pengguna, batasan, tingkat langganan, dan akses portal pelanggan Stripe.",
+  "workspaceLabel": "Ruang Kerja",
+  "workspacePlaceholder": "Pilih ruang kerja",
+  "newWorkspaceLabel": "Ruang kerja baru",
+  "newWorkspaceDefault": "Ruang Kerja VeriText",
+  "buttons": {
+    "create": "Buat",
+    "portal": "Portal",
+    "currentStarter": "Paket Starter Aktif",
+    "upgrade": "Tingkatkan"
+  },
+  "toasts": {
+    "workspaceCreated": "Ruang kerja berhasil dibuat",
+    "checkoutFailed": "Gagal memulai proses pembayaran"
+  },
+  "customPrice": "Kustom",
+  "detectionsPerMonth": "deteksi / bulan"
+}

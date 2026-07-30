@@ -1,0 +1,54 @@
+{
+  "title": "Admin",
+  "description": "Benutzerverwaltung, Prüfung markierter Inhalte, API-Überwachung und Systemzustand.",
+  "accessRequired": {
+    "title": "Admin-Zugriff erforderlich",
+    "description": "Plattformüberwachung und Benutzerverwaltung sind auf Administratoren beschränkt."
+  },
+  "refreshingRole": {
+    "title": "Admin-Zugriff wird aktualisiert",
+    "description": "Ihre aktuelle Rolle wird geprüft, bevor die Admin-Tools geöffnet werden."
+  },
+  "totals": {
+    "users": "Benutzer",
+    "organizations": "Organisationen",
+    "detections": "Erkennungen",
+    "activeApiKeys": "Aktive API-Schlüssel",
+    "flaggedDetections": "Markierte Erkennungen",
+    "failedDetections": "Fehlgeschlagene Erkennungen"
+  },
+  "cards": {
+    "users": "Benutzer",
+    "system": "System",
+    "apiMonitoring": "API-Überwachung"
+  },
+  "table": {
+    "name": "Name",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "provider": "Anbieter",
+    "actions": "Aktionen"
+  },
+  "roles": {
+    "USER": "Benutzer",
+    "ADMIN": "Admin"
+  },
+  "actions": {
+    "promote": "Befördern",
+    "delete": "Löschen",
+    "deleteSelfDisabled": "Sie können Ihr eigenes Konto nicht löschen"
+  },
+  "deleteDialog": {
+    "title": "Benutzer löschen?",
+    "description": "Dadurch werden {{user}} und die zugehörigen Daten gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "fallbackUser": "dieser Benutzer",
+    "cancel": "Abbrechen",
+    "confirm": "Benutzer löschen"
+  },
+  "toasts": {
+    "roleUpdated": "Benutzerrolle wurde aktualisiert.",
+    "roleUpdateFailed": "Benutzerrolle konnte nicht aktualisiert werden.",
+    "userDeleted": "Benutzer wurde gelöscht.",
+    "userDeleteFailed": "Benutzer konnte nicht gelöscht werden."
+  }
+}

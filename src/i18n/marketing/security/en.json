@@ -1,0 +1,22 @@
+{
+  "title": "Enterprise security baseline",
+  "description": "Security is not an afterthought in the stack. VeriText enforces hardening at ingress, compute, and persistence layers.",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "Security Headers",
+      "detail": "Helmet + strict CORS + versioned API gateway"
+    },
+    "inputHygiene": {
+      "title": "Input Hygiene",
+      "detail": "Deep sanitization with payload validation and size limits"
+    },
+    "promptDefense": {
+      "title": "Prompt Defense",
+      "detail": "Prompt-injection risk scanning before analysis execution"
+    },
+    "operationalReliability": {
+      "title": "Operational Reliability",
+      "detail": "Redis cache, queue retries, health probes, observability hooks"
+    }
+  }
+}

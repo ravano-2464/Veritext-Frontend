@@ -1,0 +1,30 @@
+{
+  "title": "Conçu spécifiquement pour les opérations de détection",
+  "description": "Construit avec une architecture logicielle d'entreprise et une ergonomie frontend moderne, afin que les équipes puissent passer du soupçon à la preuve en un seul flux de travail.",
+  "features": {
+    "sentenceForensics": {
+      "title": "Analyse Forensique au Niveau des Phrases",
+      "body": "Chaque phrase reçoit une probabilité IA, un indice de confiance et un marquage des segments suspects."
+    },
+    "fusionEngine": {
+      "title": "Moteur de Score de Fusion",
+      "body": "La fusion de signaux pondérés combine quatre modèles linguistiques en un score final calibré."
+    },
+    "burstinessCurves": {
+      "title": "Courbes de Burstiness et d'Entropie",
+      "body": "Visualisez la cohérence rythmique et l'entropie des tokens pour diagnostiquer les schémas d'écriture synthétique."
+    },
+    "analystDashboards": {
+      "title": "Tableaux de Bord Analyste",
+      "body": "Suivez les tendances historiques par utilisateur, source et confiance du modèle avec des enregistrements prêts à l'export."
+    },
+    "securityHardening": {
+      "title": "Renforcement de la Sécurité",
+      "body": "Assainissement des entrées, limites de débit, validation des téléchargements et contrôles anti-injection de prompt."
+    },
+    "queueProcessing": {
+      "title": "Traitement par File d'Attente",
+      "body": "BullMQ et Redis permettent des charges de travail asynchrones fiables pour un débit élevé en entreprise."
+    }
+  }
+}

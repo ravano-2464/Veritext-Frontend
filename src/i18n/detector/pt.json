@@ -1,0 +1,85 @@
+{
+  "title": "Detector de Texto com IA",
+  "description": "Envie texto ou carregue documentos para obter uma análise de probabilidade de IA em camadas com evidências no nível de frase e padrões de escrita em gráficos.",
+  "cards": {
+    "analyzeTextInput": "Analisar Entrada de Texto",
+    "uploadForAnalysis": "Carregar para Análise"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "Título da análise",
+    "analysisTitlePlaceholder": "Lote de revisão de políticas",
+    "languageLabel": "Idioma",
+    "languagePlaceholder": "Selecionar idioma",
+    "languageOptions": {
+      "auto": "Detecção automática",
+      "en": "Inglês",
+      "id": "Bahasa Indonesia",
+      "es": "Espanhol",
+      "fr": "Francês",
+      "de": "Alemão",
+      "ar": "Árabe",
+      "zh": "Chinês"
+    },
+    "textLabel": "Texto a avaliar",
+    "textPlaceholder": "Cole o conteúdo do texto aqui para análise de autoria por IA...",
+    "charactersLabel": "caracteres",
+    "submitButton": "Analisar Texto"
+  },
+  "uploadArea": {
+    "title": "Carregar arquivo de texto",
+    "description": "TXT, CSV, Markdown ou JSON até 4 MB",
+    "chooseFile": "Escolher arquivo",
+    "uploadAriaLabel": "Carregar arquivo de texto",
+    "removeFileAriaLabel": "Remover arquivo"
+  },
+  "uploadFields": {
+    "titleLabel": "Título",
+    "titlePlaceholder": "Lote de moderação carregado",
+    "languageLabel": "Idioma",
+    "languagePlaceholder": "auto"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "Analisar Arquivo Carregado"
+  },
+  "toasts": {
+    "textAnalyzed": "Texto analisado com sucesso.",
+    "detectionFailed": "A detecção falhou.",
+    "fileAnalyzed": "Arquivo analisado com sucesso.",
+    "uploadFailed": "A análise do upload falhou.",
+    "signInRequired": "Por favor, faça login novamente para continuar.",
+    "selectFileFirst": "Selecione um arquivo primeiro."
+  },
+  "summary": {
+    "title": "Resumo Geral de Detecção",
+    "aiLikelihoodSuffix": "probabilidade de IA",
+    "mixedSignalLabel": "Sinal misto IA-humano",
+    "aiHeavyLabel": "Sinal dominado por IA",
+    "humanHeavyLabel": "Sinal dominado por humano",
+    "aiProbabilityLabel": "Probabilidade de IA",
+    "confidenceLabel": "Confiança",
+    "humanLikelihoodLabel": "Probabilidade Humana",
+    "suspiciousRatioLabel": "Proporção de frases suspeitas",
+    "modelInterpretationTitle": "Interpretação do modelo",
+    "modelInterpretationMixed": "O texto mostra padrões de autoria mistos: algumas frases se alinham com a estrutura de IA enquanto outras parecem escritas por humanos.",
+    "modelInterpretationAiHeavy": "Alta probabilidade de geração assistida por IA.",
+    "modelInterpretationHumanHeavy": "Os sinais estão mais próximos de uma composição humana orgânica.",
+    "riskControlsTitle": "Controles de risco",
+    "riskControlsBody": "Use destaques de frases e anomalias de entropia antes das decisões finais de moderação.",
+    "multilayerScoringBadge": "Pontuação multicamada",
+    "explainabilityBadge": "Saída orientada à explicabilidade"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs Complexidade",
+    "entropyDistribution": "Distribuição de Entropia",
+    "aiProbabilityHeatmapBars": "Barras de Mapa de Calor de Probabilidade de IA",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Complexidade",
+    "entropyLegend": "Entropia",
+    "aiProbabilityLegend": "Probabilidade de IA"
+  },
+  "heatmap": {
+    "title": "Mapa de calor de probabilidade no nível de frase",
+    "sentenceLabel": "Frase",
+    "aiLabel": "IA"
+  }
+}

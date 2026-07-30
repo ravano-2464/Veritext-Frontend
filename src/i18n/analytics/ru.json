@@ -1,0 +1,20 @@
+{
+  "title": "Интеллект письма",
+  "description": "Тенденции подлинности, использования, задержки и источников ИИ на уровне портфолио.",
+  "selectScopePlaceholder": "Область",
+  "personalWorkspace": "Личное рабочее пространство",
+  "stats": {
+    "detections": "Обнаружения",
+    "completion": "Завершённость",
+    "avgAiScore": "Средний балл ИИ",
+    "avgConfidence": "Средняя уверенность"
+  },
+  "charts": {
+    "detectionTrend": "Тренд обнаружений",
+    "aiFingerprints": "Отпечатки ИИ"
+  },
+  "cards": {
+    "usageEvents": "События использования",
+    "recentDetections": "Последние обнаружения"
+  }
+}

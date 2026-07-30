@@ -1,0 +1,85 @@
+{
+  "title": "Détecteur de Texte IA",
+  "description": "Soumettez du texte ou téléchargez des documents pour obtenir une analyse de probabilité IA multi-couches avec des preuves au niveau des phrases et des modèles d'écriture graphiqués.",
+  "cards": {
+    "analyzeTextInput": "Analyser l'Entrée de Texte",
+    "uploadForAnalysis": "Télécharger pour Analyse"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "Titre de l'analyse",
+    "analysisTitlePlaceholder": "Lot de révision des politiques",
+    "languageLabel": "Langue",
+    "languagePlaceholder": "Sélectionner la langue",
+    "languageOptions": {
+      "auto": "Détection automatique",
+      "en": "Anglais",
+      "id": "Bahasa Indonesia",
+      "es": "Espagnol",
+      "fr": "Français",
+      "de": "Allemand",
+      "ar": "Arabe",
+      "zh": "Chinois"
+    },
+    "textLabel": "Texte à évaluer",
+    "textPlaceholder": "Collez le contenu du texte ici pour l'analyse de paternité IA...",
+    "charactersLabel": "caractères",
+    "submitButton": "Analyser le Texte"
+  },
+  "uploadArea": {
+    "title": "Télécharger un fichier texte",
+    "description": "TXT, CSV, Markdown ou JSON jusqu'à 4 Mo",
+    "chooseFile": "Choisir un fichier",
+    "uploadAriaLabel": "Télécharger un fichier texte",
+    "removeFileAriaLabel": "Supprimer le fichier"
+  },
+  "uploadFields": {
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Lot de modération téléchargé",
+    "languageLabel": "Langue",
+    "languagePlaceholder": "auto"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "Analyser le Fichier Téléchargé"
+  },
+  "toasts": {
+    "textAnalyzed": "Texte analysé avec succès.",
+    "detectionFailed": "La détection a échoué.",
+    "fileAnalyzed": "Fichier analysé avec succès.",
+    "uploadFailed": "L'analyse du téléchargement a échoué.",
+    "signInRequired": "Veuillez vous reconnecter pour continuer.",
+    "selectFileFirst": "Sélectionnez d'abord un fichier."
+  },
+  "summary": {
+    "title": "Résumé Global de Détection",
+    "aiLikelihoodSuffix": "probabilité IA",
+    "mixedSignalLabel": "Signal mixte IA-humain",
+    "aiHeavyLabel": "Signal dominé par l'IA",
+    "humanHeavyLabel": "Signal dominé par l'humain",
+    "aiProbabilityLabel": "Probabilité IA",
+    "confidenceLabel": "Confiance",
+    "humanLikelihoodLabel": "Probabilité Humaine",
+    "suspiciousRatioLabel": "Ratio de phrases suspectes",
+    "modelInterpretationTitle": "Interprétation du modèle",
+    "modelInterpretationMixed": "Le texte montre des modèles de paternité mixtes : certaines phrases s'alignent sur une structure de type IA tandis que d'autres semblent écrites par un humain.",
+    "modelInterpretationAiHeavy": "Forte probabilité de génération assistée par IA.",
+    "modelInterpretationHumanHeavy": "Les signaux sont plus proches d'une composition humaine organique.",
+    "riskControlsTitle": "Contrôles des risques",
+    "riskControlsBody": "Utilisez les surbrillances de phrases et les anomalies d'entropie avant les décisions finales de modération.",
+    "multilayerScoringBadge": "Score multicouche",
+    "explainabilityBadge": "Sortie axée sur l'explicabilité"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs Complexité",
+    "entropyDistribution": "Distribution de l'Entropie",
+    "aiProbabilityHeatmapBars": "Barres de Carte de Chaleur de Probabilité IA",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Complexité",
+    "entropyLegend": "Entropie",
+    "aiProbabilityLegend": "Probabilité IA"
+  },
+  "heatmap": {
+    "title": "Carte de chaleur de probabilité au niveau des phrases",
+    "sentenceLabel": "Phrase",
+    "aiLabel": "IA"
+  }
+}

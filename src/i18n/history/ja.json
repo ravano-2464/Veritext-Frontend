@@ -1,0 +1,50 @@
+{
+  "title": "分析履歴",
+  "description": "過去の実行を監査し、疑わしい出力を調査して、文レベルの完全なレポートを開きます。",
+  "focusedReportPrefix": "集中レポート",
+  "untitled": "無題",
+  "table": {
+    "empty": "まだ分析がありません。検出ページで最初の検出を実行してください。",
+    "title": "タイトル",
+    "status": "ステータス",
+    "aiProbability": "AI確率",
+    "language": "言語",
+    "created": "作成日",
+    "open": "開く",
+    "view": "表示",
+    "untitledAnalysis": "無題の分析"
+  },
+  "summary": {
+    "title": "全体検出サマリー",
+    "aiLikelihoodSuffix": "AI可能性",
+    "mixedSignalLabel": "AIと人間の混在シグナル",
+    "aiHeavyLabel": "AIが主体のシグナル",
+    "humanHeavyLabel": "人間が主体のシグナル",
+    "aiProbabilityLabel": "AI確率",
+    "confidenceLabel": "信頼度",
+    "humanLikelihoodLabel": "人間らしさ",
+    "suspiciousRatioLabel": "疑わしい文の比率",
+    "modelInterpretationTitle": "モデル解釈",
+    "modelInterpretationMixed": "テキストには混合した執筆パターンが見られます：一部の文はAI的な構造を示す一方、他の文は人間が書いたように見えます。",
+    "modelInterpretationAiHeavy": "AI支援による生成の可能性が高いです。",
+    "modelInterpretationHumanHeavy": "シグナルは自然な人間の文章により近いです。",
+    "riskControlsTitle": "リスクコントロール",
+    "riskControlsBody": "最終的なモデレーション判断を下す前に、文のハイライトとエントロピーの異常を活用してください。",
+    "multilayerScoringBadge": "多層スコアリング",
+    "explainabilityBadge": "説明可能性優先の出力"
+  },
+  "charts": {
+    "burstinessVsComplexity": "バースト性と複雑性",
+    "entropyDistribution": "エントロピー分布",
+    "aiProbabilityHeatmapBars": "AI確率ヒートマップバー",
+    "burstinessLegend": "バースト性",
+    "complexityLegend": "複雑性",
+    "entropyLegend": "エントロピー",
+    "aiProbabilityLegend": "AI確率"
+  },
+  "heatmap": {
+    "title": "文レベルの確率ヒートマップ",
+    "sentenceLabel": "文",
+    "aiLabel": "AI"
+  }
+}

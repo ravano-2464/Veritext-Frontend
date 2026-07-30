@@ -1,0 +1,54 @@
+{
+  "title": "المسؤول",
+  "description": "عمليات المستخدمين، مراجعة المحتوى المعلّم، مراقبة واجهة برمجة التطبيقات، وصحة النظام.",
+  "accessRequired": {
+    "title": "مطلوب وصول المسؤول",
+    "description": "تقتصر مراقبة المنصة وإدارة المستخدمين على المسؤولين فقط."
+  },
+  "refreshingRole": {
+    "title": "تحديث وصول المسؤول",
+    "description": "جارٍ التحقق من أحدث دور لديك قبل فتح أدوات المسؤول."
+  },
+  "totals": {
+    "users": "المستخدمون",
+    "organizations": "المؤسسات",
+    "detections": "الاكتشافات",
+    "activeApiKeys": "مفاتيح API النشطة",
+    "flaggedDetections": "الاكتشافات المعلّمة",
+    "failedDetections": "الاكتشافات الفاشلة"
+  },
+  "cards": {
+    "users": "المستخدمون",
+    "system": "النظام",
+    "apiMonitoring": "مراقبة API"
+  },
+  "table": {
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "role": "الدور",
+    "provider": "المزوّد",
+    "actions": "الإجراءات"
+  },
+  "roles": {
+    "USER": "مستخدم",
+    "ADMIN": "مسؤول"
+  },
+  "actions": {
+    "promote": "ترقية",
+    "delete": "حذف",
+    "deleteSelfDisabled": "لا يمكنك حذف حسابك الخاص"
+  },
+  "deleteDialog": {
+    "title": "حذف المستخدم؟",
+    "description": "سيؤدي ذلك إلى حذف {{user}} وبياناته المرتبطة. لا يمكن التراجع عن هذا الإجراء.",
+    "fallbackUser": "هذا المستخدم",
+    "cancel": "إلغاء",
+    "confirm": "حذف المستخدم"
+  },
+  "toasts": {
+    "roleUpdated": "تم تحديث دور المستخدم.",
+    "roleUpdateFailed": "فشل تحديث دور المستخدم.",
+    "userDeleted": "تم حذف المستخدم.",
+    "userDeleteFailed": "فشل حذف المستخدم."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "AI 텍스트 탐지기",
+  "description": "텍스트를 제출하거나 문서를 업로드하여 문장 수준의 증거와 차트화된 작문 패턴으로 다층 AI 확률 분석을 받으세요.",
+  "cards": {
+    "analyzeTextInput": "텍스트 입력 분석",
+    "uploadForAnalysis": "분석용 업로드"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "분석 제목",
+    "analysisTitlePlaceholder": "정책 검토 배치",
+    "languageLabel": "언어",
+    "languagePlaceholder": "언어 선택",
+    "languageOptions": {
+      "auto": "자동 감지",
+      "en": "영어",
+      "id": "인도네시아어",
+      "es": "스페인어",
+      "fr": "프랑스어",
+      "de": "독일어",
+      "ar": "아랍어",
+      "zh": "중국어"
+    },
+    "textLabel": "평가할 텍스트",
+    "textPlaceholder": "AI 저작 분석을 위해 여기에 텍스트 내용을 붙여넣으세요...",
+    "charactersLabel": "자",
+    "submitButton": "텍스트 분석"
+  },
+  "uploadArea": {
+    "title": "텍스트 파일 업로드",
+    "description": "TXT, CSV, Markdown 또는 JSON 최대 4MB",
+    "chooseFile": "파일 선택",
+    "uploadAriaLabel": "텍스트 파일 업로드",
+    "removeFileAriaLabel": "파일 삭제"
+  },
+  "uploadFields": {
+    "titleLabel": "제목",
+    "titlePlaceholder": "업로드된 모더레이션 배치",
+    "languageLabel": "언어",
+    "languagePlaceholder": "자동"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "업로드된 파일 분석"
+  },
+  "toasts": {
+    "textAnalyzed": "텍스트가 성공적으로 분석되었습니다.",
+    "detectionFailed": "감지에 실패했습니다.",
+    "fileAnalyzed": "파일이 성공적으로 분석되었습니다.",
+    "uploadFailed": "업로드 분석에 실패했습니다.",
+    "signInRequired": "계속하려면 다시 로그인하세요.",
+    "selectFileFirst": "먼저 파일을 선택하세요."
+  },
+  "summary": {
+    "title": "전체 감지 요약",
+    "aiLikelihoodSuffix": "AI 가능성",
+    "mixedSignalLabel": "AI-인간 혼합 신호",
+    "aiHeavyLabel": "AI 우세 신호",
+    "humanHeavyLabel": "인간 우세 신호",
+    "aiProbabilityLabel": "AI 확률",
+    "confidenceLabel": "신뢰도",
+    "humanLikelihoodLabel": "인간 가능성",
+    "suspiciousRatioLabel": "의심스러운 문장 비율",
+    "modelInterpretationTitle": "모델 해석",
+    "modelInterpretationMixed": "텍스트는 혼합된 저작 패턴을 보입니다: 일부 문장은 AI 구조와 일치하고 다른 문장은 인간이 작성한 것처럼 보입니다.",
+    "modelInterpretationAiHeavy": "AI 보조 생성 가능성이 높습니다.",
+    "modelInterpretationHumanHeavy": "신호가 유기적인 인간 구성에 더 가깝습니다.",
+    "riskControlsTitle": "위험 제어",
+    "riskControlsBody": "최종 모더레이션 결정 전에 문장 하이라이트와 엔트로피 이상값을 활용하세요.",
+    "multilayerScoringBadge": "다층 채점",
+    "explainabilityBadge": "설명 가능성 우선 출력"
+  },
+  "charts": {
+    "burstinessVsComplexity": "버스트성 대 복잡성",
+    "entropyDistribution": "엔트로피 분포",
+    "aiProbabilityHeatmapBars": "AI 확률 히트맵 막대",
+    "burstinessLegend": "버스트성",
+    "complexityLegend": "복잡성",
+    "entropyLegend": "엔트로피",
+    "aiProbabilityLegend": "AI 확률"
+  },
+  "heatmap": {
+    "title": "문장 수준 확률 히트맵",
+    "sentenceLabel": "문장",
+    "aiLabel": "AI"
+  }
+}

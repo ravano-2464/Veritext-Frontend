@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "Visão Geral",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "Histórico",
+    "analytics": "Análises",
+    "api": "API",
+    "billing": "Faturamento",
+    "admin": "Admin",
+    "profile": "Perfil"
+  },
+  "actions": {
+    "openNavigation": "Abrir navegação",
+    "signOut": "Sair"
+  },
+  "confirmSignOut": {
+    "title": "Sair da sua conta?",
+    "description": "Você será desconectado desta sessão e precisará fazer login novamente para voltar ao painel.",
+    "cancel": "Cancelar",
+    "confirm": "Sim, sair",
+    "confirmLoading": "Saindo..."
+  },
+  "fallbackUser": {
+    "name": "Analista",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "Sinais em múltiplas camadas: perplexidade, explosividade, estilometria, semântica.",
+  "language": {
+    "label": "Idioma",
+    "placeholder": "Selecionar idioma",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

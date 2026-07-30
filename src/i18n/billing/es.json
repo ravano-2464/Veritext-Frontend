@@ -1,0 +1,20 @@
+{
+  "title": "Facturación",
+  "description": "Administra puestos, límites, nivel de suscripción y acceso al portal de clientes de Stripe.",
+  "workspaceLabel": "Espacio de trabajo",
+  "workspacePlaceholder": "Seleccionar espacio de trabajo",
+  "newWorkspaceLabel": "Nuevo espacio de trabajo",
+  "newWorkspaceDefault": "Espacio de trabajo VeriText",
+  "buttons": {
+    "create": "Crear",
+    "portal": "Portal",
+    "currentStarter": "Plan Starter Actual",
+    "upgrade": "Mejorar"
+  },
+  "toasts": {
+    "workspaceCreated": "Espacio de trabajo creado",
+    "checkoutFailed": "Error al procesar el pago"
+  },
+  "customPrice": "Personalizado",
+  "detectionsPerMonth": "detecciones / mes"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "ذكاء الكتابة",
+  "description": "اتجاهات الأصالة والاستخدام والكمون ومصادر الذكاء الاصطناعي على مستوى المحفظة.",
+  "selectScopePlaceholder": "النطاق",
+  "personalWorkspace": "مساحة العمل الشخصية",
+  "stats": {
+    "detections": "الاكتشافات",
+    "completion": "الإكمال",
+    "avgAiScore": "متوسط درجة الذكاء الاصطناعي",
+    "avgConfidence": "متوسط الثقة"
+  },
+  "charts": {
+    "detectionTrend": "اتجاه الاكتشاف",
+    "aiFingerprints": "بصمات الذكاء الاصطناعي"
+  },
+  "cards": {
+    "usageEvents": "أحداث الاستخدام",
+    "recentDetections": "الاكتشافات الأخيرة"
+  }
+}

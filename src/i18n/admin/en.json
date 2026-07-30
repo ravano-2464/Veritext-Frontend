@@ -1,0 +1,54 @@
+{
+  "title": "Admin",
+  "description": "User operations, flagged-content review, API monitoring, and system health.",
+  "accessRequired": {
+    "title": "Admin access required",
+    "description": "Platform monitoring and user management are restricted to administrators."
+  },
+  "refreshingRole": {
+    "title": "Updating admin access",
+    "description": "Checking your latest role before opening admin tools."
+  },
+  "totals": {
+    "users": "Users",
+    "organizations": "Organizations",
+    "detections": "Detections",
+    "activeApiKeys": "Active API Keys",
+    "flaggedDetections": "Flagged Detections",
+    "failedDetections": "Failed Detections"
+  },
+  "cards": {
+    "users": "Users",
+    "system": "System",
+    "apiMonitoring": "API Monitoring"
+  },
+  "table": {
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "provider": "Provider",
+    "actions": "Actions"
+  },
+  "roles": {
+    "USER": "User",
+    "ADMIN": "Admin"
+  },
+  "actions": {
+    "promote": "Promote",
+    "delete": "Delete",
+    "deleteSelfDisabled": "You cannot delete your own account"
+  },
+  "deleteDialog": {
+    "title": "Delete user?",
+    "description": "This will delete {{user}} and their related data. This action cannot be undone.",
+    "fallbackUser": "this user",
+    "cancel": "Cancel",
+    "confirm": "Delete user"
+  },
+  "toasts": {
+    "roleUpdated": "User role updated.",
+    "roleUpdateFailed": "Failed to update user role.",
+    "userDeleted": "User deleted.",
+    "userDeleteFailed": "Failed to delete user."
+  }
+}

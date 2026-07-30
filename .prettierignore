@@ -1,0 +1,11 @@
+# Ignore Next.js auto-generated type declarations file from Prettier formatting
+# to avoid conflicts between Prettier's singleQuote rule and Next.js auto-generation.
+next-env.d.ts
+.next
+node_modules
+dist
+build
+.turbo
+.env
+.env.*
+!.env.example

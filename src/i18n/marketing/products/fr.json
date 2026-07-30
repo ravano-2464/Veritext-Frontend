@@ -1,0 +1,123 @@
+{
+  "useCases": {
+    "title": "Conçu pour les opérations d'authenticité",
+    "description": "Examinez les soumissions individuelles, traitez les téléchargements, exposez des API et surveillez les équipes depuis un seul espace de travail prêt pour les entreprises.",
+    "items": {
+      "universities": {
+        "title": "Universités",
+        "body": "Flux de travail d'intégrité académique avec preuves de phrases."
+      },
+      "enterprises": {
+        "title": "Entreprises",
+        "body": "Révision des politiques, du recrutement et des communications à l'échelle des locataires."
+      },
+      "publishers": {
+        "title": "Éditeurs",
+        "body": "Vérifications d'authenticité éditoriales avec des rapports exportables."
+      },
+      "researchers": {
+        "title": "Chercheurs",
+        "body": "Analyses linguistiques au niveau du corpus et révision multilingue."
+      }
+    }
+  },
+  "analytics": {
+    "title": "Analyses de niveau probatoire pour chaque phrase",
+    "description": "VeriText combine la perplexité, la densité, la stylométrie, la cohérence sémantique, l'entropie, la lisibilité et la probabilité des tokens en une intelligence rédactionnelle explicable.",
+    "list": {
+      "heatmaps": "Cartes thermiques de phrases",
+      "fingerprinting": "Empreinte digitale IA",
+      "readability": "Courbes de lisibilité",
+      "verification": "Vérification de modèle"
+    },
+    "chart": {
+      "title": "Tendance d'authenticité",
+      "value": "82% de confiance"
+    }
+  },
+  "integrations": {
+    "items": {
+      "apiKeys": {
+        "title": "Clés API",
+        "body": "Clés à portée limitée avec limites de débit et analyses d'utilisation."
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "body": "Événements de fin de détection signés pour les systèmes en aval."
+      },
+      "platformFit": {
+        "title": "Compatibilité de plateforme",
+        "body": "Conçu pour les pipelines LMS, ATS, CMS, de confiance et de recherche."
+      }
+    }
+  },
+  "api": {
+    "title": "API REST d'entreprise",
+    "description": "Utilisez /detect, /upload, /history et /analytics avec une authentification par clé API. La documentation Swagger est fournie avec l'API NestJS."
+  },
+  "pricing": {
+    "title": "Tarification",
+    "description": "Commencez par des analyses individuelles, puis évoluez vers des espaces de travail d'équipe et des volumes d'API.",
+    "plans": {
+      "free": {
+        "name": "Gratuit",
+        "price": "$0",
+        "limit": "50 détections",
+        "features": ["Détecteur principal", "Historique", "Export CSV"]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "limit": "5 000 détections",
+        "features": ["Rapports PDF et DOCX", "Clés API", "Graphiques avancés"]
+      },
+      "business": {
+        "name": "Business",
+        "price": "$249",
+        "limit": "100 000 détections",
+        "features": ["Webhooks", "Révision administrateur", "Files d'attente prioritaires"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Personnalisé",
+        "limit": "Plus d'1M de détections",
+        "features": ["Limites personnalisées", "Révision de sécurité", "Support dédié"]
+      }
+    }
+  },
+  "testimonials": {
+    "academic": {
+      "name": "Responsable de l'intégrité académique",
+      "quote": "Les preuves de phrases ont transformé nos conversations de révision."
+    },
+    "enterprise": {
+      "name": "Équipe de confiance d'entreprise",
+      "quote": "Les clés API et les webhooks l'ont intégré à nos flux de travail existants."
+    },
+    "publishing": {
+      "name": "Éditeur de publication",
+      "quote": "Les exports sont suffisamment clairs pour la révision éditoriale et juridique."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "VeriText est-il un simple détecteur d'IA ?",
+      "answer": "Non. C'est une plateforme d'authenticité de l'écriture avec une notation en couches, des analyses, des exports et des API."
+    },
+    "q2": {
+      "question": "Prend-il en charge l'indonésien ?",
+      "answer": "Oui. Le moteur prend en charge l'anglais, l'indonésien et le texte multilingue mixte."
+    },
+    "q3": {
+      "question": "Les entreprises peuvent-elles l'intégrer ?",
+      "answer": "Oui. L'API prend en charge les clés, les limites de débit, les analyses d'utilisation, les webhooks et la documentation Swagger."
+    }
+  },
+  "cta": {
+    "title": "Lancez un flux de travail d'authenticité auquel vos réviseurs et développeurs peuvent faire confiance.",
+    "dashboard": "Aller au tableau de bord",
+    "workspace": "Créer un espace de travail",
+    "detector": "Essayer le détecteur"
+  }
+}

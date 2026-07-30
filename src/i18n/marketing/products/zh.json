@@ -1,0 +1,123 @@
+{
+  "useCases": {
+    "title": "专为真实性运营而构建",
+    "description": "在单一企业级工作区中审查个人提交、处理上传、开放API并监控团队。",
+    "items": {
+      "universities": {
+        "title": "高校",
+        "body": "具有句子证据的学术诚信工作流程。"
+      },
+      "enterprises": {
+        "title": "企业",
+        "body": "租户级别的政策、招聘和沟通审查。"
+      },
+      "publishers": {
+        "title": "出版商",
+        "body": "带有可导出报告的编辑真实性检查。"
+      },
+      "researchers": {
+        "title": "研究人员",
+        "body": "语料库级别的语言分析和多语言审查。"
+      }
+    }
+  },
+  "analytics": {
+    "title": "每个句子的证据级分析",
+    "description": "VeriText将困惑度、突发性、文体测量、语义一致性、熵、可读性和标记概率整合为可解释的写作智能。",
+    "list": {
+      "heatmaps": "句子热力图",
+      "fingerprinting": "AI指纹识别",
+      "readability": "可读性曲线",
+      "verification": "模型验证"
+    },
+    "chart": {
+      "title": "真实性趋势",
+      "value": "82%置信度"
+    }
+  },
+  "integrations": {
+    "items": {
+      "apiKeys": {
+        "title": "API密钥",
+        "body": "带有速率限制和使用分析的作用域密钥。"
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "body": "用于下游系统的已签名检测完成事件。"
+      },
+      "platformFit": {
+        "title": "平台适配",
+        "body": "专为LMS、ATS、CMS、信任和研究管道设计。"
+      }
+    }
+  },
+  "api": {
+    "title": "企业REST API",
+    "description": "使用API密钥认证访问/detect、/upload、/history和/analytics。Swagger文档随NestJS API一起提供。"
+  },
+  "pricing": {
+    "title": "定价",
+    "description": "从个人分析开始，然后扩展到团队工作区和API量。",
+    "plans": {
+      "free": {
+        "name": "免费",
+        "price": "$0",
+        "limit": "50次检测",
+        "features": ["核心检测器", "历史记录", "CSV导出"]
+      },
+      "pro": {
+        "name": "专业版",
+        "price": "$29",
+        "limit": "5,000次检测",
+        "features": ["PDF和DOCX报告", "API密钥", "高级图表"]
+      },
+      "business": {
+        "name": "商业版",
+        "price": "$249",
+        "limit": "100,000次检测",
+        "features": ["Webhook", "管理员审核", "优先队列"]
+      },
+      "enterprise": {
+        "name": "企业版",
+        "price": "定制",
+        "limit": "100万+次检测",
+        "features": ["自定义限额", "安全审查", "专属支持"]
+      }
+    }
+  },
+  "testimonials": {
+    "academic": {
+      "name": "学术诚信负责人",
+      "quote": "句子证据改变了我们的审查对话。"
+    },
+    "enterprise": {
+      "name": "企业信任团队",
+      "quote": "API密钥和Webhook使其与我们现有的工作流程完美契合。"
+    },
+    "publishing": {
+      "name": "出版编辑",
+      "quote": "导出内容足够清晰，可用于编辑和法律审查。"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": {
+      "question": "VeriText只是一个简单的AI检测器吗？",
+      "answer": "不是。它是一个具有分层评分、分析、导出和API的写作真实性平台。"
+    },
+    "q2": {
+      "question": "支持印度尼西亚语吗？",
+      "answer": "是的。引擎支持英语、印度尼西亚语和混合多语言文本。"
+    },
+    "q3": {
+      "question": "企业可以集成吗？",
+      "answer": "是的。API支持密钥、速率限制、使用分析、Webhook和Swagger文档。"
+    }
+  },
+  "cta": {
+    "title": "启动您的审查人员和开发人员可以信赖的真实性工作流程。",
+    "dashboard": "前往仪表板",
+    "workspace": "创建工作区",
+    "detector": "试用检测器"
+  }
+}

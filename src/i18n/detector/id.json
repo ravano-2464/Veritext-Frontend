@@ -1,0 +1,85 @@
+{
+  "title": "Detektor Teks AI",
+  "description": "Kirim teks atau unggah dokumen untuk mendapatkan analisis probabilitas AI berlapis dengan bukti per kalimat dan pola tulisan berbasis grafik.",
+  "cards": {
+    "analyzeTextInput": "Analisis Input Teks",
+    "uploadForAnalysis": "Unggah untuk Analisis"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "Judul analisis",
+    "analysisTitlePlaceholder": "Batch review kebijakan",
+    "languageLabel": "Bahasa",
+    "languagePlaceholder": "Pilih bahasa",
+    "languageOptions": {
+      "auto": "Deteksi Otomatis",
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "ar": "Arabic",
+      "zh": "Chinese"
+    },
+    "textLabel": "Teks yang dievaluasi",
+    "textPlaceholder": "Tempel konten teks di sini untuk analisis kepenulisan AI...",
+    "charactersLabel": "karakter",
+    "submitButton": "Analisis Teks"
+  },
+  "uploadArea": {
+    "title": "Unggah file teks",
+    "description": "TXT, CSV, Markdown, atau JSON hingga 4MB",
+    "chooseFile": "Pilih file",
+    "uploadAriaLabel": "Unggah file teks",
+    "removeFileAriaLabel": "Hapus file"
+  },
+  "uploadFields": {
+    "titleLabel": "Judul",
+    "titlePlaceholder": "Batch moderasi unggahan",
+    "languageLabel": "Bahasa",
+    "languagePlaceholder": "auto"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "Analisis File Unggahan"
+  },
+  "toasts": {
+    "textAnalyzed": "Teks berhasil dianalisis.",
+    "detectionFailed": "Deteksi gagal.",
+    "fileAnalyzed": "File berhasil dianalisis.",
+    "uploadFailed": "Analisis unggahan gagal.",
+    "signInRequired": "Silakan masuk lagi untuk melanjutkan.",
+    "selectFileFirst": "Pilih file terlebih dahulu."
+  },
+  "summary": {
+    "title": "Ringkasan Deteksi Keseluruhan",
+    "aiLikelihoodSuffix": "kemungkinan AI",
+    "mixedSignalLabel": "Sinyal campuran AI-manusia",
+    "aiHeavyLabel": "Sinyal dominan AI",
+    "humanHeavyLabel": "Sinyal dominan manusia",
+    "aiProbabilityLabel": "Probabilitas AI",
+    "confidenceLabel": "Kepercayaan",
+    "humanLikelihoodLabel": "Kemungkinan Manusia",
+    "suspiciousRatioLabel": "Rasio kalimat mencurigakan",
+    "modelInterpretationTitle": "Interpretasi model",
+    "modelInterpretationMixed": "Teks menunjukkan pola kepenulisan campuran: beberapa kalimat terlihat seperti AI, sementara lainnya lebih seperti tulisan manusia.",
+    "modelInterpretationAiHeavy": "Probabilitas tinggi adanya bantuan generasi AI.",
+    "modelInterpretationHumanHeavy": "Sinyal lebih dekat ke komposisi tulisan manusia alami.",
+    "riskControlsTitle": "Kontrol risiko",
+    "riskControlsBody": "Gunakan sorotan kalimat dan anomali entropi sebelum mengambil keputusan moderasi final.",
+    "multilayerScoringBadge": "Skor multi-lapis",
+    "explainabilityBadge": "Output berfokus pada keterjelasan"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs Complexity",
+    "entropyDistribution": "Distribusi Entropi",
+    "aiProbabilityHeatmapBars": "Bar Heatmap Probabilitas AI",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Complexity",
+    "entropyLegend": "Entropi",
+    "aiProbabilityLegend": "Probabilitas AI"
+  },
+  "heatmap": {
+    "title": "Heatmap probabilitas per kalimat",
+    "sentenceLabel": "Kalimat",
+    "aiLabel": "AI"
+  }
+}

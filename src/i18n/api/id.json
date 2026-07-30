@@ -1,0 +1,26 @@
+{
+  "title": "API Enterprise",
+  "description": "Terbitkan kunci berlingkup untuk alur kerja deteksi volume tinggi, unggah, riwayat, dan analitik.",
+  "cards": {
+    "createApiKey": "Buat Kunci API",
+    "keys": "Kunci API",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "Nama",
+    "namePlaceholder": "Integrasi produksi",
+    "workspaceLabel": "Ruang Kerja",
+    "workspacePersonal": "Pribadi"
+  },
+  "buttons": {
+    "issueKey": "Terbitkan Kunci",
+    "revoke": "Cabut"
+  },
+  "toasts": {
+    "apiKeyCreated": "Kunci API berhasil dibuat",
+    "apiKeyFailed": "Gagal membuat Kunci API",
+    "apiKeyRevoked": "Kunci API dicabut",
+    "copied": "Disalin"
+  },
+  "warning": "Salin kunci ini sekarang. Kunci tidak akan ditampilkan lagi."
+}

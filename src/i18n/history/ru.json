@@ -1,0 +1,50 @@
+{
+  "title": "История анализов",
+  "description": "Проверяйте прошлые запуски, исследуйте подозрительные результаты и открывайте подробные отчёты на уровне предложений.",
+  "focusedReportPrefix": "Целевой отчёт",
+  "untitled": "Без названия",
+  "table": {
+    "empty": "Анализов пока нет. Выполните первое обнаружение на странице Детектора.",
+    "title": "Название",
+    "status": "Статус",
+    "aiProbability": "Вероятность ИИ",
+    "language": "Язык",
+    "created": "Создано",
+    "open": "Открыть",
+    "view": "Просмотр",
+    "untitledAnalysis": "Анализ без названия"
+  },
+  "summary": {
+    "title": "Общая сводка обнаружения",
+    "aiLikelihoodSuffix": "вероятность ИИ",
+    "mixedSignalLabel": "Смешанный сигнал ИИ и человека",
+    "aiHeavyLabel": "Преимущественно сигнал ИИ",
+    "humanHeavyLabel": "Преимущественно человеческий сигнал",
+    "aiProbabilityLabel": "Вероятность ИИ",
+    "confidenceLabel": "Уверенность",
+    "humanLikelihoodLabel": "Вероятность человека",
+    "suspiciousRatioLabel": "Доля подозрительных предложений",
+    "modelInterpretationTitle": "Интерпретация модели",
+    "modelInterpretationMixed": "Текст демонстрирует смешанные паттерны авторства: одни предложения соответствуют структуре ИИ, другие выглядят написанными человеком.",
+    "modelInterpretationAiHeavy": "Высокая вероятность генерации с помощью ИИ.",
+    "modelInterpretationHumanHeavy": "Сигналы ближе к органическому человеческому написанию.",
+    "riskControlsTitle": "Контроль рисков",
+    "riskControlsBody": "Используйте выделение предложений и аномалии энтропии перед принятием окончательных решений о модерации.",
+    "multilayerScoringBadge": "Многоуровневая оценка",
+    "explainabilityBadge": "Вывод с акцентом на объяснимость"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Пульсация и сложность",
+    "entropyDistribution": "Распределение энтропии",
+    "aiProbabilityHeatmapBars": "Тепловая карта вероятности ИИ",
+    "burstinessLegend": "Пульсация",
+    "complexityLegend": "Сложность",
+    "entropyLegend": "Энтропия",
+    "aiProbabilityLegend": "Вероятность ИИ"
+  },
+  "heatmap": {
+    "title": "Тепловая карта вероятности на уровне предложений",
+    "sentenceLabel": "Предложение",
+    "aiLabel": "ИИ"
+  }
+}

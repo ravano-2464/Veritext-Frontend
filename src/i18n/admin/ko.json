@@ -1,0 +1,54 @@
+{
+  "title": "관리자",
+  "description": "사용자 작업, 표시된 콘텐츠 검토, API 모니터링 및 시스템 상태.",
+  "accessRequired": {
+    "title": "관리자 접근 필요",
+    "description": "플랫폼 모니터링과 사용자 관리는 관리자에게만 제한됩니다."
+  },
+  "refreshingRole": {
+    "title": "관리자 접근 권한 업데이트 중",
+    "description": "관리자 도구를 열기 전에 최신 역할을 확인하고 있습니다."
+  },
+  "totals": {
+    "users": "사용자",
+    "organizations": "조직",
+    "detections": "탐지",
+    "activeApiKeys": "활성 API 키",
+    "flaggedDetections": "표시된 탐지",
+    "failedDetections": "실패한 탐지"
+  },
+  "cards": {
+    "users": "사용자",
+    "system": "시스템",
+    "apiMonitoring": "API 모니터링"
+  },
+  "table": {
+    "name": "이름",
+    "email": "이메일",
+    "role": "역할",
+    "provider": "제공자",
+    "actions": "작업"
+  },
+  "roles": {
+    "USER": "사용자",
+    "ADMIN": "관리자"
+  },
+  "actions": {
+    "promote": "승격",
+    "delete": "삭제",
+    "deleteSelfDisabled": "자신의 계정은 삭제할 수 없습니다"
+  },
+  "deleteDialog": {
+    "title": "사용자를 삭제할까요?",
+    "description": "{{user}} 및 관련 데이터가 삭제됩니다. 이 작업은 되돌릴 수 없습니다.",
+    "fallbackUser": "이 사용자",
+    "cancel": "취소",
+    "confirm": "사용자 삭제"
+  },
+  "toasts": {
+    "roleUpdated": "사용자 역할이 업데이트되었습니다.",
+    "roleUpdateFailed": "사용자 역할 업데이트에 실패했습니다.",
+    "userDeleted": "사용자가 삭제되었습니다.",
+    "userDeleteFailed": "사용자 삭제에 실패했습니다."
+  }
+}

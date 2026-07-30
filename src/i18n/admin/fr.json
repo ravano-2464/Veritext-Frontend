@@ -1,0 +1,54 @@
+{
+  "title": "Administration",
+  "description": "Gestion des utilisateurs, examen du contenu signalé, surveillance de l’API et état du système.",
+  "accessRequired": {
+    "title": "Accès administrateur requis",
+    "description": "La surveillance de la plateforme et la gestion des utilisateurs sont réservées aux administrateurs."
+  },
+  "refreshingRole": {
+    "title": "Mise à jour de l’accès administrateur",
+    "description": "Vérification de votre rôle le plus récent avant d’ouvrir les outils d’administration."
+  },
+  "totals": {
+    "users": "Utilisateurs",
+    "organizations": "Organisations",
+    "detections": "Détections",
+    "activeApiKeys": "Clés API actives",
+    "flaggedDetections": "Détections signalées",
+    "failedDetections": "Détections échouées"
+  },
+  "cards": {
+    "users": "Utilisateurs",
+    "system": "Système",
+    "apiMonitoring": "Surveillance de l’API"
+  },
+  "table": {
+    "name": "Nom",
+    "email": "E-mail",
+    "role": "Rôle",
+    "provider": "Fournisseur",
+    "actions": "Actions"
+  },
+  "roles": {
+    "USER": "Utilisateur",
+    "ADMIN": "Administrateur"
+  },
+  "actions": {
+    "promote": "Promouvoir",
+    "delete": "Supprimer",
+    "deleteSelfDisabled": "Vous ne pouvez pas supprimer votre propre compte"
+  },
+  "deleteDialog": {
+    "title": "Supprimer l’utilisateur ?",
+    "description": "Cela supprimera {{user}} ainsi que ses données associées. Cette action est irréversible.",
+    "fallbackUser": "cet utilisateur",
+    "cancel": "Annuler",
+    "confirm": "Supprimer l’utilisateur"
+  },
+  "toasts": {
+    "roleUpdated": "Rôle de l’utilisateur mis à jour.",
+    "roleUpdateFailed": "Échec de la mise à jour du rôle de l’utilisateur.",
+    "userDeleted": "Utilisateur supprimé.",
+    "userDeleteFailed": "Échec de la suppression de l’utilisateur."
+  }
+}

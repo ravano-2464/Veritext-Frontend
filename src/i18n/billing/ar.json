@@ -1,0 +1,20 @@
+{
+  "title": "الفواتير",
+  "description": "إدارة المقاعد والحدود ومستوى الاشتراك والوصول إلى بوابة عملاء Stripe.",
+  "workspaceLabel": "مساحة العمل",
+  "workspacePlaceholder": "اختر مساحة العمل",
+  "newWorkspaceLabel": "مساحة عمل جديدة",
+  "newWorkspaceDefault": "مساحة عمل VeriText",
+  "buttons": {
+    "create": "إنشاء",
+    "portal": "البوابة",
+    "currentStarter": "الخطة الأساسية الحالية",
+    "upgrade": "ترقية"
+  },
+  "toasts": {
+    "workspaceCreated": "تم إنشاء مساحة العمل",
+    "checkoutFailed": "فشل إتمام الدفع"
+  },
+  "customPrice": "مخصص",
+  "detectionsPerMonth": "اكتشاف / شهر"
+}

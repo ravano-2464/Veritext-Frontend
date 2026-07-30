@@ -1,0 +1,20 @@
+{
+  "title": "Billing",
+  "description": "Manage seats, limits, subscription tier, and Stripe customer portal access.",
+  "workspaceLabel": "Workspace",
+  "workspacePlaceholder": "Select workspace",
+  "newWorkspaceLabel": "New workspace",
+  "newWorkspaceDefault": "VeriText Workspace",
+  "buttons": {
+    "create": "Create",
+    "portal": "Portal",
+    "currentStarter": "Current Starter",
+    "upgrade": "Upgrade"
+  },
+  "toasts": {
+    "workspaceCreated": "Workspace created",
+    "checkoutFailed": "Checkout failed"
+  },
+  "customPrice": "Custom",
+  "detectionsPerMonth": "detections / month"
+}

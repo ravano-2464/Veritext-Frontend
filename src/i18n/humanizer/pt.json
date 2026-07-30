@@ -1,0 +1,62 @@
+{
+  "title": "Humanizador de Texto",
+  "description": "Reescreva rascunhos estruturados com estilo de IA em uma escrita mais natural e humana, mantendo a mensagem original intacta.",
+  "cards": {
+    "inputTitle": "Texto de entrada",
+    "outputTitle": "Texto humanizado"
+  },
+  "form": {
+    "languageLabel": "Idioma",
+    "intensityLabel": "Intensidade",
+    "styleLabel": "Estilo",
+    "textLabel": "Texto para humanizar",
+    "textPlaceholder": "Cole pelo menos 60 caracteres do texto que deseja tornar mais natural...",
+    "charactersLabel": "caracteres",
+    "languagePlaceholder": "Selecionar idioma",
+    "intensityPlaceholder": "Selecionar intensidade",
+    "stylePlaceholder": "Selecionar estilo",
+    "submitButton": "Humanizar texto"
+  },
+  "options": {
+    "languages": {
+      "auto": "Detectar automaticamente",
+      "en": "Inglês",
+      "id": "Indonésio",
+      "es": "Espanhol",
+      "fr": "Francês",
+      "de": "Alemão",
+      "ar": "Árabe",
+      "zh": "Chinês"
+    },
+    "intensity": {
+      "light": "Leve",
+      "balanced": "Equilibrado",
+      "strong": "Forte"
+    },
+    "style": {
+      "balanced": "Equilibrado",
+      "casual": "Informal",
+      "professional": "Profissional"
+    }
+  },
+  "output": {
+    "placeholder": "O texto humanizado aparecerá aqui após o processamento.",
+    "copyButton": "Copiar resultado",
+    "copiedButton": "Copiado",
+    "reEditButton": "Editar novamente"
+  },
+  "metrics": {
+    "aiProbability": "Probabilidade de IA",
+    "suspiciousSentences": "Frases suspeitas",
+    "rewrittenSentences": "Frases reescritas",
+    "rewriteActions": "Ações de reescrita"
+  },
+  "toasts": {
+    "humanizedSuccess": "Texto humanizado com sucesso.",
+    "humanizedFailed": "Falha ao humanizar o texto.",
+    "signInRequired": "Por favor, entre novamente para continuar.",
+    "copiedSuccess": "Texto humanizado copiado.",
+    "copiedFailed": "Falha ao copiar o resultado.",
+    "outputMoved": "Resultado movido para o editor de entrada."
+  }
+}

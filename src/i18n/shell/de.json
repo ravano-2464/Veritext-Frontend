@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "Übersicht",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "Verlauf",
+    "analytics": "Analytik",
+    "api": "API",
+    "billing": "Abrechnung",
+    "admin": "Admin",
+    "profile": "Profil"
+  },
+  "actions": {
+    "openNavigation": "Navigation öffnen",
+    "signOut": "Abmelden"
+  },
+  "confirmSignOut": {
+    "title": "Von Ihrem Konto abmelden?",
+    "description": "Sie werden von dieser Sitzung abgemeldet und müssen sich erneut anmelden, um zum Dashboard zurückzukehren.",
+    "cancel": "Abbrechen",
+    "confirm": "Ja, abmelden",
+    "confirmLoading": "Abmelden..."
+  },
+  "fallbackUser": {
+    "name": "Analyst",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "Mehrschichtige Signale: Perplexität, Burstiness, Stilometrie, Semantik.",
+  "language": {
+    "label": "Sprache",
+    "placeholder": "Sprache auswählen",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

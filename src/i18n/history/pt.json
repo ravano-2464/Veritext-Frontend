@@ -1,0 +1,50 @@
+{
+  "title": "Histórico de análises",
+  "description": "Audite execuções anteriores, investigue saídas suspeitas e abra relatórios completos em nível de frase.",
+  "focusedReportPrefix": "Relatório focado",
+  "untitled": "Sem título",
+  "table": {
+    "empty": "Nenhuma análise ainda. Execute sua primeira detecção na página do Detector.",
+    "title": "Título",
+    "status": "Status",
+    "aiProbability": "Probabilidade de IA",
+    "language": "Idioma",
+    "created": "Criado",
+    "open": "Abrir",
+    "view": "Ver",
+    "untitledAnalysis": "Análise sem título"
+  },
+  "summary": {
+    "title": "Resumo geral de detecção",
+    "aiLikelihoodSuffix": "probabilidade de IA",
+    "mixedSignalLabel": "Sinal misto IA-humano",
+    "aiHeavyLabel": "Sinal predominantemente de IA",
+    "humanHeavyLabel": "Sinal predominantemente humano",
+    "aiProbabilityLabel": "Probabilidade de IA",
+    "confidenceLabel": "Confiança",
+    "humanLikelihoodLabel": "Probabilidade humana",
+    "suspiciousRatioLabel": "Proporção de frases suspeitas",
+    "modelInterpretationTitle": "Interpretação do modelo",
+    "modelInterpretationMixed": "O texto apresenta padrões mistos de autoria: algumas frases se alinham com estrutura de IA, enquanto outras parecem escritas por humanos.",
+    "modelInterpretationAiHeavy": "Alta probabilidade de geração assistida por IA.",
+    "modelInterpretationHumanHeavy": "Os sinais estão mais próximos de uma composição humana orgânica.",
+    "riskControlsTitle": "Controles de risco",
+    "riskControlsBody": "Use os destaques de frases e anomalias de entropia antes das decisões finais de moderação.",
+    "multilayerScoringBadge": "Pontuação multicamadas",
+    "explainabilityBadge": "Saída orientada à explicabilidade"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Explosividade vs. Complexidade",
+    "entropyDistribution": "Distribuição de entropia",
+    "aiProbabilityHeatmapBars": "Barras de mapa de calor de probabilidade de IA",
+    "burstinessLegend": "Explosividade",
+    "complexityLegend": "Complexidade",
+    "entropyLegend": "Entropia",
+    "aiProbabilityLegend": "Probabilidade de IA"
+  },
+  "heatmap": {
+    "title": "Mapa de calor de probabilidade em nível de frase",
+    "sentenceLabel": "Frase",
+    "aiLabel": "IA"
+  }
+}

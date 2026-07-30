@@ -1,0 +1,26 @@
+{
+  "title": "엔터프라이즈 API",
+  "description": "대용량 감지, 업로드, 기록 및 분석 워크플로우를 위한 범위 지정 키를 발급합니다.",
+  "cards": {
+    "createApiKey": "API 키 생성",
+    "keys": "키",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "이름",
+    "namePlaceholder": "프로덕션 통합",
+    "workspaceLabel": "워크스페이스",
+    "workspacePersonal": "개인"
+  },
+  "buttons": {
+    "issueKey": "키 발급",
+    "revoke": "취소"
+  },
+  "toasts": {
+    "apiKeyCreated": "API 키가 성공적으로 생성되었습니다",
+    "apiKeyFailed": "API 키 생성에 실패했습니다",
+    "apiKeyRevoked": "API 키가 취소되었습니다",
+    "copied": "복사됨"
+  },
+  "warning": "지금 이 키를 복사하세요. 다시 표시되지 않습니다."
+}

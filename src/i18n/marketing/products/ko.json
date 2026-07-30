@@ -1,0 +1,123 @@
+{
+  "useCases": {
+    "title": "진정성 운영을 위해 구축",
+    "description": "단일 엔터프라이즈 준비 워크스페이스에서 개별 제출물을 검토하고, 업로드를 처리하고, API를 노출하고, 팀을 모니터링합니다.",
+    "items": {
+      "universities": {
+        "title": "대학교",
+        "body": "문장 증거가 포함된 학문적 무결성 워크플로우."
+      },
+      "enterprises": {
+        "title": "기업",
+        "body": "테넌트 규모에서의 정책, 채용 및 커뮤니케이션 검토."
+      },
+      "publishers": {
+        "title": "출판사",
+        "body": "내보내기 가능한 보고서가 포함된 편집 진정성 검사."
+      },
+      "researchers": {
+        "title": "연구자",
+        "body": "코퍼스 수준의 언어 분석 및 다국어 검토."
+      }
+    }
+  },
+  "analytics": {
+    "title": "모든 문장에 대한 증거 등급 분석",
+    "description": "VeriText는 복잡도, 버스티니스, 문체 측정, 의미 일관성, 엔트로피, 가독성 및 토큰 확률을 설명 가능한 글쓰기 인텔리전스로 결합합니다.",
+    "list": {
+      "heatmaps": "문장 히트맵",
+      "fingerprinting": "AI 지문 인식",
+      "readability": "가독성 곡선",
+      "verification": "모델 검증"
+    },
+    "chart": {
+      "title": "진정성 트렌드",
+      "value": "82% 신뢰도"
+    }
+  },
+  "integrations": {
+    "items": {
+      "apiKeys": {
+        "title": "API 키",
+        "body": "속도 제한 및 사용 분석이 포함된 범위 지정 키."
+      },
+      "webhooks": {
+        "title": "웹훅",
+        "body": "다운스트림 시스템을 위한 서명된 감지 완료 이벤트."
+      },
+      "platformFit": {
+        "title": "플랫폼 적합성",
+        "body": "LMS, ATS, CMS, 신뢰 및 연구 파이프라인을 위해 설계."
+      }
+    }
+  },
+  "api": {
+    "title": "엔터프라이즈 REST API",
+    "description": "API 키 인증으로 /detect, /upload, /history, /analytics를 사용합니다. Swagger 문서는 NestJS API와 함께 제공됩니다."
+  },
+  "pricing": {
+    "title": "요금제",
+    "description": "개인 분석으로 시작하여 팀 워크스페이스와 API 볼륨으로 확장하세요.",
+    "plans": {
+      "free": {
+        "name": "무료",
+        "price": "$0",
+        "limit": "50회 감지",
+        "features": ["핵심 감지기", "기록", "CSV 내보내기"]
+      },
+      "pro": {
+        "name": "프로",
+        "price": "$29",
+        "limit": "5,000회 감지",
+        "features": ["PDF 및 DOCX 보고서", "API 키", "고급 차트"]
+      },
+      "business": {
+        "name": "비즈니스",
+        "price": "$249",
+        "limit": "100,000회 감지",
+        "features": ["웹훅", "관리자 검토", "우선 큐"]
+      },
+      "enterprise": {
+        "name": "엔터프라이즈",
+        "price": "맞춤형",
+        "limit": "100만 회 이상 감지",
+        "features": ["맞춤 한도", "보안 검토", "전담 지원"]
+      }
+    }
+  },
+  "testimonials": {
+    "academic": {
+      "name": "학문적 무결성 책임자",
+      "quote": "문장 증거가 검토 대화를 바꿨습니다."
+    },
+    "enterprise": {
+      "name": "엔터프라이즈 신뢰 팀",
+      "quote": "API 키와 웹훅 덕분에 기존 워크플로우에 맞출 수 있었습니다."
+    },
+    "publishing": {
+      "name": "출판 편집자",
+      "quote": "내보내기는 편집 및 법적 검토에 충분히 명확합니다."
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "q1": {
+      "question": "VeriText는 단순한 AI 감지기인가요?",
+      "answer": "아니요. 레이어드 스코어링, 분석, 내보내기 및 API를 갖춘 글쓰기 진정성 플랫폼입니다."
+    },
+    "q2": {
+      "question": "인도네시아어를 지원하나요?",
+      "answer": "예. 엔진은 영어, 인도네시아어 및 혼합 다국어 텍스트를 지원합니다."
+    },
+    "q3": {
+      "question": "기업이 통합할 수 있나요?",
+      "answer": "예. API는 키, 속도 제한, 사용 분석, 웹훅 및 Swagger 문서를 지원합니다."
+    }
+  },
+  "cta": {
+    "title": "검토자와 개발자가 신뢰할 수 있는 진정성 워크플로우를 시작하세요.",
+    "dashboard": "대시보드로 이동",
+    "workspace": "워크스페이스 만들기",
+    "detector": "감지기 사용해보기"
+  }
+}

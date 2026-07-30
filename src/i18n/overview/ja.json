@@ -1,0 +1,19 @@
+{
+  "title": "検出ダッシュボード",
+  "description": "提出されたテキスト分析全体でAI著作権リスクの傾向を監視します。",
+  "cards": {
+    "totalAnalyses": "総分析数",
+    "averageAiProbability": "AI確率の平均",
+    "highRiskReports": "高リスクレポート",
+    "queuedJobs": "キュー中のジョブ"
+  },
+  "trend": {
+    "title": "検出トレンド",
+    "seriesAiProbability": "AI確率",
+    "seriesConfidence": "信頼度"
+  },
+  "notes": {
+    "title": "運用上の注意",
+    "body": "キュージョブは自動的に再試行されます。同期分析、ファイル取り込み、文レベルのヒートマップには検出器ページをご利用ください。"
+  }
+}

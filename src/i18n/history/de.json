@@ -1,0 +1,50 @@
+{
+  "title": "Analyseverlauf",
+  "description": "Vergangene Durchläufe prüfen, verdächtige Ausgaben untersuchen und vollständige Berichte auf Satzebene öffnen.",
+  "focusedReportPrefix": "Fokussierter Bericht",
+  "untitled": "Ohne Titel",
+  "table": {
+    "empty": "Noch keine Analysen vorhanden. Führen Sie Ihre erste Erkennung auf der Detektorseite durch.",
+    "title": "Titel",
+    "status": "Status",
+    "aiProbability": "KI-Wahrscheinlichkeit",
+    "language": "Sprache",
+    "created": "Erstellt",
+    "open": "Öffnen",
+    "view": "Anzeigen",
+    "untitledAnalysis": "Analyse ohne Titel"
+  },
+  "summary": {
+    "title": "Gesamte Erkennungszusammenfassung",
+    "aiLikelihoodSuffix": "KI-Wahrscheinlichkeit",
+    "mixedSignalLabel": "Gemischtes KI-Mensch-Signal",
+    "aiHeavyLabel": "Überwiegend KI-Signal",
+    "humanHeavyLabel": "Überwiegend menschliches Signal",
+    "aiProbabilityLabel": "KI-Wahrscheinlichkeit",
+    "confidenceLabel": "Konfidenz",
+    "humanLikelihoodLabel": "Menschliche Wahrscheinlichkeit",
+    "suspiciousRatioLabel": "Anteil verdächtiger Sätze",
+    "modelInterpretationTitle": "Modellinterpretation",
+    "modelInterpretationMixed": "Der Text zeigt gemischte Autorschaftsmuster: Einige Sätze entsprechen KI-typischen Strukturen, während andere menschlich verfasst wirken.",
+    "modelInterpretationAiHeavy": "Hohe Wahrscheinlichkeit einer KI-gestützten Generierung.",
+    "modelInterpretationHumanHeavy": "Die Signale deuten eher auf eine organische menschliche Verfassung hin.",
+    "riskControlsTitle": "Risikokontrollen",
+    "riskControlsBody": "Verwenden Sie Satzhervorhebungen und Entropieanomalien vor endgültigen Moderationsentscheidungen.",
+    "multilayerScoringBadge": "Mehrschichtige Bewertung",
+    "explainabilityBadge": "Erklärbarkeitsorientierte Ausgabe"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs. Komplexität",
+    "entropyDistribution": "Entropieverteilung",
+    "aiProbabilityHeatmapBars": "Heatmap-Balken der KI-Wahrscheinlichkeit",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Komplexität",
+    "entropyLegend": "Entropie",
+    "aiProbabilityLegend": "KI-Wahrscheinlichkeit"
+  },
+  "heatmap": {
+    "title": "Wahrscheinlichkeits-Heatmap auf Satzebene",
+    "sentenceLabel": "Satz",
+    "aiLabel": "KI"
+  }
+}

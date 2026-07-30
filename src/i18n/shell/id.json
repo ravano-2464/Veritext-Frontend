@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "Ringkasan",
+    "detector": "Detektor",
+    "humanizer": "Humanizer",
+    "history": "Riwayat",
+    "analytics": "Analitik",
+    "api": "API",
+    "billing": "Billing",
+    "admin": "Admin",
+    "profile": "Profil"
+  },
+  "actions": {
+    "openNavigation": "Buka navigasi",
+    "signOut": "Keluar"
+  },
+  "confirmSignOut": {
+    "title": "Yakin ingin logout?",
+    "description": "Kamu akan keluar dari sesi saat ini dan perlu login lagi untuk kembali ke dashboard.",
+    "cancel": "Batal",
+    "confirm": "Ya, keluar",
+    "confirmLoading": "Keluar..."
+  },
+  "fallbackUser": {
+    "name": "Analis",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "Sinyal multi-lapis: perplexity, burstiness, stylometry, semantics.",
+  "language": {
+    "label": "Bahasa",
+    "placeholder": "Pilih bahasa",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Bahasa Mandarin (Simplified Chinese)",
+      "es": "Bahasa Spanyol",
+      "ar": "Bahasa Arab",
+      "hi": "Bahasa Hindi",
+      "pt": "Bahasa Portugis (Brasil)",
+      "ja": "Bahasa Jepang",
+      "ko": "Bahasa Korea",
+      "fr": "Bahasa Prancis",
+      "de": "Bahasa Jerman",
+      "ru": "Bahasa Rusia"
+    }
+  }
+}

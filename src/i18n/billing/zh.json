@@ -1,0 +1,20 @@
+{
+  "title": "账单",
+  "description": "管理席位、限额、订阅等级和 Stripe 客户门户访问权限。",
+  "workspaceLabel": "工作区",
+  "workspacePlaceholder": "选择工作区",
+  "newWorkspaceLabel": "新建工作区",
+  "newWorkspaceDefault": "VeriText 工作区",
+  "buttons": {
+    "create": "创建",
+    "portal": "门户",
+    "currentStarter": "当前入门计划",
+    "upgrade": "升级"
+  },
+  "toasts": {
+    "workspaceCreated": "工作区已创建",
+    "checkoutFailed": "结账失败"
+  },
+  "customPrice": "自定义",
+  "detectionsPerMonth": "次检测 / 月"
+}

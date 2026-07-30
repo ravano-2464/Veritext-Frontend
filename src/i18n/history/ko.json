@@ -1,0 +1,50 @@
+{
+  "title": "분석 기록",
+  "description": "이전 실행을 감사하고, 의심스러운 출력을 조사하며, 문장 수준의 전체 보고서를 엽니다.",
+  "focusedReportPrefix": "집중 보고서",
+  "untitled": "제목 없음",
+  "table": {
+    "empty": "아직 분석이 없습니다. 감지기 페이지에서 첫 번째 감지를 실행하세요.",
+    "title": "제목",
+    "status": "상태",
+    "aiProbability": "AI 확률",
+    "language": "언어",
+    "created": "생성일",
+    "open": "열기",
+    "view": "보기",
+    "untitledAnalysis": "제목 없는 분석"
+  },
+  "summary": {
+    "title": "전체 감지 요약",
+    "aiLikelihoodSuffix": "AI 가능성",
+    "mixedSignalLabel": "AI-인간 혼합 신호",
+    "aiHeavyLabel": "AI 주도 신호",
+    "humanHeavyLabel": "인간 주도 신호",
+    "aiProbabilityLabel": "AI 확률",
+    "confidenceLabel": "신뢰도",
+    "humanLikelihoodLabel": "인간 가능성",
+    "suspiciousRatioLabel": "의심 문장 비율",
+    "modelInterpretationTitle": "모델 해석",
+    "modelInterpretationMixed": "텍스트에 혼합된 저작 패턴이 나타납니다: 일부 문장은 AI 구조와 유사하고, 다른 문장은 인간이 작성한 것처럼 보입니다.",
+    "modelInterpretationAiHeavy": "AI 보조 생성 가능성이 높습니다.",
+    "modelInterpretationHumanHeavy": "신호가 유기적인 인간 구성에 더 가깝습니다.",
+    "riskControlsTitle": "위험 제어",
+    "riskControlsBody": "최종 검토 결정 전에 문장 강조 표시와 엔트로피 이상을 활용하세요.",
+    "multilayerScoringBadge": "다층 채점",
+    "explainabilityBadge": "설명 가능성 우선 출력"
+  },
+  "charts": {
+    "burstinessVsComplexity": "폭발성 대 복잡도",
+    "entropyDistribution": "엔트로피 분포",
+    "aiProbabilityHeatmapBars": "AI 확률 히트맵 막대",
+    "burstinessLegend": "폭발성",
+    "complexityLegend": "복잡도",
+    "entropyLegend": "엔트로피",
+    "aiProbabilityLegend": "AI 확률"
+  },
+  "heatmap": {
+    "title": "문장 수준 확률 히트맵",
+    "sentenceLabel": "문장",
+    "aiLabel": "AI"
+  }
+}

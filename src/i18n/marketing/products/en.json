@@ -1,0 +1,123 @@
+{
+  "useCases": {
+    "title": "Built for authenticity operations",
+    "description": "Review individual submissions, process uploads, expose APIs, and monitor teams from a single enterprise-ready workspace.",
+    "items": {
+      "universities": {
+        "title": "Universities",
+        "body": "Academic integrity workflows with sentence evidence."
+      },
+      "enterprises": {
+        "title": "Enterprises",
+        "body": "Policy, recruiting, and communication review at tenant scale."
+      },
+      "publishers": {
+        "title": "Publishers",
+        "body": "Editorial authenticity checks with exportable reports."
+      },
+      "researchers": {
+        "title": "Researchers",
+        "body": "Corpus-level linguistic analytics and multilingual review."
+      }
+    }
+  },
+  "analytics": {
+    "title": "Evidence-grade analytics for every sentence",
+    "description": "VeriText combines perplexity, burstiness, stylometry, semantic consistency, entropy, readability, and token probability into explainable writing intelligence.",
+    "list": {
+      "heatmaps": "Sentence heatmaps",
+      "fingerprinting": "AI fingerprinting",
+      "readability": "Readability curves",
+      "verification": "Model verification"
+    },
+    "chart": {
+      "title": "Authenticity trend",
+      "value": "82% confidence"
+    }
+  },
+  "integrations": {
+    "items": {
+      "apiKeys": {
+        "title": "API keys",
+        "body": "Scoped keys with rate limits and usage analytics."
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "body": "Signed detection completion events for downstream systems."
+      },
+      "platformFit": {
+        "title": "Platform fit",
+        "body": "Designed for LMS, ATS, CMS, trust, and research pipelines."
+      }
+    }
+  },
+  "api": {
+    "title": "Enterprise REST API",
+    "description": "Use /detect, /upload, /history, and /analytics with API-key authentication. Swagger docs ship with the NestJS API."
+  },
+  "pricing": {
+    "title": "Pricing",
+    "description": "Start with individual analysis, then scale into team workspaces and API volume.",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "limit": "50 detections",
+        "features": ["Core detector", "History", "CSV export"]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "limit": "5,000 detections",
+        "features": ["PDF and DOCX reports", "API keys", "Advanced charts"]
+      },
+      "business": {
+        "name": "Business",
+        "price": "$249",
+        "limit": "100,000 detections",
+        "features": ["Webhooks", "Admin review", "Priority queues"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "limit": "1M+ detections",
+        "features": ["Custom limits", "Security review", "Dedicated support"]
+      }
+    }
+  },
+  "testimonials": {
+    "academic": {
+      "name": "Academic integrity lead",
+      "quote": "The sentence evidence changed our review conversations."
+    },
+    "enterprise": {
+      "name": "Enterprise trust team",
+      "quote": "API keys and webhooks made it fit our existing workflows."
+    },
+    "publishing": {
+      "name": "Publishing editor",
+      "quote": "Exports are clear enough for editorial and legal review."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "Is VeriText a simple AI detector?",
+      "answer": "No. It is a writing authenticity platform with layered scoring, analytics, exports, and APIs."
+    },
+    "q2": {
+      "question": "Does it support Indonesian?",
+      "answer": "Yes. The engine supports English, Indonesian, and mixed multilingual text."
+    },
+    "q3": {
+      "question": "Can enterprises integrate it?",
+      "answer": "Yes. The API supports keys, rate limits, usage analytics, webhooks, and Swagger docs."
+    }
+  },
+  "cta": {
+    "title": "Launch an authenticity workflow your reviewers and developers can trust.",
+    "dashboard": "Go to Dashboard",
+    "workspace": "Create Workspace",
+    "detector": "Try Detector"
+  }
+}

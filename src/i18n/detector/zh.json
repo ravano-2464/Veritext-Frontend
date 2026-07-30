@@ -1,0 +1,85 @@
+{
+  "title": "AI文本检测器",
+  "description": "提交文本或上传文档，获取包含句子级别证据和书写模式图表的多层AI概率分析。",
+  "cards": {
+    "analyzeTextInput": "分析文本输入",
+    "uploadForAnalysis": "上传以分析"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "分析标题",
+    "analysisTitlePlaceholder": "政策审查批次",
+    "languageLabel": "语言",
+    "languagePlaceholder": "选择语言",
+    "languageOptions": {
+      "auto": "自动检测",
+      "en": "英语",
+      "id": "印度尼西亚语",
+      "es": "西班牙语",
+      "fr": "法语",
+      "de": "德语",
+      "ar": "阿拉伯语",
+      "zh": "中文"
+    },
+    "textLabel": "待评估文本",
+    "textPlaceholder": "在此粘贴文本内容以进行AI署名分析...",
+    "charactersLabel": "字符",
+    "submitButton": "分析文本"
+  },
+  "uploadArea": {
+    "title": "上传文本文件",
+    "description": "TXT、CSV、Markdown或JSON，最大4MB",
+    "chooseFile": "选择文件",
+    "uploadAriaLabel": "上传文本文件",
+    "removeFileAriaLabel": "删除文件"
+  },
+  "uploadFields": {
+    "titleLabel": "标题",
+    "titlePlaceholder": "已上传的审核批次",
+    "languageLabel": "语言",
+    "languagePlaceholder": "自动"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "分析已上传文件"
+  },
+  "toasts": {
+    "textAnalyzed": "文本分析成功。",
+    "detectionFailed": "检测失败。",
+    "fileAnalyzed": "文件分析成功。",
+    "uploadFailed": "上传分析失败。",
+    "signInRequired": "请重新登录以继续。",
+    "selectFileFirst": "请先选择文件。"
+  },
+  "summary": {
+    "title": "整体检测摘要",
+    "aiLikelihoodSuffix": "AI可能性",
+    "mixedSignalLabel": "AI与人类混合信号",
+    "aiHeavyLabel": "AI主导信号",
+    "humanHeavyLabel": "人类主导信号",
+    "aiProbabilityLabel": "AI概率",
+    "confidenceLabel": "置信度",
+    "humanLikelihoodLabel": "人类可能性",
+    "suspiciousRatioLabel": "可疑句子比例",
+    "modelInterpretationTitle": "模型解读",
+    "modelInterpretationMixed": "文本呈现混合署名模式：部分句子符合AI结构特征，其他句子则看起来像人类书写。",
+    "modelInterpretationAiHeavy": "AI辅助生成的概率较高。",
+    "modelInterpretationHumanHeavy": "信号更接近有机的人类写作。",
+    "riskControlsTitle": "风险控制",
+    "riskControlsBody": "在做出最终审核决定之前，请使用句子高亮和熵异常功能。",
+    "multilayerScoringBadge": "多层评分",
+    "explainabilityBadge": "以可解释性为优先的输出"
+  },
+  "charts": {
+    "burstinessVsComplexity": "突发性与复杂性",
+    "entropyDistribution": "熵分布",
+    "aiProbabilityHeatmapBars": "AI概率热力图条形",
+    "burstinessLegend": "突发性",
+    "complexityLegend": "复杂性",
+    "entropyLegend": "熵",
+    "aiProbabilityLegend": "AI概率"
+  },
+  "heatmap": {
+    "title": "句子级概率热力图",
+    "sentenceLabel": "句子",
+    "aiLabel": "AI"
+  }
+}

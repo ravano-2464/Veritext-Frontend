@@ -1,0 +1,13 @@
+{
+  "badge": "Authenticité de l'écriture IA pour les entreprises",
+  "title": "VeriText",
+  "description": "Une plateforme d'intelligence d'écriture IA pour les universités, entreprises, éditeurs, recruteurs et équipes de recherche qui ont besoin de preuves, pas de suppositions.",
+  "startFree": "Commencer gratuitement",
+  "dashboard": "Tableau de bord",
+  "openDetector": "Ouvrir le détecteur",
+  "proofPoints": {
+    "multilingual": "Texte multilingue en anglais, indonésien et mixte",
+    "controls": "Espace de travail, clé API, facturation et contrôles d'administration",
+    "features": "Notation en couches, téléchargements, exports et webhooks"
+  }
+}

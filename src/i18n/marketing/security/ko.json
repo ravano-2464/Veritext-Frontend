@@ -1,0 +1,22 @@
+{
+  "title": "엔터프라이즈 보안 기준선",
+  "description": "보안은 스택에서 나중에 생각하는 것이 아닙니다. VeriText는 인그레스, 컴퓨팅, 영속성 레이어에서 강화를 적용합니다.",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "보안 헤더",
+      "detail": "Helmet + 엄격한 CORS + 버전 관리된 API 게이트웨이"
+    },
+    "inputHygiene": {
+      "title": "입력 위생",
+      "detail": "페이로드 검증 및 크기 제한을 포함한 심층 살균"
+    },
+    "promptDefense": {
+      "title": "프롬프트 방어",
+      "detail": "분석 실행 전 프롬프트 인젝션 위험 스캐닝"
+    },
+    "operationalReliability": {
+      "title": "운영 신뢰성",
+      "detail": "Redis 캐시, 큐 재시도, 헬스 프로브, 관찰 가능성 훅"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "企业安全基准",
+  "description": "安全性不是技术栈中的事后想法。VeriText 在入口、计算和持久化层面强制执行安全加固。",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "安全标头",
+      "detail": "Helmet + 严格 CORS + 版本化 API 网关"
+    },
+    "inputHygiene": {
+      "title": "输入卫生",
+      "detail": "带有负载验证和大小限制的深度清理"
+    },
+    "promptDefense": {
+      "title": "提示词防御",
+      "detail": "分析执行前的提示词注入风险扫描"
+    },
+    "operationalReliability": {
+      "title": "运营可靠性",
+      "detail": "Redis 缓存、队列重试、健康探针、可观测性钩子"
+    }
+  }
+}

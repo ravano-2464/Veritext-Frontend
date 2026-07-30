@@ -1,0 +1,50 @@
+{
+  "title": "سجل التحليلات",
+  "description": "مراجعة عمليات التشغيل السابقة، والتحقيق في المخرجات المشبوهة، وفتح تقارير كاملة على مستوى الجملة.",
+  "focusedReportPrefix": "تقرير مركّز",
+  "untitled": "بدون عنوان",
+  "table": {
+    "empty": "لا توجد تحليلات بعد. قم بتشغيل أول عملية كشف في صفحة الكاشف.",
+    "title": "العنوان",
+    "status": "الحالة",
+    "aiProbability": "احتمالية الذكاء الاصطناعي",
+    "language": "اللغة",
+    "created": "تاريخ الإنشاء",
+    "open": "فتح",
+    "view": "عرض",
+    "untitledAnalysis": "تحليل بدون عنوان"
+  },
+  "summary": {
+    "title": "ملخص الكشف العام",
+    "aiLikelihoodSuffix": "احتمالية الذكاء الاصطناعي",
+    "mixedSignalLabel": "إشارة مختلطة بين الذكاء الاصطناعي والإنسان",
+    "aiHeavyLabel": "إشارة غالبة للذكاء الاصطناعي",
+    "humanHeavyLabel": "إشارة غالبة للإنسان",
+    "aiProbabilityLabel": "احتمالية الذكاء الاصطناعي",
+    "confidenceLabel": "الثقة",
+    "humanLikelihoodLabel": "احتمالية الإنسان",
+    "suspiciousRatioLabel": "نسبة الجمل المشبوهة",
+    "modelInterpretationTitle": "تفسير النموذج",
+    "modelInterpretationMixed": "يُظهر النص أنماطاً مختلطة في التأليف: بعض الجمل تتوافق مع بنية الذكاء الاصطناعي بينما يبدو البعض الآخر مكتوباً بواسطة إنسان.",
+    "modelInterpretationAiHeavy": "احتمالية عالية لتوليد مدعوم بالذكاء الاصطناعي.",
+    "modelInterpretationHumanHeavy": "الإشارات أقرب إلى التأليف البشري الطبيعي.",
+    "riskControlsTitle": "ضوابط المخاطر",
+    "riskControlsBody": "استخدم تمييز الجمل وشذوذات الإنتروبيا قبل اتخاذ قرارات الإشراف النهائية.",
+    "multilayerScoringBadge": "تقييم متعدد الطبقات",
+    "explainabilityBadge": "مخرجات أولية قابلة للتفسير"
+  },
+  "charts": {
+    "burstinessVsComplexity": "الانفجارية مقابل التعقيد",
+    "entropyDistribution": "توزيع الإنتروبيا",
+    "aiProbabilityHeatmapBars": "أشرطة خريطة الحرارة لاحتمالية الذكاء الاصطناعي",
+    "burstinessLegend": "الانفجارية",
+    "complexityLegend": "التعقيد",
+    "entropyLegend": "الإنتروبيا",
+    "aiProbabilityLegend": "احتمالية الذكاء الاصطناعي"
+  },
+  "heatmap": {
+    "title": "خريطة حرارة الاحتمالية على مستوى الجملة",
+    "sentenceLabel": "الجملة",
+    "aiLabel": "ذكاء اصطناعي"
+  }
+}

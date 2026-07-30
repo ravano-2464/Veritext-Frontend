@@ -1,0 +1,62 @@
+{
+  "title": "Humanisateur de texte",
+  "description": "Réécris des brouillons structurés au style IA en une écriture plus naturelle et humaine, tout en préservant le message original.",
+  "cards": {
+    "inputTitle": "Texte à humaniser",
+    "outputTitle": "Texte humanisé"
+  },
+  "form": {
+    "languageLabel": "Langue",
+    "intensityLabel": "Intensité",
+    "styleLabel": "Style",
+    "textLabel": "Texte à humaniser",
+    "textPlaceholder": "Colle au moins 60 caractères du texte que tu souhaites rendre plus naturel...",
+    "charactersLabel": "caractères",
+    "languagePlaceholder": "Choisir une langue",
+    "intensityPlaceholder": "Choisir une intensité",
+    "stylePlaceholder": "Choisir un style",
+    "submitButton": "Humaniser le texte"
+  },
+  "options": {
+    "languages": {
+      "auto": "Détection automatique",
+      "en": "Anglais",
+      "id": "Indonésien",
+      "es": "Espagnol",
+      "fr": "Français",
+      "de": "Allemand",
+      "ar": "Arabe",
+      "zh": "Chinois"
+    },
+    "intensity": {
+      "light": "Légère",
+      "balanced": "Équilibrée",
+      "strong": "Forte"
+    },
+    "style": {
+      "balanced": "Équilibré",
+      "casual": "Décontracté",
+      "professional": "Professionnel"
+    }
+  },
+  "output": {
+    "placeholder": "Le texte humanisé apparaîtra ici après le traitement.",
+    "copyButton": "Copier le résultat",
+    "copiedButton": "Copié",
+    "reEditButton": "Modifier à nouveau"
+  },
+  "metrics": {
+    "aiProbability": "Probabilité IA",
+    "suspiciousSentences": "Phrases suspectes",
+    "rewrittenSentences": "Phrases réécrites",
+    "rewriteActions": "Actions de réécriture"
+  },
+  "toasts": {
+    "humanizedSuccess": "Texte humanisé avec succès.",
+    "humanizedFailed": "Échec de l'humanisation du texte.",
+    "signInRequired": "Veuillez vous reconnecter pour continuer.",
+    "copiedSuccess": "Texte humanisé copié.",
+    "copiedFailed": "Échec de la copie.",
+    "outputMoved": "Résultat déplacé vers l'éditeur d'entrée."
+  }
+}

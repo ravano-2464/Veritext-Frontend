@@ -1,0 +1,22 @@
+{
+  "title": "Línea base de seguridad empresarial",
+  "description": "La seguridad no es una idea de último momento en la pila. VeriText aplica el endurecimiento en las capas de entrada, cómputo y persistencia.",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "Cabeceras de Seguridad",
+      "detail": "Helmet + CORS estricto + puerta de enlace de API con versiones"
+    },
+    "inputHygiene": {
+      "title": "Higiene de Entrada",
+      "detail": "Saneamiento profundo con validación de carga y límites de tamaño"
+    },
+    "promptDefense": {
+      "title": "Defensa de Prompts",
+      "detail": "Escaneo de riesgo de inyección de prompts antes de la ejecución del análisis"
+    },
+    "operationalReliability": {
+      "title": "Confiabilidad Operacional",
+      "detail": "Caché Redis, reintentos de cola, sondas de salud, ganchos de observabilidad"
+    }
+  }
+}

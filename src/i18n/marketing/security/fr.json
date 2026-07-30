@@ -1,0 +1,22 @@
+{
+  "title": "Référence de sécurité d'entreprise",
+  "description": "La sécurité n'est pas une réflexion après coup dans la pile. VeriText applique le renforcement aux couches d'entrée, de calcul et de persistance.",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "En-têtes de Sécurité",
+      "detail": "Helmet + CORS strict + passerelle API versionnée"
+    },
+    "inputHygiene": {
+      "title": "Hygiène des Entrées",
+      "detail": "Désinfection approfondie avec validation de la charge et limites de taille"
+    },
+    "promptDefense": {
+      "title": "Défense des Prompts",
+      "detail": "Analyse des risques d'injection de prompts avant l'exécution de l'analyse"
+    },
+    "operationalReliability": {
+      "title": "Fiabilité Opérationnelle",
+      "detail": "Cache Redis, nouvelles tentatives de file d'attente, sondes de santé, hooks d'observabilité"
+    }
+  }
+}

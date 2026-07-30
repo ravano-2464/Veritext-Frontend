@@ -1,0 +1,20 @@
+{
+  "title": "写作智能",
+  "description": "投资组合级别的真实性、使用情况、延迟和AI来源趋势。",
+  "selectScopePlaceholder": "范围",
+  "personalWorkspace": "个人工作区",
+  "stats": {
+    "detections": "检测数",
+    "completion": "完成率",
+    "avgAiScore": "平均AI评分",
+    "avgConfidence": "平均置信度"
+  },
+  "charts": {
+    "detectionTrend": "检测趋势",
+    "aiFingerprints": "AI指纹"
+  },
+  "cards": {
+    "usageEvents": "使用事件",
+    "recentDetections": "最近检测"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Profile & Preferences",
+  "description": "Manage your account identity and the country shown on your profile.",
+  "cards": {
+    "accountOverview": "Account Overview",
+    "updateProfile": "Update Profile"
+  },
+  "accountLabels": {
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "country": "Country"
+  },
+  "form": {
+    "fullNameLabel": "Full name",
+    "fullNamePlaceholder": "Your full name",
+    "countryLabel": "Country",
+    "countryPlaceholder": "Indonesia",
+    "avatarUrlLabel": "Avatar URL",
+    "avatarUrlPlaceholder": "https://example.com/avatar.png",
+    "saveButton": "Save Profile",
+    "savingButton": "Saving..."
+  },
+  "toasts": {
+    "signInRequired": "Sign in again to update profile.",
+    "saved": "Profile saved",
+    "saveFailed": "Unable to save profile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Basis Keamanan Perusahaan",
+  "description": "Keamanan bukanlah hal yang dipikirkan belakangan dalam tumpukan teknologi. VeriText menegakkan pengerasan pada lapisan ingress, komputasi, dan persistensi.",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "Header Keamanan",
+      "detail": "Helmet + CORS ketat + gateway API berversi"
+    },
+    "inputHygiene": {
+      "title": "Higiene Input",
+      "detail": "Sanitasi mendalam dengan validasi muatan dan batas ukuran"
+    },
+    "promptDefense": {
+      "title": "Pertahanan Prompt",
+      "detail": "Pemindaian risiko injeksi prompt sebelum eksekusi analisis"
+    },
+    "operationalReliability": {
+      "title": "Keandalan Operasional",
+      "detail": "Cache Redis, percobaan ulang antrean, prob kesehatan, kait observabilitas"
+    }
+  }
+}

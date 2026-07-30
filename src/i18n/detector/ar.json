@@ -1,0 +1,85 @@
+{
+  "title": "كاشف النصوص بالذكاء الاصطناعي",
+  "description": "أرسل نصًا أو ارفع مستندات للحصول على تحليل متعدد الطبقات لاحتمالية الذكاء الاصطناعي مع أدلة على مستوى الجملة وأنماط الكتابة المرسومة.",
+  "cards": {
+    "analyzeTextInput": "تحليل النص المُدخل",
+    "uploadForAnalysis": "رفع للتحليل"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "عنوان التحليل",
+    "analysisTitlePlaceholder": "مجموعة مراجعة السياسات",
+    "languageLabel": "اللغة",
+    "languagePlaceholder": "اختر اللغة",
+    "languageOptions": {
+      "auto": "اكتشاف تلقائي",
+      "en": "الإنجليزية",
+      "id": "البهاسا الإندونيسية",
+      "es": "الإسبانية",
+      "fr": "الفرنسية",
+      "de": "الألمانية",
+      "ar": "العربية",
+      "zh": "الصينية"
+    },
+    "textLabel": "النص المراد تقييمه",
+    "textPlaceholder": "الصق محتوى النص هنا لتحليل تأليف الذكاء الاصطناعي...",
+    "charactersLabel": "حرف",
+    "submitButton": "تحليل النص"
+  },
+  "uploadArea": {
+    "title": "رفع ملف نصي",
+    "description": "TXT أو CSV أو Markdown أو JSON حتى 4 ميجابايت",
+    "chooseFile": "اختر ملفًا",
+    "uploadAriaLabel": "رفع ملف نصي",
+    "removeFileAriaLabel": "إزالة الملف"
+  },
+  "uploadFields": {
+    "titleLabel": "العنوان",
+    "titlePlaceholder": "مجموعة الإشراف المرفوعة",
+    "languageLabel": "اللغة",
+    "languagePlaceholder": "تلقائي"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "تحليل الملف المرفوع"
+  },
+  "toasts": {
+    "textAnalyzed": "تم تحليل النص بنجاح.",
+    "detectionFailed": "فشل الاكتشاف.",
+    "fileAnalyzed": "تم تحليل الملف بنجاح.",
+    "uploadFailed": "فشل تحليل الرفع.",
+    "signInRequired": "يرجى تسجيل الدخول مرة أخرى للمتابعة.",
+    "selectFileFirst": "اختر ملفًا أولًا."
+  },
+  "summary": {
+    "title": "ملخص الكشف الإجمالي",
+    "aiLikelihoodSuffix": "احتمالية الذكاء الاصطناعي",
+    "mixedSignalLabel": "إشارة مختلطة بين الذكاء الاصطناعي والإنسان",
+    "aiHeavyLabel": "إشارة غالبة للذكاء الاصطناعي",
+    "humanHeavyLabel": "إشارة غالبة للإنسان",
+    "aiProbabilityLabel": "احتمالية الذكاء الاصطناعي",
+    "confidenceLabel": "الثقة",
+    "humanLikelihoodLabel": "احتمالية الإنسان",
+    "suspiciousRatioLabel": "نسبة الجمل المشبوهة",
+    "modelInterpretationTitle": "تفسير النموذج",
+    "modelInterpretationMixed": "يُظهر النص أنماط تأليف مختلطة: بعض الجمل تتوافق مع بنية الذكاء الاصطناعي بينما يبدو أن الأخرى كتبها إنسان.",
+    "modelInterpretationAiHeavy": "احتمالية عالية لتوليد بمساعدة الذكاء الاصطناعي.",
+    "modelInterpretationHumanHeavy": "الإشارات أقرب إلى التأليف البشري الطبيعي.",
+    "riskControlsTitle": "ضوابط المخاطر",
+    "riskControlsBody": "استخدم تمييز الجمل وشذوذات الإنتروبيا قبل اتخاذ قرارات الإشراف النهائية.",
+    "multilayerScoringBadge": "تسجيل متعدد الطبقات",
+    "explainabilityBadge": "إخراج يُولي الأولوية للتفسيرية"
+  },
+  "charts": {
+    "burstinessVsComplexity": "الانفجارية مقابل التعقيد",
+    "entropyDistribution": "توزيع الإنتروبيا",
+    "aiProbabilityHeatmapBars": "أشرطة خريطة حرارة احتمالية الذكاء الاصطناعي",
+    "burstinessLegend": "الانفجارية",
+    "complexityLegend": "التعقيد",
+    "entropyLegend": "الإنتروبيا",
+    "aiProbabilityLegend": "احتمالية الذكاء الاصطناعي"
+  },
+  "heatmap": {
+    "title": "خريطة حرارة الاحتمالية على مستوى الجملة",
+    "sentenceLabel": "الجملة",
+    "aiLabel": "ذكاء اصطناعي"
+  }
+}

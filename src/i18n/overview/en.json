@@ -1,0 +1,19 @@
+{
+  "title": "Detection Dashboard",
+  "description": "Monitor AI authorship risk trends across your submitted text analyses.",
+  "cards": {
+    "totalAnalyses": "Total Analyses",
+    "averageAiProbability": "Average AI Probability",
+    "highRiskReports": "High Risk Reports",
+    "queuedJobs": "Queued Jobs"
+  },
+  "trend": {
+    "title": "Detection Trend",
+    "seriesAiProbability": "AI Probability",
+    "seriesConfidence": "Confidence"
+  },
+  "notes": {
+    "title": "Operational Notes",
+    "body": "Queue jobs are retried automatically. Use the Detector page for synchronous analysis, file ingestion, and sentence-level heatmaps."
+  }
+}

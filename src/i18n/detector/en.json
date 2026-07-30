@@ -1,0 +1,85 @@
+{
+  "title": "AI Text Detector",
+  "description": "Submit text or upload documents to get layered AI-probability analysis with sentence-level evidence and charted writing patterns.",
+  "cards": {
+    "analyzeTextInput": "Analyze Text Input",
+    "uploadForAnalysis": "Upload for Analysis"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "Analysis title",
+    "analysisTitlePlaceholder": "Policy review batch",
+    "languageLabel": "Language",
+    "languagePlaceholder": "Select language",
+    "languageOptions": {
+      "auto": "Auto Detect",
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "ar": "Arabic",
+      "zh": "Chinese"
+    },
+    "textLabel": "Text to evaluate",
+    "textPlaceholder": "Paste text content here for AI authorship analysis...",
+    "charactersLabel": "characters",
+    "submitButton": "Analyze Text"
+  },
+  "uploadArea": {
+    "title": "Upload text file",
+    "description": "TXT, CSV, Markdown, or JSON up to 4MB",
+    "chooseFile": "Choose file",
+    "uploadAriaLabel": "Upload text file",
+    "removeFileAriaLabel": "Remove file"
+  },
+  "uploadFields": {
+    "titleLabel": "Title",
+    "titlePlaceholder": "Uploaded moderation batch",
+    "languageLabel": "Language",
+    "languagePlaceholder": "auto"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "Analyze Uploaded File"
+  },
+  "toasts": {
+    "textAnalyzed": "Text analyzed successfully.",
+    "detectionFailed": "Detection failed.",
+    "fileAnalyzed": "File analyzed successfully.",
+    "uploadFailed": "Upload analysis failed.",
+    "signInRequired": "Please sign in again to continue.",
+    "selectFileFirst": "Select a file first."
+  },
+  "summary": {
+    "title": "Overall Detection Summary",
+    "aiLikelihoodSuffix": "AI likelihood",
+    "mixedSignalLabel": "Mixed AI-human signal",
+    "aiHeavyLabel": "AI-heavy signal",
+    "humanHeavyLabel": "Human-heavy signal",
+    "aiProbabilityLabel": "AI Probability",
+    "confidenceLabel": "Confidence",
+    "humanLikelihoodLabel": "Human Likelihood",
+    "suspiciousRatioLabel": "Suspicious sentence ratio",
+    "modelInterpretationTitle": "Model interpretation",
+    "modelInterpretationMixed": "The text shows mixed authorship patterns: some sentences align with AI-like structure while others look human-written.",
+    "modelInterpretationAiHeavy": "High probability of AI-assisted generation.",
+    "modelInterpretationHumanHeavy": "Signals are closer to organic human composition.",
+    "riskControlsTitle": "Risk controls",
+    "riskControlsBody": "Use sentence highlights and entropy anomalies before final moderation decisions.",
+    "multilayerScoringBadge": "Multilayer scoring",
+    "explainabilityBadge": "Explainability-first output"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs Complexity",
+    "entropyDistribution": "Entropy Distribution",
+    "aiProbabilityHeatmapBars": "AI Probability Heatmap Bars",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Complexity",
+    "entropyLegend": "Entropy",
+    "aiProbabilityLegend": "AI Probability"
+  },
+  "heatmap": {
+    "title": "Sentence-level probability heatmap",
+    "sentenceLabel": "Sentence",
+    "aiLabel": "AI"
+  }
+}

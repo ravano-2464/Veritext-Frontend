@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "Aperçu",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "Historique",
+    "analytics": "Analytique",
+    "api": "API",
+    "billing": "Facturation",
+    "admin": "Admin",
+    "profile": "Profil"
+  },
+  "actions": {
+    "openNavigation": "Ouvrir la navigation",
+    "signOut": "Se déconnecter"
+  },
+  "confirmSignOut": {
+    "title": "Se déconnecter de votre compte ?",
+    "description": "Vous serez déconnecté de cette session et devrez vous reconnecter pour revenir au tableau de bord.",
+    "cancel": "Annuler",
+    "confirm": "Oui, se déconnecter",
+    "confirmLoading": "Déconnexion en cours..."
+  },
+  "fallbackUser": {
+    "name": "Analyste",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "Signaux multicouches : perplexité, explosivité, stylométrie, sémantique.",
+  "language": {
+    "label": "Langue",
+    "placeholder": "Sélectionner une langue",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

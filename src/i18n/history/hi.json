@@ -1,0 +1,50 @@
+{
+  "title": "विश्लेषण इतिहास",
+  "description": "पिछले रन की जाँच करें, संदिग्ध आउटपुट की जाँच करें, और पूर्ण वाक्य-स्तरीय रिपोर्ट खोलें।",
+  "focusedReportPrefix": "केंद्रित रिपोर्ट",
+  "untitled": "शीर्षक रहित",
+  "table": {
+    "empty": "अभी तक कोई विश्लेषण नहीं। डिटेक्टर पृष्ठ पर अपनी पहली जाँच चलाएँ।",
+    "title": "शीर्षक",
+    "status": "स्थिति",
+    "aiProbability": "AI संभाव्यता",
+    "language": "भाषा",
+    "created": "बनाया गया",
+    "open": "खोलें",
+    "view": "देखें",
+    "untitledAnalysis": "शीर्षक रहित विश्लेषण"
+  },
+  "summary": {
+    "title": "समग्र पहचान सारांश",
+    "aiLikelihoodSuffix": "AI संभावना",
+    "mixedSignalLabel": "मिश्रित AI-मानव संकेत",
+    "aiHeavyLabel": "AI-प्रधान संकेत",
+    "humanHeavyLabel": "मानव-प्रधान संकेत",
+    "aiProbabilityLabel": "AI संभाव्यता",
+    "confidenceLabel": "विश्वसनीयता",
+    "humanLikelihoodLabel": "मानव संभावना",
+    "suspiciousRatioLabel": "संदिग्ध वाक्य अनुपात",
+    "modelInterpretationTitle": "मॉडल व्याख्या",
+    "modelInterpretationMixed": "टेक्स्ट में मिश्रित लेखन पैटर्न दिखाई देते हैं: कुछ वाक्य AI जैसी संरचना से मेल खाते हैं जबकि अन्य मानव-लिखित लगते हैं।",
+    "modelInterpretationAiHeavy": "AI-सहायता से उत्पन्न होने की उच्च संभावना।",
+    "modelInterpretationHumanHeavy": "संकेत जैविक मानव रचना के अधिक निकट हैं।",
+    "riskControlsTitle": "जोखिम नियंत्रण",
+    "riskControlsBody": "अंतिम मॉडरेशन निर्णय लेने से पहले वाक्य हाइलाइट्स और एंट्रोपी विसंगतियों का उपयोग करें।",
+    "multilayerScoringBadge": "बहु-स्तरीय स्कोरिंग",
+    "explainabilityBadge": "व्याख्यता-प्रथम आउटपुट"
+  },
+  "charts": {
+    "burstinessVsComplexity": "बर्स्टिनेस बनाम जटिलता",
+    "entropyDistribution": "एंट्रोपी वितरण",
+    "aiProbabilityHeatmapBars": "AI संभाव्यता हीटमैप बार",
+    "burstinessLegend": "बर्स्टिनेस",
+    "complexityLegend": "जटिलता",
+    "entropyLegend": "एंट्रोपी",
+    "aiProbabilityLegend": "AI संभाव्यता"
+  },
+  "heatmap": {
+    "title": "वाक्य-स्तरीय संभाव्यता हीटमैप",
+    "sentenceLabel": "वाक्य",
+    "aiLabel": "AI"
+  }
+}

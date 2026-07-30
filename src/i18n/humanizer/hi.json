@@ -1,0 +1,62 @@
+{
+  "title": "टेक्स्ट ह्यूमनाइज़र",
+  "description": "AI जैसे संरचित मसौदों को अधिक स्वाभाविक और मानवीय लेखन शैली में बदलें, मूल संदेश को बरकरार रखते हुए।",
+  "cards": {
+    "inputTitle": "इनपुट टेक्स्ट",
+    "outputTitle": "ह्यूमनाइज़्ड आउटपुट"
+  },
+  "form": {
+    "languageLabel": "भाषा",
+    "intensityLabel": "तीव्रता",
+    "styleLabel": "शैली",
+    "textLabel": "ह्यूमनाइज़ करने के लिए टेक्स्ट",
+    "textPlaceholder": "कम से कम 60 अक्षरों का वह टेक्स्ट पेस्ट करें जिसे आप अधिक स्वाभाविक बनाना चाहते हैं...",
+    "charactersLabel": "अक्षर",
+    "languagePlaceholder": "भाषा चुनें",
+    "intensityPlaceholder": "तीव्रता चुनें",
+    "stylePlaceholder": "शैली चुनें",
+    "submitButton": "टेक्स्ट ह्यूमनाइज़ करें"
+  },
+  "options": {
+    "languages": {
+      "auto": "स्वतः पहचानें",
+      "en": "अंग्रेज़ी",
+      "id": "इंडोनेशियाई",
+      "es": "स्पेनिश",
+      "fr": "फ्रेंच",
+      "de": "जर्मन",
+      "ar": "अरबी",
+      "zh": "चीनी"
+    },
+    "intensity": {
+      "light": "हल्की",
+      "balanced": "संतुलित",
+      "strong": "प्रबल"
+    },
+    "style": {
+      "balanced": "संतुलित",
+      "casual": "अनौपचारिक",
+      "professional": "पेशेवर"
+    }
+  },
+  "output": {
+    "placeholder": "प्रक्रिया पूर्ण होने के बाद ह्यूमनाइज़्ड आउटपुट यहाँ दिखेगा।",
+    "copyButton": "आउटपुट कॉपी करें",
+    "copiedButton": "कॉपी हो गया",
+    "reEditButton": "आउटपुट पुनः संपादित करें"
+  },
+  "metrics": {
+    "aiProbability": "AI संभाव्यता",
+    "suspiciousSentences": "संदिग्ध वाक्य",
+    "rewrittenSentences": "पुनर्लिखित वाक्य",
+    "rewriteActions": "पुनर्लेखन क्रियाएँ"
+  },
+  "toasts": {
+    "humanizedSuccess": "टेक्स्ट सफलतापूर्वक ह्यूमनाइज़ किया गया।",
+    "humanizedFailed": "टेक्स्ट ह्यूमनाइज़ करने में विफल।",
+    "signInRequired": "जारी रखने के लिए कृपया पुनः साइन इन करें।",
+    "copiedSuccess": "ह्यूमनाइज़्ड टेक्स्ट कॉपी हो गया।",
+    "copiedFailed": "आउटपुट कॉपी करने में विफल।",
+    "outputMoved": "आउटपुट इनपुट एडिटर में ले जाया गया।"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Unternehmens-Sicherheitsbasis",
+  "description": "Sicherheit ist kein nachträglicher Gedanke im Stack. VeriText setzt Härtung auf den Ebenen Ingress, Compute und Persistenz durch.",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "Sicherheits-Header",
+      "detail": "Helmet + striktes CORS + versioniertes API-Gateway"
+    },
+    "inputHygiene": {
+      "title": "Eingabe-Hygiene",
+      "detail": "Tiefe Bereinigung mit Payload-Validierung und Größenbeschränkungen"
+    },
+    "promptDefense": {
+      "title": "Prompt-Abwehr",
+      "detail": "Risikoscan für Prompt-Injection vor der Analyseausführung"
+    },
+    "operationalReliability": {
+      "title": "Betriebliche Zuverlässigkeit",
+      "detail": "Redis-Cache, Warteschlangen-Wiederholungen, Gesundheitsprüfungen, Observability-Hooks"
+    }
+  }
+}

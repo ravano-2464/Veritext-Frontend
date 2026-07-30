@@ -1,0 +1,62 @@
+{
+  "title": "Humanizador de Texto",
+  "description": "Reescribe borradores con estilo de IA en una escritura más natural y humana, manteniendo el mensaje original intacto.",
+  "cards": {
+    "inputTitle": "Texto de entrada",
+    "outputTitle": "Texto humanizado"
+  },
+  "form": {
+    "languageLabel": "Idioma",
+    "intensityLabel": "Intensidad",
+    "styleLabel": "Estilo",
+    "textLabel": "Texto a humanizar",
+    "textPlaceholder": "Pega al menos 60 caracteres del texto que deseas hacer sonar más humano...",
+    "charactersLabel": "caracteres",
+    "languagePlaceholder": "Seleccionar idioma",
+    "intensityPlaceholder": "Seleccionar intensidad",
+    "stylePlaceholder": "Seleccionar estilo",
+    "submitButton": "Humanizar texto"
+  },
+  "options": {
+    "languages": {
+      "auto": "Detectar automáticamente",
+      "en": "Inglés",
+      "id": "Indonesio",
+      "es": "Español",
+      "fr": "Francés",
+      "de": "Alemán",
+      "ar": "Árabe",
+      "zh": "Chino"
+    },
+    "intensity": {
+      "light": "Suave",
+      "balanced": "Equilibrado",
+      "strong": "Intenso"
+    },
+    "style": {
+      "balanced": "Equilibrado",
+      "casual": "Informal",
+      "professional": "Profesional"
+    }
+  },
+  "output": {
+    "placeholder": "El texto humanizado aparecerá aquí tras el procesamiento.",
+    "copyButton": "Copiar resultado",
+    "copiedButton": "Copiado",
+    "reEditButton": "Volver a editar"
+  },
+  "metrics": {
+    "aiProbability": "Probabilidad de IA",
+    "suspiciousSentences": "Oraciones sospechosas",
+    "rewrittenSentences": "Oraciones reescritas",
+    "rewriteActions": "Acciones de reescritura"
+  },
+  "toasts": {
+    "humanizedSuccess": "Texto humanizado correctamente.",
+    "humanizedFailed": "Error al humanizar el texto.",
+    "signInRequired": "Por favor, inicia sesión de nuevo para continuar.",
+    "copiedSuccess": "Texto humanizado copiado.",
+    "copiedFailed": "Error al copiar el resultado.",
+    "outputMoved": "Resultado movido al editor de entrada."
+  }
+}

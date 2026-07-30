@@ -1,0 +1,50 @@
+{
+  "title": "Riwayat Analisis",
+  "description": "Audit proses sebelumnya, investigasi output mencurigakan, dan buka laporan lengkap per kalimat.",
+  "focusedReportPrefix": "Laporan Fokus",
+  "untitled": "Tanpa Judul",
+  "table": {
+    "empty": "Belum ada analisis. Jalankan deteksi pertama kamu di halaman Detektor.",
+    "title": "Judul",
+    "status": "Status",
+    "aiProbability": "Probabilitas AI",
+    "language": "Bahasa",
+    "created": "Dibuat",
+    "open": "Buka",
+    "view": "Lihat",
+    "untitledAnalysis": "Analisis tanpa judul"
+  },
+  "summary": {
+    "title": "Ringkasan Deteksi Keseluruhan",
+    "aiLikelihoodSuffix": "kemungkinan AI",
+    "mixedSignalLabel": "Sinyal campuran AI-manusia",
+    "aiHeavyLabel": "Sinyal dominan AI",
+    "humanHeavyLabel": "Sinyal dominan manusia",
+    "aiProbabilityLabel": "Probabilitas AI",
+    "confidenceLabel": "Kepercayaan",
+    "humanLikelihoodLabel": "Kemungkinan Manusia",
+    "suspiciousRatioLabel": "Rasio kalimat mencurigakan",
+    "modelInterpretationTitle": "Interpretasi model",
+    "modelInterpretationMixed": "Teks menunjukkan pola kepenulisan campuran: beberapa kalimat terlihat seperti AI, sementara lainnya lebih seperti tulisan manusia.",
+    "modelInterpretationAiHeavy": "Probabilitas tinggi adanya bantuan generasi AI.",
+    "modelInterpretationHumanHeavy": "Sinyal lebih dekat ke komposisi tulisan manusia alami.",
+    "riskControlsTitle": "Kontrol risiko",
+    "riskControlsBody": "Gunakan sorotan kalimat dan anomali entropi sebelum mengambil keputusan moderasi final.",
+    "multilayerScoringBadge": "Skor multi-lapis",
+    "explainabilityBadge": "Output berfokus pada keterjelasan"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs Complexity",
+    "entropyDistribution": "Distribusi Entropi",
+    "aiProbabilityHeatmapBars": "Bar Heatmap Probabilitas AI",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Complexity",
+    "entropyLegend": "Entropi",
+    "aiProbabilityLegend": "Probabilitas AI"
+  },
+  "heatmap": {
+    "title": "Heatmap probabilitas per kalimat",
+    "sentenceLabel": "Kalimat",
+    "aiLabel": "AI"
+  }
+}

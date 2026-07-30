@@ -1,0 +1,26 @@
+{
+  "title": "एंटरप्राइज़ API",
+  "description": "उच्च-मात्रा डिटेक्शन, अपलोड, इतिहास और एनालिटिक्स वर्कफ़्लो के लिए स्कोप्ड कुंजियाँ जारी करें।",
+  "cards": {
+    "createApiKey": "API कुंजी बनाएँ",
+    "keys": "कुंजियाँ",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "नाम",
+    "namePlaceholder": "प्रोडक्शन इंटीग्रेशन",
+    "workspaceLabel": "कार्यक्षेत्र",
+    "workspacePersonal": "व्यक्तिगत"
+  },
+  "buttons": {
+    "issueKey": "कुंजी जारी करें",
+    "revoke": "रद्द करें"
+  },
+  "toasts": {
+    "apiKeyCreated": "API कुंजी सफलतापूर्वक बनाई गई",
+    "apiKeyFailed": "API कुंजी बनाने में विफल",
+    "apiKeyRevoked": "API कुंजी रद्द की गई",
+    "copied": "कॉपी किया गया"
+  },
+  "warning": "इस कुंजी को अभी कॉपी करें। यह दोबारा नहीं दिखाई जाएगी।"
+}

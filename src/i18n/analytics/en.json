@@ -1,0 +1,20 @@
+{
+  "title": "Writing Intelligence",
+  "description": "Portfolio-level authenticity, usage, latency, and AI-source trends.",
+  "selectScopePlaceholder": "Scope",
+  "personalWorkspace": "Personal workspace",
+  "stats": {
+    "detections": "Detections",
+    "completion": "Completion",
+    "avgAiScore": "Avg AI score",
+    "avgConfidence": "Avg confidence"
+  },
+  "charts": {
+    "detectionTrend": "Detection Trend",
+    "aiFingerprints": "AI Fingerprints"
+  },
+  "cards": {
+    "usageEvents": "Usage Events",
+    "recentDetections": "Recent Detections"
+  }
+}

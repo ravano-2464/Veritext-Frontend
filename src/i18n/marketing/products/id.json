@@ -1,0 +1,123 @@
+{
+  "useCases": {
+    "title": "Dibangun untuk Operasi Keaslian",
+    "description": "Tinjau pengiriman individu, proses unggahan, ekspos API, dan pantau tim dari satu ruang kerja yang siap untuk perusahaan.",
+    "items": {
+      "universities": {
+        "title": "Universitas",
+        "body": "Alur kerja integritas akademik dengan bukti kalimat."
+      },
+      "enterprises": {
+        "title": "Perusahaan",
+        "body": "Tinjauan kebijakan, perekrutan, dan komunikasi pada skala penyewa."
+      },
+      "publishers": {
+        "title": "Penerbit",
+        "body": "Pemeriksaan keaslian editorial dengan laporan yang dapat diekspor."
+      },
+      "researchers": {
+        "title": "Peneliti",
+        "body": "Analisis linguistik tingkat korpus dan tinjauan multibahasa."
+      }
+    }
+  },
+  "analytics": {
+    "title": "Analitik tingkat bukti untuk setiap kalimat",
+    "description": "VeriText menggabungkan perplexity, burstiness, stylometry, konsistensi semantik, entropi, keterbacaan, dan probabilitas token ke dalam kecerdasan menulis yang dapat dijelaskan.",
+    "list": {
+      "heatmaps": "Peta panas kalimat",
+      "fingerprinting": "Sidik jari AI",
+      "readability": "Kurva keterbacaan",
+      "verification": "Verifikasi model"
+    },
+    "chart": {
+      "title": "Tren keaslian",
+      "value": "Keyakinan 82%"
+    }
+  },
+  "integrations": {
+    "items": {
+      "apiKeys": {
+        "title": "Kunci API",
+        "body": "Kunci berlingkup dengan batas tingkat dan analitik penggunaan."
+      },
+      "webhooks": {
+        "title": "Webhook",
+        "body": "Acara penyelesaian deteksi yang ditandatangani untuk sistem hilir."
+      },
+      "platformFit": {
+        "title": "Kecocokan Platform",
+        "body": "Dirancang untuk pipa LMS, ATS, CMS, kepercayaan, dan penelitian."
+      }
+    }
+  },
+  "api": {
+    "title": "API REST Perusahaan",
+    "description": "Gunakan /detect, /upload, /history, dan /analytics dengan autentikasi kunci API. Dokumentasi Swagger disertakan dengan API NestJS."
+  },
+  "pricing": {
+    "title": "Harga",
+    "description": "Mulailah dengan analisis individual, lalu skala ke ruang kerja tim dan volume API.",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "limit": "50 deteksi",
+        "features": ["Detektor inti", "Riwayat", "Ekspor CSV"]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "limit": "5.000 deteksi",
+        "features": ["Laporan PDF dan DOCX", "Kunci API", "Bagan tingkat lanjut"]
+      },
+      "business": {
+        "name": "Bisnis",
+        "price": "$249",
+        "limit": "100.000 deteksi",
+        "features": ["Webhook", "Ulasan admin", "Antrean prioritas"]
+      },
+      "enterprise": {
+        "name": "Perusahaan",
+        "price": "Kustom",
+        "limit": "1M+ deteksi",
+        "features": ["Batas kustom", "Ulasan keamanan", "Dukungan khusus"]
+      }
+    }
+  },
+  "testimonials": {
+    "academic": {
+      "name": "Pimpinan integritas akademik",
+      "quote": "Bukti kalimat mengubah percakapan ulasan kami."
+    },
+    "enterprise": {
+      "name": "Tim kepercayaan perusahaan",
+      "quote": "Kunci API dan webhook membuatnya cocok dengan alur kerja kami yang ada."
+    },
+    "publishing": {
+      "name": "Editor penerbitan",
+      "quote": "Ekspor cukup jelas untuk ulasan editorial dan hukum."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "Apakah VeriText adalah detektor AI biasa?",
+      "answer": "Tidak. Ini adalah platform keaslian menulis dengan skor berlapis, analitik, ekspor, dan API."
+    },
+    "q2": {
+      "question": "Apakah mendukung Bahasa Indonesia?",
+      "answer": "Ya. Mesin mendukung teks bahasa Inggris, bahasa Indonesia, dan multibahasa campuran."
+    },
+    "q3": {
+      "question": "Apakah perusahaan dapat mengintegrasikannya?",
+      "answer": "Ya. API mendukung kunci, batas tingkat, analitik penggunaan, webhook, dan dokumen Swagger."
+    }
+  },
+  "cta": {
+    "title": "Luncurkan alur kerja keaslian yang dapat dipercaya oleh peninjau dan pengembang Anda.",
+    "dashboard": "Buka Dasbor",
+    "workspace": "Buat Ruang Kerja",
+    "detector": "Coba Detektor"
+  }
+}

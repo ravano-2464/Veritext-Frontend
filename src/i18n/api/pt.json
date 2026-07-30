@@ -1,0 +1,26 @@
+{
+  "title": "API Empresarial",
+  "description": "Emita chaves com escopo para fluxos de trabalho de detecção de alto volume, upload, histórico e análises.",
+  "cards": {
+    "createApiKey": "Criar chave API",
+    "keys": "Chaves",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "Nome",
+    "namePlaceholder": "Integração de produção",
+    "workspaceLabel": "Área de trabalho",
+    "workspacePersonal": "Pessoal"
+  },
+  "buttons": {
+    "issueKey": "Emitir chave",
+    "revoke": "Revogar"
+  },
+  "toasts": {
+    "apiKeyCreated": "Chave API criada com sucesso",
+    "apiKeyFailed": "Falha ao criar chave API",
+    "apiKeyRevoked": "Chave API revogada",
+    "copied": "Copiado"
+  },
+  "warning": "Copie esta chave agora. Ela não será exibida novamente."
+}

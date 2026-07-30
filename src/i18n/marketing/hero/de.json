@@ -1,0 +1,13 @@
+{
+  "badge": "KI-Schreibauthentizität für Unternehmen",
+  "title": "VeriText",
+  "description": "Eine KI-gestützte Schreibintelligenz-Plattform für Universitäten, Unternehmen, Verlage, Recruiter und Forschungsteams, die Beweise brauchen – keine Vermutungen.",
+  "startFree": "Kostenlos starten",
+  "dashboard": "Dashboard",
+  "openDetector": "Detektor öffnen",
+  "proofPoints": {
+    "multilingual": "Englischer, indonesischer und gemischter mehrsprachiger Text",
+    "controls": "Arbeitsbereich, API-Schlüssel, Abrechnung und Admin-Einstellungen",
+    "features": "Mehrschichtige Bewertung, Uploads, Exporte und Webhooks"
+  }
+}

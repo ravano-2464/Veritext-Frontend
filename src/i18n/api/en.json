@@ -1,0 +1,26 @@
+{
+  "title": "Enterprise API",
+  "description": "Issue scoped keys for high-volume detection, upload, history, and analytics workflows.",
+  "cards": {
+    "createApiKey": "Create API Key",
+    "keys": "Keys",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Production integration",
+    "workspaceLabel": "Workspace",
+    "workspacePersonal": "Personal"
+  },
+  "buttons": {
+    "issueKey": "Issue Key",
+    "revoke": "Revoke"
+  },
+  "toasts": {
+    "apiKeyCreated": "API key created",
+    "apiKeyFailed": "API key failed",
+    "apiKeyRevoked": "API key revoked",
+    "copied": "Copied"
+  },
+  "warning": "Copy this key now. It will not be shown again."
+}

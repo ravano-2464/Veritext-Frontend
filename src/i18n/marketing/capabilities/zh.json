@@ -1,0 +1,30 @@
+{
+  "title": "专为检测操作而构建",
+  "description": "采用企业级软件架构和现代前端人体工程学构建，使团队能够在单一工作流中从怀疑走向证据。",
+  "features": {
+    "sentenceForensics": {
+      "title": "句子级取证分析",
+      "body": "每个句子均获得AI概率、置信度和可疑片段标注。"
+    },
+    "fusionEngine": {
+      "title": "融合评分引擎",
+      "body": "加权信号融合将四个语言模型合并为经过校准的最终分数。"
+    },
+    "burstinessCurves": {
+      "title": "突发性与熵曲线",
+      "body": "可视化节奏一致性和词元熵，以诊断合成写作模式。"
+    },
+    "analystDashboards": {
+      "title": "分析师仪表盘",
+      "body": "按用户、来源和模型置信度追踪历史趋势，并提供可导出的记录。"
+    },
+    "securityHardening": {
+      "title": "安全加固",
+      "body": "输入清理、速率限制、上传验证和防提示注入控制。"
+    },
+    "queueProcessing": {
+      "title": "队列驱动处理",
+      "body": "BullMQ 和 Redis 为大型企业吞吐量提供可靠的异步工作负载。"
+    }
+  }
+}

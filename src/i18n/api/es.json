@@ -1,0 +1,26 @@
+{
+  "title": "API Empresarial",
+  "description": "Emita claves con alcance para flujos de trabajo de detección de alto volumen, carga, historial y análisis.",
+  "cards": {
+    "createApiKey": "Crear clave API",
+    "keys": "Claves",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Integración de producción",
+    "workspaceLabel": "Espacio de trabajo",
+    "workspacePersonal": "Personal"
+  },
+  "buttons": {
+    "issueKey": "Emitir clave",
+    "revoke": "Revocar"
+  },
+  "toasts": {
+    "apiKeyCreated": "Clave API creada exitosamente",
+    "apiKeyFailed": "Error al crear la clave API",
+    "apiKeyRevoked": "Clave API revocada",
+    "copied": "Copiado"
+  },
+  "warning": "Copie esta clave ahora. No se mostrará de nuevo."
+}

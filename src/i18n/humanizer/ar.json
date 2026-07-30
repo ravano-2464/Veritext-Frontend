@@ -1,0 +1,62 @@
+{
+  "title": "أداة تحويل النص إلى أسلوب بشري",
+  "description": "أعد كتابة المسودات الآلية ذات الطابع الاصطناعي لتصبح كتابة أكثر طبيعية وإنسانية مع الحفاظ على الرسالة الأصلية.",
+  "cards": {
+    "inputTitle": "النص المدخل",
+    "outputTitle": "النص المحوَّل"
+  },
+  "form": {
+    "languageLabel": "اللغة",
+    "intensityLabel": "الشدة",
+    "styleLabel": "الأسلوب",
+    "textLabel": "النص المراد تحويله",
+    "textPlaceholder": "الصق ما لا يقل عن 60 حرفًا من النص الذي تريد أن يبدو أكثر طبيعية...",
+    "charactersLabel": "حرف",
+    "languagePlaceholder": "اختر اللغة",
+    "intensityPlaceholder": "اختر الشدة",
+    "stylePlaceholder": "اختر الأسلوب",
+    "submitButton": "تحويل النص"
+  },
+  "options": {
+    "languages": {
+      "auto": "اكتشاف تلقائي",
+      "en": "الإنجليزية",
+      "id": "الإندونيسية",
+      "es": "الإسبانية",
+      "fr": "الفرنسية",
+      "de": "الألمانية",
+      "ar": "العربية",
+      "zh": "الصينية"
+    },
+    "intensity": {
+      "light": "خفيف",
+      "balanced": "متوازن",
+      "strong": "قوي"
+    },
+    "style": {
+      "balanced": "متوازن",
+      "casual": "غير رسمي",
+      "professional": "احترافي"
+    }
+  },
+  "output": {
+    "placeholder": "سيظهر النص المحوَّل هنا بعد المعالجة.",
+    "copyButton": "نسخ النص",
+    "copiedButton": "تم النسخ",
+    "reEditButton": "تعديل النص مجددًا"
+  },
+  "metrics": {
+    "aiProbability": "احتمالية الذكاء الاصطناعي",
+    "suspiciousSentences": "الجمل المشبوهة",
+    "rewrittenSentences": "الجمل المعاد كتابتها",
+    "rewriteActions": "إجراءات إعادة الكتابة"
+  },
+  "toasts": {
+    "humanizedSuccess": "تم تحويل النص بنجاح.",
+    "humanizedFailed": "فشل تحويل النص.",
+    "signInRequired": "يرجى تسجيل الدخول مرة أخرى للمتابعة.",
+    "copiedSuccess": "تم نسخ النص المحوَّل.",
+    "copiedFailed": "فشل نسخ النص.",
+    "outputMoved": "تم نقل النص إلى محرر الإدخال."
+  }
+}

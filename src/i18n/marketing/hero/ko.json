@@ -1,0 +1,13 @@
+{
+  "badge": "기업용 AI 글쓰기 진위 검증",
+  "title": "VeriText",
+  "description": "증거가 필요한 대학교, 기업, 출판사, 채용 담당자, 연구팀을 위한 AI 글쓰기 인텔리전스 플랫폼. 추측이 아닌 근거를 제공합니다.",
+  "startFree": "무료로 시작",
+  "dashboard": "대시보드",
+  "openDetector": "탐지기 열기",
+  "proofPoints": {
+    "multilingual": "영어, 인도네시아어, 혼합 다국어 텍스트",
+    "controls": "워크스페이스, API 키, 청구, 관리자 설정",
+    "features": "다층 점수 산정, 업로드, 내보내기, 웹훅"
+  }
+}

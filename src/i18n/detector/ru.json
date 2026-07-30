@@ -1,0 +1,85 @@
+{
+  "title": "Детектор текста ИИ",
+  "description": "Отправьте текст или загрузите документы для многоуровневого анализа вероятности ИИ с доказательствами на уровне предложений и графиками паттернов письма.",
+  "cards": {
+    "analyzeTextInput": "Анализировать текстовый ввод",
+    "uploadForAnalysis": "Загрузить для анализа"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "Название анализа",
+    "analysisTitlePlaceholder": "Пакет проверки политик",
+    "languageLabel": "Язык",
+    "languagePlaceholder": "Выберите язык",
+    "languageOptions": {
+      "auto": "Автоопределение",
+      "en": "Английский",
+      "id": "Индонезийский",
+      "es": "Испанский",
+      "fr": "Французский",
+      "de": "Немецкий",
+      "ar": "Арабский",
+      "zh": "Китайский"
+    },
+    "textLabel": "Текст для оценки",
+    "textPlaceholder": "Вставьте текст здесь для анализа авторства ИИ...",
+    "charactersLabel": "символов",
+    "submitButton": "Анализировать текст"
+  },
+  "uploadArea": {
+    "title": "Загрузить текстовый файл",
+    "description": "TXT, CSV, Markdown или JSON до 4 МБ",
+    "chooseFile": "Выбрать файл",
+    "uploadAriaLabel": "Загрузить текстовый файл",
+    "removeFileAriaLabel": "Удалить файл"
+  },
+  "uploadFields": {
+    "titleLabel": "Название",
+    "titlePlaceholder": "Загруженный пакет модерации",
+    "languageLabel": "Язык",
+    "languagePlaceholder": "авто"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "Анализировать загруженный файл"
+  },
+  "toasts": {
+    "textAnalyzed": "Текст успешно проанализирован.",
+    "detectionFailed": "Обнаружение не удалось.",
+    "fileAnalyzed": "Файл успешно проанализирован.",
+    "uploadFailed": "Анализ загрузки не удался.",
+    "signInRequired": "Пожалуйста, войдите снова для продолжения.",
+    "selectFileFirst": "Сначала выберите файл."
+  },
+  "summary": {
+    "title": "Общая сводка обнаружения",
+    "aiLikelihoodSuffix": "вероятность ИИ",
+    "mixedSignalLabel": "Смешанный сигнал ИИ-человек",
+    "aiHeavyLabel": "Преобладающий сигнал ИИ",
+    "humanHeavyLabel": "Преобладающий сигнал человека",
+    "aiProbabilityLabel": "Вероятность ИИ",
+    "confidenceLabel": "Уверенность",
+    "humanLikelihoodLabel": "Вероятность человека",
+    "suspiciousRatioLabel": "Доля подозрительных предложений",
+    "modelInterpretationTitle": "Интерпретация модели",
+    "modelInterpretationMixed": "Текст демонстрирует смешанные паттерны авторства: одни предложения соответствуют структуре ИИ, другие выглядят написанными человеком.",
+    "modelInterpretationAiHeavy": "Высокая вероятность генерации с помощью ИИ.",
+    "modelInterpretationHumanHeavy": "Сигналы ближе к органическому человеческому тексту.",
+    "riskControlsTitle": "Управление рисками",
+    "riskControlsBody": "Используйте выделение предложений и аномалии энтропии перед окончательными решениями о модерации.",
+    "multilayerScoringBadge": "Многоуровневая оценка",
+    "explainabilityBadge": "Вывод с приоритетом объяснимости"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Всплесковость vs Сложность",
+    "entropyDistribution": "Распределение энтропии",
+    "aiProbabilityHeatmapBars": "Столбцы тепловой карты вероятности ИИ",
+    "burstinessLegend": "Всплесковость",
+    "complexityLegend": "Сложность",
+    "entropyLegend": "Энтропия",
+    "aiProbabilityLegend": "Вероятность ИИ"
+  },
+  "heatmap": {
+    "title": "Тепловая карта вероятности на уровне предложений",
+    "sentenceLabel": "Предложение",
+    "aiLabel": "ИИ"
+  }
+}

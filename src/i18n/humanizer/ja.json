@@ -1,0 +1,62 @@
+{
+  "title": "テキスト人間化ツール",
+  "description": "AI的な構造的文章をより自然で人間らしい文体に書き直しながら、元のメッセージを保持します。",
+  "cards": {
+    "inputTitle": "入力テキスト",
+    "outputTitle": "人間化されたテキスト"
+  },
+  "form": {
+    "languageLabel": "言語",
+    "intensityLabel": "強度",
+    "styleLabel": "スタイル",
+    "textLabel": "人間化するテキスト",
+    "textPlaceholder": "より自然な表現にしたいテキストを60文字以上貼り付けてください...",
+    "charactersLabel": "文字",
+    "languagePlaceholder": "言語を選択",
+    "intensityPlaceholder": "強度を選択",
+    "stylePlaceholder": "スタイルを選択",
+    "submitButton": "テキストを人間化する"
+  },
+  "options": {
+    "languages": {
+      "auto": "自動検出",
+      "en": "英語",
+      "id": "インドネシア語",
+      "es": "スペイン語",
+      "fr": "フランス語",
+      "de": "ドイツ語",
+      "ar": "アラビア語",
+      "zh": "中国語"
+    },
+    "intensity": {
+      "light": "軽度",
+      "balanced": "標準",
+      "strong": "強度"
+    },
+    "style": {
+      "balanced": "バランス",
+      "casual": "カジュアル",
+      "professional": "プロフェッショナル"
+    }
+  },
+  "output": {
+    "placeholder": "処理完了後、人間化されたテキストがここに表示されます。",
+    "copyButton": "テキストをコピー",
+    "copiedButton": "コピー済み",
+    "reEditButton": "再編集する"
+  },
+  "metrics": {
+    "aiProbability": "AI確率",
+    "suspiciousSentences": "疑わしい文",
+    "rewrittenSentences": "書き直された文",
+    "rewriteActions": "書き直し操作数"
+  },
+  "toasts": {
+    "humanizedSuccess": "テキストを正常に人間化しました。",
+    "humanizedFailed": "テキストの人間化に失敗しました。",
+    "signInRequired": "続行するには再度サインインしてください。",
+    "copiedSuccess": "人間化されたテキストをコピーしました。",
+    "copiedFailed": "コピーに失敗しました。",
+    "outputMoved": "出力を入力エディターに移動しました。"
+  }
+}

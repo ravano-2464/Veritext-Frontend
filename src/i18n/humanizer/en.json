@@ -1,0 +1,62 @@
+{
+  "title": "Text Humanizer",
+  "description": "Rewrite structured AI-like drafts into more natural, human-style writing while keeping the original message intact.",
+  "cards": {
+    "inputTitle": "Humanizer Input",
+    "outputTitle": "Humanized Output"
+  },
+  "form": {
+    "languageLabel": "Language",
+    "intensityLabel": "Intensity",
+    "styleLabel": "Style",
+    "textLabel": "Text to humanize",
+    "textPlaceholder": "Paste at least 60 characters of text that you want to make sound more human...",
+    "charactersLabel": "characters",
+    "languagePlaceholder": "Select language",
+    "intensityPlaceholder": "Select intensity",
+    "stylePlaceholder": "Select style",
+    "submitButton": "Humanize Text"
+  },
+  "options": {
+    "languages": {
+      "auto": "Auto Detect",
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "ar": "Arabic",
+      "zh": "Chinese"
+    },
+    "intensity": {
+      "light": "Light",
+      "balanced": "Balanced",
+      "strong": "Strong"
+    },
+    "style": {
+      "balanced": "Balanced",
+      "casual": "Casual",
+      "professional": "Professional"
+    }
+  },
+  "output": {
+    "placeholder": "Humanized output will appear here after processing.",
+    "copyButton": "Copy Output",
+    "copiedButton": "Copied",
+    "reEditButton": "Re-edit Output"
+  },
+  "metrics": {
+    "aiProbability": "AI Probability",
+    "suspiciousSentences": "Suspicious Sentences",
+    "rewrittenSentences": "Rewritten Sentences",
+    "rewriteActions": "Rewrite Actions"
+  },
+  "toasts": {
+    "humanizedSuccess": "Text humanized successfully.",
+    "humanizedFailed": "Failed to humanize text.",
+    "signInRequired": "Please sign in again to continue.",
+    "copiedSuccess": "Humanized text copied.",
+    "copiedFailed": "Failed to copy output.",
+    "outputMoved": "Output moved to input editor."
+  }
+}

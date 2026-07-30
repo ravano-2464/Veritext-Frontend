@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "Обзор",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "История",
+    "analytics": "Аналитика",
+    "api": "API",
+    "billing": "Биллинг",
+    "admin": "Admin",
+    "profile": "Профиль"
+  },
+  "actions": {
+    "openNavigation": "Открыть навигацию",
+    "signOut": "Выйти"
+  },
+  "confirmSignOut": {
+    "title": "Выйти из аккаунта?",
+    "description": "Вы будете выведены из текущей сессии и вам потребуется снова войти, чтобы вернуться в панель управления.",
+    "cancel": "Отмена",
+    "confirm": "Да, выйти",
+    "confirmLoading": "Выход..."
+  },
+  "fallbackUser": {
+    "name": "Аналитик",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "Многоуровневые сигналы: неоднозначность, всплесковость, стилометрия, семантика.",
+  "language": {
+    "label": "Язык",
+    "placeholder": "Выберите язык",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

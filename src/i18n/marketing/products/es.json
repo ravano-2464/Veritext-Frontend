@@ -1,0 +1,123 @@
+{
+  "useCases": {
+    "title": "Construido para operaciones de autenticidad",
+    "description": "Revise envíos individuales, procese cargas, exponga APIs y supervise equipos desde un único espacio de trabajo listo para empresas.",
+    "items": {
+      "universities": {
+        "title": "Universidades",
+        "body": "Flujos de trabajo de integridad académica con evidencia de oraciones."
+      },
+      "enterprises": {
+        "title": "Empresas",
+        "body": "Revisión de políticas, reclutamiento y comunicación a escala de inquilino."
+      },
+      "publishers": {
+        "title": "Editoriales",
+        "body": "Verificaciones de autenticidad editorial con informes exportables."
+      },
+      "researchers": {
+        "title": "Investigadores",
+        "body": "Análisis lingüístico a nivel de corpus y revisión multilingüe."
+      }
+    }
+  },
+  "analytics": {
+    "title": "Análisis de nivel de evidencia para cada oración",
+    "description": "VeriText combina perplejidad, explosividad, estilometría, consistencia semántica, entropía, legibilidad y probabilidad de tokens en inteligencia de escritura explicable.",
+    "list": {
+      "heatmaps": "Mapas de calor de oraciones",
+      "fingerprinting": "Identificación de IA",
+      "readability": "Curvas de legibilidad",
+      "verification": "Verificación de modelo"
+    },
+    "chart": {
+      "title": "Tendencia de autenticidad",
+      "value": "82% de confianza"
+    }
+  },
+  "integrations": {
+    "items": {
+      "apiKeys": {
+        "title": "Claves API",
+        "body": "Claves con alcance, límites de velocidad y análisis de uso."
+      },
+      "webhooks": {
+        "title": "Webhooks",
+        "body": "Eventos de finalización de detección firmados para sistemas posteriores."
+      },
+      "platformFit": {
+        "title": "Compatibilidad con plataformas",
+        "body": "Diseñado para pipelines de LMS, ATS, CMS, confianza e investigación."
+      }
+    }
+  },
+  "api": {
+    "title": "API REST empresarial",
+    "description": "Use /detect, /upload, /history y /analytics con autenticación por clave API. La documentación de Swagger se incluye con la API de NestJS."
+  },
+  "pricing": {
+    "title": "Precios",
+    "description": "Comience con análisis individuales y luego escale a espacios de trabajo en equipo y volumen de API.",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "limit": "50 detecciones",
+        "features": ["Detector principal", "Historial", "Exportación CSV"]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "limit": "5.000 detecciones",
+        "features": ["Informes PDF y DOCX", "Claves API", "Gráficos avanzados"]
+      },
+      "business": {
+        "name": "Business",
+        "price": "$249",
+        "limit": "100.000 detecciones",
+        "features": ["Webhooks", "Revisión de administrador", "Colas de prioridad"]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Personalizado",
+        "limit": "Más de 1M de detecciones",
+        "features": ["Límites personalizados", "Revisión de seguridad", "Soporte dedicado"]
+      }
+    }
+  },
+  "testimonials": {
+    "academic": {
+      "name": "Responsable de integridad académica",
+      "quote": "La evidencia de oraciones cambió nuestras conversaciones de revisión."
+    },
+    "enterprise": {
+      "name": "Equipo de confianza empresarial",
+      "quote": "Las claves API y los webhooks lo hicieron encajar en nuestros flujos de trabajo existentes."
+    },
+    "publishing": {
+      "name": "Editor de publicaciones",
+      "quote": "Las exportaciones son lo suficientemente claras para la revisión editorial y legal."
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "q1": {
+      "question": "¿VeriText es un simple detector de IA?",
+      "answer": "No. Es una plataforma de autenticidad de escritura con puntuación por capas, análisis, exportaciones y APIs."
+    },
+    "q2": {
+      "question": "¿Admite indonesio?",
+      "answer": "Sí. El motor admite inglés, indonesio y texto multilingüe mixto."
+    },
+    "q3": {
+      "question": "¿Pueden integrarlo las empresas?",
+      "answer": "Sí. La API admite claves, límites de velocidad, análisis de uso, webhooks y documentación de Swagger."
+    }
+  },
+  "cta": {
+    "title": "Lanza un flujo de trabajo de autenticidad en el que puedan confiar tus revisores y desarrolladores.",
+    "dashboard": "Ir al panel",
+    "workspace": "Crear espacio de trabajo",
+    "detector": "Probar el detector"
+  }
+}

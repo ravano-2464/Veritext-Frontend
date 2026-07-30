@@ -1,0 +1,19 @@
+{
+  "title": "감지 대시보드",
+  "description": "제출된 텍스트 분석 전반에 걸쳐 AI 저작권 위험 추세를 모니터링합니다.",
+  "cards": {
+    "totalAnalyses": "총 분석 수",
+    "averageAiProbability": "평균 AI 확률",
+    "highRiskReports": "고위험 보고서",
+    "queuedJobs": "대기 중인 작업"
+  },
+  "trend": {
+    "title": "감지 트렌드",
+    "seriesAiProbability": "AI 확률",
+    "seriesConfidence": "신뢰도"
+  },
+  "notes": {
+    "title": "운영 참고 사항",
+    "body": "대기열 작업은 자동으로 재시도됩니다. 동기 분석, 파일 수집 및 문장 수준 히트맵은 감지기 페이지를 사용하세요."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Humanizer Teks",
+  "description": "Ubah draft bergaya AI yang terlalu kaku menjadi tulisan yang lebih natural seperti manusia, tanpa mengubah pesan utama.",
+  "cards": {
+    "inputTitle": "Input Humanizer",
+    "outputTitle": "Output Humanizer"
+  },
+  "form": {
+    "languageLabel": "Bahasa",
+    "intensityLabel": "Intensitas",
+    "styleLabel": "Gaya",
+    "textLabel": "Teks untuk dihumanisasi",
+    "textPlaceholder": "Tempel minimal 60 karakter teks yang ingin dibuat lebih natural...",
+    "charactersLabel": "karakter",
+    "languagePlaceholder": "Pilih bahasa",
+    "intensityPlaceholder": "Pilih intensitas",
+    "stylePlaceholder": "Pilih gaya",
+    "submitButton": "Humanisasi Teks"
+  },
+  "options": {
+    "languages": {
+      "auto": "Deteksi Otomatis",
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German",
+      "ar": "Arabic",
+      "zh": "Chinese"
+    },
+    "intensity": {
+      "light": "Ringan",
+      "balanced": "Seimbang",
+      "strong": "Kuat"
+    },
+    "style": {
+      "balanced": "Seimbang",
+      "casual": "Santai",
+      "professional": "Profesional"
+    }
+  },
+  "output": {
+    "placeholder": "Output humanisasi akan muncul di sini setelah proses selesai.",
+    "copyButton": "Salin Output",
+    "copiedButton": "Tersalin",
+    "reEditButton": "Edit Ulang Output"
+  },
+  "metrics": {
+    "aiProbability": "Probabilitas AI",
+    "suspiciousSentences": "Kalimat Mencurigakan",
+    "rewrittenSentences": "Kalimat Ditulis Ulang",
+    "rewriteActions": "Aksi Penulisan Ulang"
+  },
+  "toasts": {
+    "humanizedSuccess": "Teks berhasil dihumanisasi.",
+    "humanizedFailed": "Gagal menghumanisasi teks.",
+    "signInRequired": "Silakan masuk lagi untuk melanjutkan.",
+    "copiedSuccess": "Teks hasil humanisasi berhasil disalin.",
+    "copiedFailed": "Gagal menyalin output.",
+    "outputMoved": "Output dipindahkan ke editor input."
+  }
+}

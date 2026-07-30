@@ -1,0 +1,20 @@
+{
+  "title": "Intelligence rédactionnelle",
+  "description": "Tendances d'authenticité, d'utilisation, de latence et de sources IA au niveau du portfolio.",
+  "selectScopePlaceholder": "Portée",
+  "personalWorkspace": "Espace de travail personnel",
+  "stats": {
+    "detections": "Détections",
+    "completion": "Complétion",
+    "avgAiScore": "Score IA moyen",
+    "avgConfidence": "Confiance moyenne"
+  },
+  "charts": {
+    "detectionTrend": "Tendance de détection",
+    "aiFingerprints": "Empreintes IA"
+  },
+  "cards": {
+    "usageEvents": "Événements d'utilisation",
+    "recentDetections": "Détections récentes"
+  }
+}

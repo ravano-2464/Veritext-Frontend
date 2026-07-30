@@ -1,0 +1,26 @@
+{
+  "title": "واجهة برمجة التطبيقات للمؤسسات",
+  "description": "أصدر مفاتيح محددة النطاق لسير عمل الكشف عالي الحجم والرفع والسجل والتحليلات.",
+  "cards": {
+    "createApiKey": "إنشاء مفتاح API",
+    "keys": "المفاتيح",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "الاسم",
+    "namePlaceholder": "تكامل الإنتاج",
+    "workspaceLabel": "مساحة العمل",
+    "workspacePersonal": "شخصي"
+  },
+  "buttons": {
+    "issueKey": "إصدار المفتاح",
+    "revoke": "إلغاء"
+  },
+  "toasts": {
+    "apiKeyCreated": "تم إنشاء مفتاح API بنجاح",
+    "apiKeyFailed": "فشل إنشاء مفتاح API",
+    "apiKeyRevoked": "تم إلغاء مفتاح API",
+    "copied": "تم النسخ"
+  },
+  "warning": "انسخ هذا المفتاح الآن. لن يتم عرضه مرة أخرى."
+}

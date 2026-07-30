@@ -1,0 +1,20 @@
+{
+  "title": "Facturation",
+  "description": "Gérez les sièges, les limites, le niveau d'abonnement et l'accès au portail client Stripe.",
+  "workspaceLabel": "Espace de travail",
+  "workspacePlaceholder": "Sélectionner un espace de travail",
+  "newWorkspaceLabel": "Nouvel espace de travail",
+  "newWorkspaceDefault": "Espace de travail VeriText",
+  "buttons": {
+    "create": "Créer",
+    "portal": "Portail",
+    "currentStarter": "Plan Starter actuel",
+    "upgrade": "Mettre à niveau"
+  },
+  "toasts": {
+    "workspaceCreated": "Espace de travail créé",
+    "checkoutFailed": "Échec du paiement"
+  },
+  "customPrice": "Personnalisé",
+  "detectionsPerMonth": "détections / mois"
+}

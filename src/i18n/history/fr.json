@@ -1,0 +1,50 @@
+{
+  "title": "Historique des analyses",
+  "description": "Auditez les exécutions passées, examinez les résultats suspects et ouvrez des rapports complets au niveau des phrases.",
+  "focusedReportPrefix": "Rapport ciblé",
+  "untitled": "Sans titre",
+  "table": {
+    "empty": "Aucune analyse pour le moment. Lancez votre première détection sur la page Détecteur.",
+    "title": "Titre",
+    "status": "Statut",
+    "aiProbability": "Probabilité IA",
+    "language": "Langue",
+    "created": "Créé",
+    "open": "Ouvrir",
+    "view": "Voir",
+    "untitledAnalysis": "Analyse sans titre"
+  },
+  "summary": {
+    "title": "Résumé global de détection",
+    "aiLikelihoodSuffix": "probabilité IA",
+    "mixedSignalLabel": "Signal mixte IA-humain",
+    "aiHeavyLabel": "Signal majoritairement IA",
+    "humanHeavyLabel": "Signal majoritairement humain",
+    "aiProbabilityLabel": "Probabilité IA",
+    "confidenceLabel": "Confiance",
+    "humanLikelihoodLabel": "Probabilité humaine",
+    "suspiciousRatioLabel": "Ratio de phrases suspectes",
+    "modelInterpretationTitle": "Interprétation du modèle",
+    "modelInterpretationMixed": "Le texte présente des schémas d'écriture mixtes : certaines phrases s'alignent sur la structure de l'IA tandis que d'autres semblent rédigées par un humain.",
+    "modelInterpretationAiHeavy": "Forte probabilité de génération assistée par IA.",
+    "modelInterpretationHumanHeavy": "Les signaux se rapprochent davantage d'une composition humaine naturelle.",
+    "riskControlsTitle": "Contrôles des risques",
+    "riskControlsBody": "Utilisez les surlignages de phrases et les anomalies d'entropie avant les décisions finales de modération.",
+    "multilayerScoringBadge": "Notation multicouche",
+    "explainabilityBadge": "Résultat axé sur l'explicabilité"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Rafale vs Complexité",
+    "entropyDistribution": "Distribution de l'entropie",
+    "aiProbabilityHeatmapBars": "Barres de carte thermique de probabilité IA",
+    "burstinessLegend": "Rafale",
+    "complexityLegend": "Complexité",
+    "entropyLegend": "Entropie",
+    "aiProbabilityLegend": "Probabilité IA"
+  },
+  "heatmap": {
+    "title": "Carte thermique de probabilité au niveau des phrases",
+    "sentenceLabel": "Phrase",
+    "aiLabel": "IA"
+  }
+}

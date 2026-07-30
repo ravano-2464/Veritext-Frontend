@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "개요",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "기록",
+    "analytics": "분석",
+    "api": "API",
+    "billing": "결제",
+    "admin": "Admin",
+    "profile": "프로필"
+  },
+  "actions": {
+    "openNavigation": "탐색 메뉴 열기",
+    "signOut": "로그아웃"
+  },
+  "confirmSignOut": {
+    "title": "계정에서 로그아웃하시겠습니까?",
+    "description": "현재 세션에서 로그아웃되며, 대시보드로 돌아오려면 다시 로그인해야 합니다.",
+    "cancel": "취소",
+    "confirm": "예, 로그아웃",
+    "confirmLoading": "로그아웃 중..."
+  },
+  "fallbackUser": {
+    "name": "분석가",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "다층 신호: 복잡도, 폭발성, 문체 분석, 의미론.",
+  "language": {
+    "label": "언어",
+    "placeholder": "언어 선택",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

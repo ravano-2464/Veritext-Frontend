@@ -1,0 +1,19 @@
+{
+  "title": "Tableau de Bord de Détection",
+  "description": "Surveillez les tendances de risque d'authorship IA sur vos analyses de texte soumises.",
+  "cards": {
+    "totalAnalyses": "Total des Analyses",
+    "averageAiProbability": "Probabilité IA Moyenne",
+    "highRiskReports": "Rapports à Haut Risque",
+    "queuedJobs": "Tâches en File d'Attente"
+  },
+  "trend": {
+    "title": "Tendance de Détection",
+    "seriesAiProbability": "Probabilité IA",
+    "seriesConfidence": "Confiance"
+  },
+  "notes": {
+    "title": "Notes Opérationnelles",
+    "body": "Les tâches en file d'attente sont relancées automatiquement. Utilisez la page Détecteur pour l'analyse synchrone, l'ingestion de fichiers et les cartes thermiques au niveau des phrases."
+  }
+}

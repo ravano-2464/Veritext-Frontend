@@ -1,0 +1,22 @@
+{
+  "title": "Linha de base de segurança empresarial",
+  "description": "A segurança não é um pensamento tardio na pilha. O VeriText aplica o endurecimento nas camadas de ingresso, computação e persistência.",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "Cabeçalhos de Segurança",
+      "detail": "Helmet + CORS estrito + gateway de API com versão"
+    },
+    "inputHygiene": {
+      "title": "Higiene de Entrada",
+      "detail": "Sanitização profunda com validação de payload e limites de tamanho"
+    },
+    "promptDefense": {
+      "title": "Defesa de Prompt",
+      "detail": "Verificação de risco de injeção de prompt antes da execução da análise"
+    },
+    "operationalReliability": {
+      "title": "Confiabilidade Operacional",
+      "detail": "Cache Redis, novas tentativas de fila, sondas de saúde, ganchos de observabilidade"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "检测仪表板",
+  "description": "监控您提交的文本分析中的 AI 作者风险趋势。",
+  "cards": {
+    "totalAnalyses": "总分析数",
+    "averageAiProbability": "平均 AI 概率",
+    "highRiskReports": "高风险报告",
+    "queuedJobs": "队列中的任务"
+  },
+  "trend": {
+    "title": "检测趋势",
+    "seriesAiProbability": "AI 概率",
+    "seriesConfidence": "置信度"
+  },
+  "notes": {
+    "title": "操作说明",
+    "body": "队列任务会自动重试。请使用检测器页面进行同步分析、文件导入和句子级热图。"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "エンタープライズセキュリティベースライン",
+  "description": "セキュリティはスタックの後付けではありません。VeriTextはイングレス、コンピュート、永続化レイヤーで堅牢化を強制します。",
+  "checkpoints": {
+    "securityHeaders": {
+      "title": "セキュリティヘッダー",
+      "detail": "Helmet + 厳格なCORS + バージョン管理されたAPIゲートウェイ"
+    },
+    "inputHygiene": {
+      "title": "入力の衛生管理",
+      "detail": "ペイロード検証とサイズ制限を伴う徹底的なサニタイズ"
+    },
+    "promptDefense": {
+      "title": "プロンプト防御",
+      "detail": "分析実行前のプロンプトインジェクションリスクスキャン"
+    },
+    "operationalReliability": {
+      "title": "運用信頼性",
+      "detail": "Redisキャッシュ、キューのリトライ、ヘルスプローブ、オブザーバビリティフック"
+    }
+  }
+}

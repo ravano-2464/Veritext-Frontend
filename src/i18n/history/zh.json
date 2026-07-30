@@ -1,0 +1,50 @@
+{
+  "title": "分析历史",
+  "description": "审核过去的运行记录，调查可疑输出，并打开完整的句子级报告。",
+  "focusedReportPrefix": "专项报告",
+  "untitled": "未命名",
+  "table": {
+    "empty": "暂无分析记录。请在检测器页面运行首次检测。",
+    "title": "标题",
+    "status": "状态",
+    "aiProbability": "AI 概率",
+    "language": "语言",
+    "created": "创建时间",
+    "open": "打开",
+    "view": "查看",
+    "untitledAnalysis": "未命名分析"
+  },
+  "summary": {
+    "title": "总体检测摘要",
+    "aiLikelihoodSuffix": "AI 可能性",
+    "mixedSignalLabel": "AI 与人类混合信号",
+    "aiHeavyLabel": "以 AI 为主的信号",
+    "humanHeavyLabel": "以人类为主的信号",
+    "aiProbabilityLabel": "AI 概率",
+    "confidenceLabel": "置信度",
+    "humanLikelihoodLabel": "人类可能性",
+    "suspiciousRatioLabel": "可疑句子比例",
+    "modelInterpretationTitle": "模型解读",
+    "modelInterpretationMixed": "文本呈现出混合作者特征：部分句子符合 AI 式结构，而其他句子看起来像人工书写。",
+    "modelInterpretationAiHeavy": "AI 辅助生成的可能性较高。",
+    "modelInterpretationHumanHeavy": "信号更接近自然的人类写作风格。",
+    "riskControlsTitle": "风险控制",
+    "riskControlsBody": "在做出最终审核决定之前，请使用句子高亮和熵异常功能。",
+    "multilayerScoringBadge": "多层评分",
+    "explainabilityBadge": "可解释性优先输出"
+  },
+  "charts": {
+    "burstinessVsComplexity": "突发性与复杂度",
+    "entropyDistribution": "熵分布",
+    "aiProbabilityHeatmapBars": "AI 概率热力图条形",
+    "burstinessLegend": "突发性",
+    "complexityLegend": "复杂度",
+    "entropyLegend": "熵",
+    "aiProbabilityLegend": "AI 概率"
+  },
+  "heatmap": {
+    "title": "句子级概率热力图",
+    "sentenceLabel": "句子",
+    "aiLabel": "AI"
+  }
+}

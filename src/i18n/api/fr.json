@@ -1,0 +1,26 @@
+{
+  "title": "API Entreprise",
+  "description": "Émettez des clés délimitées pour les flux de travail de détection à haut volume, de téléchargement, d'historique et d'analytique.",
+  "cards": {
+    "createApiKey": "Créer une clé API",
+    "keys": "Clés",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "Nom",
+    "namePlaceholder": "Intégration de production",
+    "workspaceLabel": "Espace de travail",
+    "workspacePersonal": "Personnel"
+  },
+  "buttons": {
+    "issueKey": "Émettre une clé",
+    "revoke": "Révoquer"
+  },
+  "toasts": {
+    "apiKeyCreated": "Clé API créée avec succès",
+    "apiKeyFailed": "Échec de la création de la clé API",
+    "apiKeyRevoked": "Clé API révoquée",
+    "copied": "Copié"
+  },
+  "warning": "Copiez cette clé maintenant. Elle ne sera plus affichée."
+}

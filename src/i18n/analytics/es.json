@@ -1,0 +1,20 @@
+{
+  "title": "Inteligencia de escritura",
+  "description": "Tendencias de autenticidad, uso, latencia y fuentes de IA a nivel de portafolio.",
+  "selectScopePlaceholder": "Alcance",
+  "personalWorkspace": "Espacio de trabajo personal",
+  "stats": {
+    "detections": "Detecciones",
+    "completion": "Finalización",
+    "avgAiScore": "Puntuación IA promedio",
+    "avgConfidence": "Confianza promedio"
+  },
+  "charts": {
+    "detectionTrend": "Tendencia de detección",
+    "aiFingerprints": "Huellas de IA"
+  },
+  "cards": {
+    "usageEvents": "Eventos de uso",
+    "recentDetections": "Detecciones recientes"
+  }
+}

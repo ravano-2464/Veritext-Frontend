@@ -1,0 +1,30 @@
+{
+  "title": "Purpose-built for detection operations",
+  "description": "Built with enterprise software architecture and modern frontend ergonomics, so teams can move from suspicion to evidence in one workflow.",
+  "features": {
+    "sentenceForensics": {
+      "title": "Sentence-Level Forensics",
+      "body": "Every sentence receives AI probability, confidence, and suspicious-span tagging."
+    },
+    "fusionEngine": {
+      "title": "Fusion Scoring Engine",
+      "body": "Weighted signal fusion combines four linguistic models into a calibrated final score."
+    },
+    "burstinessCurves": {
+      "title": "Burstiness & Entropy Curves",
+      "body": "Visualize rhythmic consistency and token entropy to diagnose synthetic writing patterns."
+    },
+    "analystDashboards": {
+      "title": "Analyst Dashboards",
+      "body": "Track historical trends by user, source, and model confidence with export-ready records."
+    },
+    "securityHardening": {
+      "title": "Security Hardening",
+      "body": "Input sanitization, rate limits, upload validation, and anti prompt-injection controls."
+    },
+    "queueProcessing": {
+      "title": "Queue-Backed Processing",
+      "body": "BullMQ and Redis enable reliable async workloads for large enterprise throughput."
+    }
+  }
+}

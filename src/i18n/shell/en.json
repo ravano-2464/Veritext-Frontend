@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "History",
+    "analytics": "Analytics",
+    "api": "API",
+    "billing": "Billing",
+    "admin": "Admin",
+    "profile": "Profile"
+  },
+  "actions": {
+    "openNavigation": "Open navigation",
+    "signOut": "Sign Out"
+  },
+  "confirmSignOut": {
+    "title": "Sign out of your account?",
+    "description": "You will be signed out of this session and need to log in again to return to the dashboard.",
+    "cancel": "Cancel",
+    "confirm": "Yes, sign out",
+    "confirmLoading": "Signing out..."
+  },
+  "fallbackUser": {
+    "name": "Analyst",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "Multi-layer signals: perplexity, burstiness, stylometry, semantics.",
+  "language": {
+    "label": "Language",
+    "placeholder": "Select language",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

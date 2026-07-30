@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "نظرة عامة",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "السجل",
+    "analytics": "التحليلات",
+    "api": "API",
+    "billing": "الفواتير",
+    "admin": "Admin",
+    "profile": "الملف الشخصي"
+  },
+  "actions": {
+    "openNavigation": "فتح التنقل",
+    "signOut": "تسجيل الخروج"
+  },
+  "confirmSignOut": {
+    "title": "هل تريد تسجيل الخروج من حسابك؟",
+    "description": "سيتم تسجيل خروجك من هذه الجلسة وستحتاج إلى تسجيل الدخول مرة أخرى للعودة إلى لوحة التحكم.",
+    "cancel": "إلغاء",
+    "confirm": "نعم، تسجيل الخروج",
+    "confirmLoading": "جارٍ تسجيل الخروج..."
+  },
+  "fallbackUser": {
+    "name": "محلل",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "إشارات متعددة الطبقات: التعقيد، الانفجارية، تحليل الأسلوب، الدلالات.",
+  "language": {
+    "label": "اللغة",
+    "placeholder": "اختر اللغة",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

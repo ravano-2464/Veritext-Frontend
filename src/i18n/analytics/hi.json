@@ -1,0 +1,20 @@
+{
+  "title": "लेखन बुद्धिमत्ता",
+  "description": "पोर्टफोलियो स्तर पर प्रामाणिकता, उपयोग, विलंबता और AI-स्रोत के रुझान।",
+  "selectScopePlaceholder": "दायरा",
+  "personalWorkspace": "व्यक्तिगत कार्यक्षेत्र",
+  "stats": {
+    "detections": "पहचान",
+    "completion": "पूर्णता",
+    "avgAiScore": "औसत AI स्कोर",
+    "avgConfidence": "औसत विश्वास"
+  },
+  "charts": {
+    "detectionTrend": "पहचान प्रवृत्ति",
+    "aiFingerprints": "AI फिंगरप्रिंट"
+  },
+  "cards": {
+    "usageEvents": "उपयोग घटनाएँ",
+    "recentDetections": "हाल की पहचान"
+  }
+}

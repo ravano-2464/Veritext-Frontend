@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "概览",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "历史记录",
+    "analytics": "分析",
+    "api": "API",
+    "billing": "账单",
+    "admin": "Admin",
+    "profile": "个人资料"
+  },
+  "actions": {
+    "openNavigation": "打开导航",
+    "signOut": "退出登录"
+  },
+  "confirmSignOut": {
+    "title": "确定要退出账号吗？",
+    "description": "您将退出当前会话，需要重新登录才能返回仪表板。",
+    "cancel": "取消",
+    "confirm": "是的，退出",
+    "confirmLoading": "正在退出..."
+  },
+  "fallbackUser": {
+    "name": "分析师",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "多层信号：困惑度、突发性、文体分析、语义学。",
+  "language": {
+    "label": "语言",
+    "placeholder": "选择语言",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

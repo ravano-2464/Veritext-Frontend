@@ -1,0 +1,13 @@
+{
+  "badge": "Enterprise AI Writing Authenticity",
+  "title": "VeriText",
+  "description": "An AI writing intelligence platform for universities, enterprises, publishers, recruiters, and research teams that need evidence, not guesses.",
+  "startFree": "Start Free",
+  "dashboard": "Dashboard",
+  "openDetector": "Open Detector",
+  "proofPoints": {
+    "multilingual": "English, Indonesian, mixed multilingual text",
+    "controls": "Workspace, API key, billing, and admin controls",
+    "features": "Layered scoring, uploads, exports, and webhooks"
+  }
+}

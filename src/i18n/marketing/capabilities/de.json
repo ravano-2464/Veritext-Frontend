@@ -1,0 +1,30 @@
+{
+  "title": "Speziell für Erkennungsoperationen entwickelt",
+  "description": "Mit Enterprise-Software-Architektur und moderner Frontend-Ergonomie entwickelt, damit Teams in einem einzigen Workflow von Verdacht zu Beweisen gelangen können.",
+  "features": {
+    "sentenceForensics": {
+      "title": "Forensik auf Satzebene",
+      "body": "Jeder Satz erhält KI-Wahrscheinlichkeit, Konfidenz und Markierung verdächtiger Abschnitte."
+    },
+    "fusionEngine": {
+      "title": "Fusion-Scoring-Engine",
+      "body": "Gewichtete Signalfusion kombiniert vier linguistische Modelle zu einem kalibrierten Gesamtscore."
+    },
+    "burstinessCurves": {
+      "title": "Burstiness- und Entropie-Kurven",
+      "body": "Visualisieren Sie rhythmische Konsistenz und Token-Entropie zur Diagnose synthetischer Schreibmuster."
+    },
+    "analystDashboards": {
+      "title": "Analysten-Dashboards",
+      "body": "Verfolgen Sie historische Trends nach Benutzer, Quelle und Modellkonfidenz mit exportfertigen Datensätzen."
+    },
+    "securityHardening": {
+      "title": "Sicherheitshärtung",
+      "body": "Eingabebereinigung, Ratenbegrenzung, Upload-Validierung und Anti-Prompt-Injection-Kontrollen."
+    },
+    "queueProcessing": {
+      "title": "Warteschlangenbasierte Verarbeitung",
+      "body": "BullMQ und Redis ermöglichen zuverlässige asynchrone Workloads für hohen Enterprise-Durchsatz."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Dashboard Deteksi",
+  "description": "Pantau tren risiko kepenulisan AI dari analisis teks yang kamu kirimkan.",
+  "cards": {
+    "totalAnalyses": "Total Analisis",
+    "averageAiProbability": "Rata-rata Probabilitas AI",
+    "highRiskReports": "Laporan Risiko Tinggi",
+    "queuedJobs": "Pekerjaan Dalam Antrian"
+  },
+  "trend": {
+    "title": "Tren Deteksi",
+    "seriesAiProbability": "Probabilitas AI",
+    "seriesConfidence": "Kepercayaan"
+  },
+  "notes": {
+    "title": "Catatan Operasional",
+    "body": "Pekerjaan antrian akan dicoba ulang otomatis. Gunakan halaman Detektor untuk analisis sinkron, unggah file, dan heatmap per kalimat."
+  }
+}

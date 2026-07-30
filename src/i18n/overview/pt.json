@@ -1,0 +1,19 @@
+{
+  "title": "Painel de Detecção",
+  "description": "Monitore as tendências de risco de autoria de IA nas análises de texto enviadas.",
+  "cards": {
+    "totalAnalyses": "Total de Análises",
+    "averageAiProbability": "Probabilidade Média de IA",
+    "highRiskReports": "Relatórios de Alto Risco",
+    "queuedJobs": "Trabalhos na Fila"
+  },
+  "trend": {
+    "title": "Tendência de Detecção",
+    "seriesAiProbability": "Probabilidade de IA",
+    "seriesConfidence": "Confiança"
+  },
+  "notes": {
+    "title": "Notas Operacionais",
+    "body": "Os trabalhos na fila são repetidos automaticamente. Use a página do Detector para análise síncrona, ingestão de arquivos e mapas de calor em nível de frase."
+  }
+}

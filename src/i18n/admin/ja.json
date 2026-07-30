@@ -1,0 +1,54 @@
+{
+  "title": "管理者",
+  "description": "ユーザー操作、フラグ付きコンテンツの確認、API監視、システムの健全性。",
+  "accessRequired": {
+    "title": "管理者アクセスが必要です",
+    "description": "プラットフォーム監視とユーザー管理は管理者に制限されています。"
+  },
+  "refreshingRole": {
+    "title": "管理者アクセスを更新中",
+    "description": "管理ツールを開く前に最新のロールを確認しています。"
+  },
+  "totals": {
+    "users": "ユーザー",
+    "organizations": "組織",
+    "detections": "検出",
+    "activeApiKeys": "有効なAPIキー",
+    "flaggedDetections": "フラグ付き検出",
+    "failedDetections": "失敗した検出"
+  },
+  "cards": {
+    "users": "ユーザー",
+    "system": "システム",
+    "apiMonitoring": "API監視"
+  },
+  "table": {
+    "name": "名前",
+    "email": "メール",
+    "role": "ロール",
+    "provider": "プロバイダー",
+    "actions": "操作"
+  },
+  "roles": {
+    "USER": "ユーザー",
+    "ADMIN": "管理者"
+  },
+  "actions": {
+    "promote": "昇格",
+    "delete": "削除",
+    "deleteSelfDisabled": "自分のアカウントは削除できません"
+  },
+  "deleteDialog": {
+    "title": "ユーザーを削除しますか？",
+    "description": "{{user}} と関連データを削除します。この操作は元に戻せません。",
+    "fallbackUser": "このユーザー",
+    "cancel": "キャンセル",
+    "confirm": "ユーザーを削除"
+  },
+  "toasts": {
+    "roleUpdated": "ユーザーロールを更新しました。",
+    "roleUpdateFailed": "ユーザーロールの更新に失敗しました。",
+    "userDeleted": "ユーザーを削除しました。",
+    "userDeleteFailed": "ユーザーの削除に失敗しました。"
+  }
+}

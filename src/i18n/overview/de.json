@@ -1,0 +1,19 @@
+{
+  "title": "Erkennungs-Dashboard",
+  "description": "Überwachen Sie KI-Urheberschafts-Risikotrends in Ihren eingereichten Textanalysen.",
+  "cards": {
+    "totalAnalyses": "Analysen gesamt",
+    "averageAiProbability": "Durchschnittliche KI-Wahrscheinlichkeit",
+    "highRiskReports": "Hochrisiko-Berichte",
+    "queuedJobs": "Jobs in der Warteschlange"
+  },
+  "trend": {
+    "title": "Erkennungstrend",
+    "seriesAiProbability": "KI-Wahrscheinlichkeit",
+    "seriesConfidence": "Konfidenz"
+  },
+  "notes": {
+    "title": "Betriebshinweise",
+    "body": "Warteschlangen-Jobs werden automatisch wiederholt. Verwenden Sie die Detektor-Seite für synchrone Analysen, Dateiaufnahme und satzbasierte Heatmaps."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Panel de Detección",
+  "description": "Monitorea las tendencias de riesgo de autoría de IA en los análisis de texto enviados.",
+  "cards": {
+    "totalAnalyses": "Total de Análisis",
+    "averageAiProbability": "Probabilidad Promedio de IA",
+    "highRiskReports": "Informes de Alto Riesgo",
+    "queuedJobs": "Trabajos en Cola"
+  },
+  "trend": {
+    "title": "Tendencia de Detección",
+    "seriesAiProbability": "Probabilidad de IA",
+    "seriesConfidence": "Confianza"
+  },
+  "notes": {
+    "title": "Notas Operativas",
+    "body": "Los trabajos en cola se reintentan automáticamente. Usa la página del Detector para análisis síncronos, ingesta de archivos y mapas de calor a nivel de oración."
+  }
+}

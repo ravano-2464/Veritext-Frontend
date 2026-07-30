@@ -1,0 +1,54 @@
+{
+  "title": "管理员",
+  "description": "用户操作、已标记内容审核、API 监控和系统健康状况。",
+  "accessRequired": {
+    "title": "需要管理员访问权限",
+    "description": "平台监控和用户管理仅限管理员使用。"
+  },
+  "refreshingRole": {
+    "title": "正在更新管理员访问权限",
+    "description": "在打开管理员工具前，正在检查你的最新角色。"
+  },
+  "totals": {
+    "users": "用户",
+    "organizations": "组织",
+    "detections": "检测",
+    "activeApiKeys": "活跃 API 密钥",
+    "flaggedDetections": "已标记检测",
+    "failedDetections": "失败检测"
+  },
+  "cards": {
+    "users": "用户",
+    "system": "系统",
+    "apiMonitoring": "API 监控"
+  },
+  "table": {
+    "name": "姓名",
+    "email": "电子邮件",
+    "role": "角色",
+    "provider": "提供商",
+    "actions": "操作"
+  },
+  "roles": {
+    "USER": "用户",
+    "ADMIN": "管理员"
+  },
+  "actions": {
+    "promote": "提升权限",
+    "delete": "删除",
+    "deleteSelfDisabled": "你无法删除自己的账户"
+  },
+  "deleteDialog": {
+    "title": "删除用户？",
+    "description": "这将删除 {{user}} 及其相关数据。此操作无法撤销。",
+    "fallbackUser": "此用户",
+    "cancel": "取消",
+    "confirm": "删除用户"
+  },
+  "toasts": {
+    "roleUpdated": "用户角色已更新。",
+    "roleUpdateFailed": "更新用户角色失败。",
+    "userDeleted": "用户已删除。",
+    "userDeleteFailed": "删除用户失败。"
+  }
+}

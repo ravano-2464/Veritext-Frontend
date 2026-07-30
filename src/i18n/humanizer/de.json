@@ -1,0 +1,62 @@
+{
+  "title": "Text-Humanisierer",
+  "description": "Schreibe strukturierte, KI-artige Entwürfe in natürlichere, menschlichere Texte um – ohne die ursprüngliche Botschaft zu verändern.",
+  "cards": {
+    "inputTitle": "Eingabe",
+    "outputTitle": "Humanisierte Ausgabe"
+  },
+  "form": {
+    "languageLabel": "Sprache",
+    "intensityLabel": "Intensität",
+    "styleLabel": "Stil",
+    "textLabel": "Zu humanisierender Text",
+    "textPlaceholder": "Füge mindestens 60 Zeichen Text ein, der menschlicher klingen soll...",
+    "charactersLabel": "Zeichen",
+    "languagePlaceholder": "Sprache auswählen",
+    "intensityPlaceholder": "Intensität auswählen",
+    "stylePlaceholder": "Stil auswählen",
+    "submitButton": "Text humanisieren"
+  },
+  "options": {
+    "languages": {
+      "auto": "Automatisch erkennen",
+      "en": "Englisch",
+      "id": "Indonesisch",
+      "es": "Spanisch",
+      "fr": "Französisch",
+      "de": "Deutsch",
+      "ar": "Arabisch",
+      "zh": "Chinesisch"
+    },
+    "intensity": {
+      "light": "Leicht",
+      "balanced": "Ausgewogen",
+      "strong": "Stark"
+    },
+    "style": {
+      "balanced": "Ausgewogen",
+      "casual": "Locker",
+      "professional": "Professionell"
+    }
+  },
+  "output": {
+    "placeholder": "Die humanisierte Ausgabe erscheint hier nach der Verarbeitung.",
+    "copyButton": "Ausgabe kopieren",
+    "copiedButton": "Kopiert",
+    "reEditButton": "Ausgabe erneut bearbeiten"
+  },
+  "metrics": {
+    "aiProbability": "KI-Wahrscheinlichkeit",
+    "suspiciousSentences": "Verdächtige Sätze",
+    "rewrittenSentences": "Umgeschriebene Sätze",
+    "rewriteActions": "Umschreibe-Aktionen"
+  },
+  "toasts": {
+    "humanizedSuccess": "Text erfolgreich humanisiert.",
+    "humanizedFailed": "Humanisierung fehlgeschlagen.",
+    "signInRequired": "Bitte erneut anmelden, um fortzufahren.",
+    "copiedSuccess": "Humanisierter Text kopiert.",
+    "copiedFailed": "Kopieren fehlgeschlagen.",
+    "outputMoved": "Ausgabe in den Eingabe-Editor verschoben."
+  }
+}

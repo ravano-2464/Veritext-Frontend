@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "概要",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "履歴",
+    "analytics": "分析",
+    "api": "API",
+    "billing": "請求",
+    "admin": "Admin",
+    "profile": "プロフィール"
+  },
+  "actions": {
+    "openNavigation": "ナビゲーションを開く",
+    "signOut": "サインアウト"
+  },
+  "confirmSignOut": {
+    "title": "アカウントからサインアウトしますか？",
+    "description": "このセッションからサインアウトされます。ダッシュボードに戻るには再度ログインが必要です。",
+    "cancel": "キャンセル",
+    "confirm": "はい、サインアウト",
+    "confirmLoading": "サインアウト中..."
+  },
+  "fallbackUser": {
+    "name": "アナリスト",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "多層シグナル：パープレキシティ、バースティネス、文体分析、意味論。",
+  "language": {
+    "label": "言語",
+    "placeholder": "言語を選択",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

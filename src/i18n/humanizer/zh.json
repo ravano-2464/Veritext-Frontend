@@ -1,0 +1,62 @@
+{
+  "title": "文本人性化工具",
+  "description": "将结构化的 AI 风格草稿改写为更自然、更具人情味的文字，同时保留原始信息。",
+  "cards": {
+    "inputTitle": "输入文本",
+    "outputTitle": "人性化输出"
+  },
+  "form": {
+    "languageLabel": "语言",
+    "intensityLabel": "强度",
+    "styleLabel": "风格",
+    "textLabel": "待人性化的文本",
+    "textPlaceholder": "请粘贴至少 60 个字符的文本以进行人性化处理...",
+    "charactersLabel": "个字符",
+    "languagePlaceholder": "选择语言",
+    "intensityPlaceholder": "选择强度",
+    "stylePlaceholder": "选择风格",
+    "submitButton": "开始人性化"
+  },
+  "options": {
+    "languages": {
+      "auto": "自动检测",
+      "en": "英语",
+      "id": "印度尼西亚语",
+      "es": "西班牙语",
+      "fr": "法语",
+      "de": "德语",
+      "ar": "阿拉伯语",
+      "zh": "中文"
+    },
+    "intensity": {
+      "light": "轻度",
+      "balanced": "均衡",
+      "strong": "强度"
+    },
+    "style": {
+      "balanced": "均衡",
+      "casual": "随意",
+      "professional": "专业"
+    }
+  },
+  "output": {
+    "placeholder": "处理完成后，人性化结果将显示在此处。",
+    "copyButton": "复制结果",
+    "copiedButton": "已复制",
+    "reEditButton": "重新编辑"
+  },
+  "metrics": {
+    "aiProbability": "AI 概率",
+    "suspiciousSentences": "可疑句子",
+    "rewrittenSentences": "已改写句子",
+    "rewriteActions": "改写操作次数"
+  },
+  "toasts": {
+    "humanizedSuccess": "文本人性化成功。",
+    "humanizedFailed": "文本人性化失败。",
+    "signInRequired": "请重新登录以继续。",
+    "copiedSuccess": "人性化文本已复制。",
+    "copiedFailed": "复制失败。",
+    "outputMoved": "输出已移至输入编辑器。"
+  }
+}

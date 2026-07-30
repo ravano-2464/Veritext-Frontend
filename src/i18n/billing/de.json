@@ -1,0 +1,20 @@
+{
+  "title": "Abrechnung",
+  "description": "Verwalten Sie Plätze, Limits, Abonnementstufen und den Zugang zum Stripe-Kundenportal.",
+  "workspaceLabel": "Arbeitsbereich",
+  "workspacePlaceholder": "Arbeitsbereich auswählen",
+  "newWorkspaceLabel": "Neuer Arbeitsbereich",
+  "newWorkspaceDefault": "VeriText Arbeitsbereich",
+  "buttons": {
+    "create": "Erstellen",
+    "portal": "Portal",
+    "currentStarter": "Aktuelles Starter-Paket",
+    "upgrade": "Upgraden"
+  },
+  "toasts": {
+    "workspaceCreated": "Arbeitsbereich erstellt",
+    "checkoutFailed": "Checkout fehlgeschlagen"
+  },
+  "customPrice": "Individuell",
+  "detectionsPerMonth": "Erkennungen / Monat"
+}

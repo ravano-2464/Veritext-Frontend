@@ -1,0 +1,20 @@
+{
+  "title": "Schreibintelligenz",
+  "description": "Authentizität, Nutzung, Latenz und KI-Quellentrends auf Portfolioebene.",
+  "selectScopePlaceholder": "Bereich",
+  "personalWorkspace": "Persönlicher Arbeitsbereich",
+  "stats": {
+    "detections": "Erkennungen",
+    "completion": "Abschluss",
+    "avgAiScore": "Durchschn. KI-Bewertung",
+    "avgConfidence": "Durchschn. Konfidenz"
+  },
+  "charts": {
+    "detectionTrend": "Erkennungstrend",
+    "aiFingerprints": "KI-Fingerabdrücke"
+  },
+  "cards": {
+    "usageEvents": "Nutzungsereignisse",
+    "recentDetections": "Aktuelle Erkennungen"
+  }
+}

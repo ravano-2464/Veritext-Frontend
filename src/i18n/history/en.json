@@ -1,0 +1,50 @@
+{
+  "title": "Analysis History",
+  "description": "Audit past runs, investigate suspicious outputs, and open full sentence-level reports.",
+  "focusedReportPrefix": "Focused Report",
+  "untitled": "Untitled",
+  "table": {
+    "empty": "No analyses yet. Run your first detection in the Detector page.",
+    "title": "Title",
+    "status": "Status",
+    "aiProbability": "AI Probability",
+    "language": "Language",
+    "created": "Created",
+    "open": "Open",
+    "view": "View",
+    "untitledAnalysis": "Untitled analysis"
+  },
+  "summary": {
+    "title": "Overall Detection Summary",
+    "aiLikelihoodSuffix": "AI likelihood",
+    "mixedSignalLabel": "Mixed AI-human signal",
+    "aiHeavyLabel": "AI-heavy signal",
+    "humanHeavyLabel": "Human-heavy signal",
+    "aiProbabilityLabel": "AI Probability",
+    "confidenceLabel": "Confidence",
+    "humanLikelihoodLabel": "Human Likelihood",
+    "suspiciousRatioLabel": "Suspicious sentence ratio",
+    "modelInterpretationTitle": "Model interpretation",
+    "modelInterpretationMixed": "The text shows mixed authorship patterns: some sentences align with AI-like structure while others look human-written.",
+    "modelInterpretationAiHeavy": "High probability of AI-assisted generation.",
+    "modelInterpretationHumanHeavy": "Signals are closer to organic human composition.",
+    "riskControlsTitle": "Risk controls",
+    "riskControlsBody": "Use sentence highlights and entropy anomalies before final moderation decisions.",
+    "multilayerScoringBadge": "Multilayer scoring",
+    "explainabilityBadge": "Explainability-first output"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs Complexity",
+    "entropyDistribution": "Entropy Distribution",
+    "aiProbabilityHeatmapBars": "AI Probability Heatmap Bars",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Complexity",
+    "entropyLegend": "Entropy",
+    "aiProbabilityLegend": "AI Probability"
+  },
+  "heatmap": {
+    "title": "Sentence-level probability heatmap",
+    "sentenceLabel": "Sentence",
+    "aiLabel": "AI"
+  }
+}

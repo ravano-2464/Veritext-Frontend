@@ -1,0 +1,13 @@
+{
+  "badge": "エンタープライズ向けAI文章真正性",
+  "title": "VeriText",
+  "description": "大学、企業、出版社、採用担当者、研究チームのための AI 文章インテリジェンスプラットフォーム。推測ではなく、証拠が必要な方に。",
+  "startFree": "無料で始める",
+  "dashboard": "ダッシュボード",
+  "openDetector": "検出器を開く",
+  "proofPoints": {
+    "multilingual": "英語、インドネシア語、混合多言語テキスト",
+    "controls": "ワークスペース、APIキー、請求、管理者コントロール",
+    "features": "階層スコアリング、アップロード、エクスポート、Webhook"
+  }
+}

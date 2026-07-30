@@ -1,0 +1,54 @@
+{
+  "title": "Administração",
+  "description": "Operações de usuários, revisão de conteúdo sinalizado, monitoramento de API e integridade do sistema.",
+  "accessRequired": {
+    "title": "Acesso de administrador necessário",
+    "description": "O monitoramento da plataforma e o gerenciamento de usuários são restritos a administradores."
+  },
+  "refreshingRole": {
+    "title": "Atualizando acesso de administrador",
+    "description": "Verificando sua função mais recente antes de abrir as ferramentas de administração."
+  },
+  "totals": {
+    "users": "Usuários",
+    "organizations": "Organizações",
+    "detections": "Detecções",
+    "activeApiKeys": "Chaves de API ativas",
+    "flaggedDetections": "Detecções sinalizadas",
+    "failedDetections": "Detecções com falha"
+  },
+  "cards": {
+    "users": "Usuários",
+    "system": "Sistema",
+    "apiMonitoring": "Monitoramento de API"
+  },
+  "table": {
+    "name": "Nome",
+    "email": "E-mail",
+    "role": "Função",
+    "provider": "Provedor",
+    "actions": "Ações"
+  },
+  "roles": {
+    "USER": "Usuário",
+    "ADMIN": "Administrador"
+  },
+  "actions": {
+    "promote": "Promover",
+    "delete": "Excluir",
+    "deleteSelfDisabled": "Você não pode excluir sua própria conta"
+  },
+  "deleteDialog": {
+    "title": "Excluir usuário?",
+    "description": "Isso excluirá {{user}} e seus dados relacionados. Esta ação não pode ser desfeita.",
+    "fallbackUser": "este usuário",
+    "cancel": "Cancelar",
+    "confirm": "Excluir usuário"
+  },
+  "toasts": {
+    "roleUpdated": "Função do usuário atualizada.",
+    "roleUpdateFailed": "Falha ao atualizar a função do usuário.",
+    "userDeleted": "Usuário excluído.",
+    "userDeleteFailed": "Falha ao excluir o usuário."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "企业 API",
+  "description": "为高流量检测、上传、历史记录和分析工作流发放限定范围的密钥。",
+  "cards": {
+    "createApiKey": "创建 API 密钥",
+    "keys": "密钥",
+    "restApi": "REST API"
+  },
+  "fields": {
+    "nameLabel": "名称",
+    "namePlaceholder": "生产环境集成",
+    "workspaceLabel": "工作区",
+    "workspacePersonal": "个人"
+  },
+  "buttons": {
+    "issueKey": "发放密钥",
+    "revoke": "撤销"
+  },
+  "toasts": {
+    "apiKeyCreated": "API 密钥创建成功",
+    "apiKeyFailed": "API 密钥创建失败",
+    "apiKeyRevoked": "API 密钥已撤销",
+    "copied": "已复制"
+  },
+  "warning": "请立即复制此密钥。它将不再显示。"
+}

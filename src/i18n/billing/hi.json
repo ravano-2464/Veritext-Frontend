@@ -1,0 +1,20 @@
+{
+  "title": "बिलिंग",
+  "description": "सीटें, सीमाएँ, सदस्यता स्तर और Stripe ग्राहक पोर्टल एक्सेस प्रबंधित करें।",
+  "workspaceLabel": "कार्यक्षेत्र",
+  "workspacePlaceholder": "कार्यक्षेत्र चुनें",
+  "newWorkspaceLabel": "नया कार्यक्षेत्र",
+  "newWorkspaceDefault": "VeriText कार्यक्षेत्र",
+  "buttons": {
+    "create": "बनाएं",
+    "portal": "पोर्टल",
+    "currentStarter": "वर्तमान स्टार्टर प्लान",
+    "upgrade": "अपग्रेड करें"
+  },
+  "toasts": {
+    "workspaceCreated": "कार्यक्षेत्र बनाया गया",
+    "checkoutFailed": "भुगतान विफल रहा"
+  },
+  "customPrice": "कस्टम",
+  "detectionsPerMonth": "पहचान / माह"
+}

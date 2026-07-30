@@ -1,0 +1,85 @@
+{
+  "title": "KI-Textdetektor",
+  "description": "Senden Sie Text oder laden Sie Dokumente hoch, um eine mehrschichtige KI-Wahrscheinlichkeitsanalyse mit satzweisen Belegen und grafischen Schreibmustern zu erhalten.",
+  "cards": {
+    "analyzeTextInput": "Texteingabe analysieren",
+    "uploadForAnalysis": "Zum Analysieren hochladen"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "Analysetitel",
+    "analysisTitlePlaceholder": "Richtlinienprüfungs-Batch",
+    "languageLabel": "Sprache",
+    "languagePlaceholder": "Sprache auswählen",
+    "languageOptions": {
+      "auto": "Automatisch erkennen",
+      "en": "Englisch",
+      "id": "Bahasa Indonesia",
+      "es": "Spanisch",
+      "fr": "Französisch",
+      "de": "Deutsch",
+      "ar": "Arabisch",
+      "zh": "Chinesisch"
+    },
+    "textLabel": "Zu bewertender Text",
+    "textPlaceholder": "Textinhalt hier einfügen für die KI-Autorenanalyse...",
+    "charactersLabel": "Zeichen",
+    "submitButton": "Text analysieren"
+  },
+  "uploadArea": {
+    "title": "Textdatei hochladen",
+    "description": "TXT, CSV, Markdown oder JSON bis 4 MB",
+    "chooseFile": "Datei auswählen",
+    "uploadAriaLabel": "Textdatei hochladen",
+    "removeFileAriaLabel": "Datei entfernen"
+  },
+  "uploadFields": {
+    "titleLabel": "Titel",
+    "titlePlaceholder": "Hochgeladener Moderations-Batch",
+    "languageLabel": "Sprache",
+    "languagePlaceholder": "auto"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "Hochgeladene Datei analysieren"
+  },
+  "toasts": {
+    "textAnalyzed": "Text erfolgreich analysiert.",
+    "detectionFailed": "Erkennung fehlgeschlagen.",
+    "fileAnalyzed": "Datei erfolgreich analysiert.",
+    "uploadFailed": "Upload-Analyse fehlgeschlagen.",
+    "signInRequired": "Bitte melden Sie sich erneut an, um fortzufahren.",
+    "selectFileFirst": "Bitte zuerst eine Datei auswählen."
+  },
+  "summary": {
+    "title": "Gesamte Erkennungszusammenfassung",
+    "aiLikelihoodSuffix": "KI-Wahrscheinlichkeit",
+    "mixedSignalLabel": "Gemischtes KI-Mensch-Signal",
+    "aiHeavyLabel": "KI-dominantes Signal",
+    "humanHeavyLabel": "Menschlich dominantes Signal",
+    "aiProbabilityLabel": "KI-Wahrscheinlichkeit",
+    "confidenceLabel": "Konfidenz",
+    "humanLikelihoodLabel": "Menschliche Wahrscheinlichkeit",
+    "suspiciousRatioLabel": "Anteil verdächtiger Sätze",
+    "modelInterpretationTitle": "Modellinterpretation",
+    "modelInterpretationMixed": "Der Text zeigt gemischte Autorschaftsmuster: Einige Sätze entsprechen KI-typischen Strukturen, während andere menschlich geschrieben wirken.",
+    "modelInterpretationAiHeavy": "Hohe Wahrscheinlichkeit für KI-unterstützte Generierung.",
+    "modelInterpretationHumanHeavy": "Signale deuten eher auf organische menschliche Komposition hin.",
+    "riskControlsTitle": "Risikokontrollen",
+    "riskControlsBody": "Verwenden Sie Satzmarkierungen und Entropie-Anomalien vor endgültigen Moderationsentscheidungen.",
+    "multilayerScoringBadge": "Mehrschichtiges Scoring",
+    "explainabilityBadge": "Erklärbarkeit-orientierte Ausgabe"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness vs. Komplexität",
+    "entropyDistribution": "Entropieverteilung",
+    "aiProbabilityHeatmapBars": "KI-Wahrscheinlichkeits-Heatmap-Balken",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "Komplexität",
+    "entropyLegend": "Entropie",
+    "aiProbabilityLegend": "KI-Wahrscheinlichkeit"
+  },
+  "heatmap": {
+    "title": "Satzweisige Wahrscheinlichkeits-Heatmap",
+    "sentenceLabel": "Satz",
+    "aiLabel": "KI"
+  }
+}

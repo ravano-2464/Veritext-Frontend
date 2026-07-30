@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "Resumen",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "Historial",
+    "analytics": "Analítica",
+    "api": "API",
+    "billing": "Facturación",
+    "admin": "Admin",
+    "profile": "Perfil"
+  },
+  "actions": {
+    "openNavigation": "Abrir navegación",
+    "signOut": "Cerrar sesión"
+  },
+  "confirmSignOut": {
+    "title": "¿Cerrar sesión en tu cuenta?",
+    "description": "Se cerrará tu sesión actual y necesitarás iniciar sesión nuevamente para volver al panel.",
+    "cancel": "Cancelar",
+    "confirm": "Sí, cerrar sesión",
+    "confirmLoading": "Cerrando sesión..."
+  },
+  "fallbackUser": {
+    "name": "Analista",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "Señales multicapa: perplejidad, explosividad, estilometría, semántica.",
+  "language": {
+    "label": "Idioma",
+    "placeholder": "Seleccionar idioma",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

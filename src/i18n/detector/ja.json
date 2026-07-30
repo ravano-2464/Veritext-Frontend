@@ -1,0 +1,85 @@
+{
+  "title": "AIテキスト検出器",
+  "description": "テキストを送信またはドキュメントをアップロードして、文レベルの証拠と図示された文章パターンを含む多層AIの確率分析を取得します。",
+  "cards": {
+    "analyzeTextInput": "テキスト入力を分析",
+    "uploadForAnalysis": "分析用にアップロード"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "分析タイトル",
+    "analysisTitlePlaceholder": "ポリシーレビューバッチ",
+    "languageLabel": "言語",
+    "languagePlaceholder": "言語を選択",
+    "languageOptions": {
+      "auto": "自動検出",
+      "en": "英語",
+      "id": "インドネシア語",
+      "es": "スペイン語",
+      "fr": "フランス語",
+      "de": "ドイツ語",
+      "ar": "アラビア語",
+      "zh": "中国語"
+    },
+    "textLabel": "評価するテキスト",
+    "textPlaceholder": "AIの著者分析のためにここにテキスト内容を貼り付けてください...",
+    "charactersLabel": "文字",
+    "submitButton": "テキストを分析"
+  },
+  "uploadArea": {
+    "title": "テキストファイルをアップロード",
+    "description": "TXT、CSV、Markdown、またはJSONで4MBまで",
+    "chooseFile": "ファイルを選択",
+    "uploadAriaLabel": "テキストファイルをアップロード",
+    "removeFileAriaLabel": "ファイルを削除"
+  },
+  "uploadFields": {
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "アップロードされたモデレーションバッチ",
+    "languageLabel": "言語",
+    "languagePlaceholder": "自動"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "アップロードされたファイルを分析"
+  },
+  "toasts": {
+    "textAnalyzed": "テキストが正常に分析されました。",
+    "detectionFailed": "検出に失敗しました。",
+    "fileAnalyzed": "ファイルが正常に分析されました。",
+    "uploadFailed": "アップロード分析に失敗しました。",
+    "signInRequired": "続行するには再度サインインしてください。",
+    "selectFileFirst": "最初にファイルを選択してください。"
+  },
+  "summary": {
+    "title": "全体的な検出サマリー",
+    "aiLikelihoodSuffix": "AIの可能性",
+    "mixedSignalLabel": "AI・人間混合シグナル",
+    "aiHeavyLabel": "AI優勢シグナル",
+    "humanHeavyLabel": "人間優勢シグナル",
+    "aiProbabilityLabel": "AI確率",
+    "confidenceLabel": "信頼度",
+    "humanLikelihoodLabel": "人間の可能性",
+    "suspiciousRatioLabel": "疑わしい文の割合",
+    "modelInterpretationTitle": "モデルの解釈",
+    "modelInterpretationMixed": "テキストには混在した著作パターンが見られます：一部の文はAIのような構造に沿っており、他は人間が書いたように見えます。",
+    "modelInterpretationAiHeavy": "AIによる生成支援の可能性が高い。",
+    "modelInterpretationHumanHeavy": "シグナルは有機的な人間の文章に近い。",
+    "riskControlsTitle": "リスク制御",
+    "riskControlsBody": "最終的なモデレーション判断の前に、文のハイライトとエントロピー異常を活用してください。",
+    "multilayerScoringBadge": "多層スコアリング",
+    "explainabilityBadge": "説明可能性優先の出力"
+  },
+  "charts": {
+    "burstinessVsComplexity": "バースト性と複雑さ",
+    "entropyDistribution": "エントロピー分布",
+    "aiProbabilityHeatmapBars": "AI確率ヒートマップバー",
+    "burstinessLegend": "バースト性",
+    "complexityLegend": "複雑さ",
+    "entropyLegend": "エントロピー",
+    "aiProbabilityLegend": "AI確率"
+  },
+  "heatmap": {
+    "title": "文レベルの確率ヒートマップ",
+    "sentenceLabel": "文",
+    "aiLabel": "AI"
+  }
+}

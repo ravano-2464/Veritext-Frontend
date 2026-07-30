@@ -1,0 +1,29 @@
+{
+  "title": "Profil & Preferensi",
+  "description": "Kelola identitas akun dan negara yang ditampilkan di profil kamu.",
+  "cards": {
+    "accountOverview": "Ringkasan Akun",
+    "updateProfile": "Perbarui Profil"
+  },
+  "accountLabels": {
+    "name": "Nama",
+    "email": "Email",
+    "role": "Peran",
+    "country": "Negara"
+  },
+  "form": {
+    "fullNameLabel": "Nama lengkap",
+    "fullNamePlaceholder": "Nama lengkap kamu",
+    "countryLabel": "Negara",
+    "countryPlaceholder": "Indonesia",
+    "avatarUrlLabel": "URL Avatar",
+    "avatarUrlPlaceholder": "https://example.com/avatar.png",
+    "saveButton": "Simpan Profil",
+    "savingButton": "Menyimpan..."
+  },
+  "toasts": {
+    "signInRequired": "Masuk lagi untuk memperbarui profil.",
+    "saved": "Profil tersimpan",
+    "saveFailed": "Gagal menyimpan profil"
+  }
+}

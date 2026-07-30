@@ -1,0 +1,54 @@
+{
+  "title": "Admin",
+  "description": "Operasi pengguna, peninjauan konten yang ditandai, pemantauan API, dan kesehatan sistem.",
+  "accessRequired": {
+    "title": "Akses admin diperlukan",
+    "description": "Pemantauan platform dan manajemen pengguna hanya dapat diakses oleh administrator."
+  },
+  "refreshingRole": {
+    "title": "Memperbarui akses admin",
+    "description": "Memeriksa peran terbaru Anda sebelum membuka alat admin."
+  },
+  "totals": {
+    "users": "Pengguna",
+    "organizations": "Organisasi",
+    "detections": "Deteksi",
+    "activeApiKeys": "Kunci API aktif",
+    "flaggedDetections": "Deteksi yang ditandai",
+    "failedDetections": "Deteksi gagal"
+  },
+  "cards": {
+    "users": "Pengguna",
+    "system": "Sistem",
+    "apiMonitoring": "Pemantauan API"
+  },
+  "table": {
+    "name": "Nama",
+    "email": "Email",
+    "role": "Peran",
+    "provider": "Penyedia",
+    "actions": "Tindakan"
+  },
+  "roles": {
+    "USER": "Pengguna",
+    "ADMIN": "Admin"
+  },
+  "actions": {
+    "promote": "Jadikan admin",
+    "delete": "Hapus",
+    "deleteSelfDisabled": "Anda tidak dapat menghapus akun sendiri"
+  },
+  "deleteDialog": {
+    "title": "Hapus pengguna?",
+    "description": "Tindakan ini akan menghapus {{user}} beserta data terkaitnya. Tindakan ini tidak dapat dibatalkan.",
+    "fallbackUser": "pengguna ini",
+    "cancel": "Batal",
+    "confirm": "Hapus pengguna"
+  },
+  "toasts": {
+    "roleUpdated": "Peran pengguna berhasil diperbarui.",
+    "roleUpdateFailed": "Gagal memperbarui peran pengguna.",
+    "userDeleted": "Pengguna berhasil dihapus.",
+    "userDeleteFailed": "Gagal menghapus pengguna."
+  }
+}

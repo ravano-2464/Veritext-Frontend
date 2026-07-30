@@ -1,0 +1,20 @@
+{
+  "title": "ライティングインテリジェンス",
+  "description": "ポートフォリオレベルの信頼性、使用状況、レイテンシ、AIソースのトレンド。",
+  "selectScopePlaceholder": "スコープ",
+  "personalWorkspace": "個人ワークスペース",
+  "stats": {
+    "detections": "検出数",
+    "completion": "完了率",
+    "avgAiScore": "平均AIスコア",
+    "avgConfidence": "平均信頼度"
+  },
+  "charts": {
+    "detectionTrend": "検出トレンド",
+    "aiFingerprints": "AIフィンガープリント"
+  },
+  "cards": {
+    "usageEvents": "利用イベント",
+    "recentDetections": "最近の検出"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Оплата",
+  "description": "Управляйте местами, лимитами, уровнем подписки и доступом к порталу клиентов Stripe.",
+  "workspaceLabel": "Рабочее пространство",
+  "workspacePlaceholder": "Выберите рабочее пространство",
+  "newWorkspaceLabel": "Новое рабочее пространство",
+  "newWorkspaceDefault": "Рабочее пространство VeriText",
+  "buttons": {
+    "create": "Создать",
+    "portal": "Портал",
+    "currentStarter": "Текущий план Стартер",
+    "upgrade": "Улучшить"
+  },
+  "toasts": {
+    "workspaceCreated": "Рабочее пространство создано",
+    "checkoutFailed": "Ошибка оформления заказа"
+  },
+  "customPrice": "Индивидуальный",
+  "detectionsPerMonth": "обнаружений / месяц"
+}

@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "overview": "अवलोकन",
+    "detector": "Detector",
+    "humanizer": "Humanizer",
+    "history": "इतिहास",
+    "analytics": "विश्लेषण",
+    "api": "API",
+    "billing": "बिलिंग",
+    "admin": "Admin",
+    "profile": "प्रोफ़ाइल"
+  },
+  "actions": {
+    "openNavigation": "नेविगेशन खोलें",
+    "signOut": "साइन आउट"
+  },
+  "confirmSignOut": {
+    "title": "अपने खाते से साइन आउट करें?",
+    "description": "आपको इस सत्र से साइन आउट किया जाएगा और डैशबोर्ड पर वापस आने के लिए फिर से लॉग इन करना होगा।",
+    "cancel": "रद्द करें",
+    "confirm": "हाँ, साइन आउट करें",
+    "confirmLoading": "साइन आउट हो रहा है..."
+  },
+  "fallbackUser": {
+    "name": "विश्लेषक",
+    "email": "unknown@veritext.ai"
+  },
+  "asideNote": "बहु-स्तरीय संकेत: जटिलता, विस्फोटकता, शैलीमिति, अर्थशास्त्र।",
+  "language": {
+    "label": "भाषा",
+    "placeholder": "भाषा चुनें",
+    "options": {
+      "en": "English",
+      "id": "Bahasa Indonesia",
+      "zh": "Chinese (Simplified)",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "hi": "Hindi",
+      "pt": "Portuguese (Brazil)",
+      "ja": "Japanese",
+      "ko": "Korean",
+      "fr": "French",
+      "de": "German",
+      "ru": "Russian"
+    }
+  }
+}

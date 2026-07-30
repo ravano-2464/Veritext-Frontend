@@ -1,0 +1,20 @@
+{
+  "title": "Kecerdasan Menulis",
+  "description": "Tren keaslian, penggunaan, latensi, dan sumber AI di tingkat portofolio.",
+  "selectScopePlaceholder": "Cakupan",
+  "personalWorkspace": "Ruang kerja pribadi",
+  "stats": {
+    "detections": "Deteksi",
+    "completion": "Penyelesaian",
+    "avgAiScore": "Rata-rata skor AI",
+    "avgConfidence": "Rata-rata kepercayaan"
+  },
+  "charts": {
+    "detectionTrend": "Tren Deteksi",
+    "aiFingerprints": "Sidik Jari AI"
+  },
+  "cards": {
+    "usageEvents": "Acara Penggunaan",
+    "recentDetections": "Deteksi Terbaru"
+  }
+}

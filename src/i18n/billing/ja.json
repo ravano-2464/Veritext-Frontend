@@ -1,0 +1,20 @@
+{
+  "title": "請求",
+  "description": "シート、制限、サブスクリプションプラン、Stripeカスタマーポータルへのアクセスを管理します。",
+  "workspaceLabel": "ワークスペース",
+  "workspacePlaceholder": "ワークスペースを選択",
+  "newWorkspaceLabel": "新しいワークスペース",
+  "newWorkspaceDefault": "VeriText ワークスペース",
+  "buttons": {
+    "create": "作成",
+    "portal": "ポータル",
+    "currentStarter": "現在のスタータープラン",
+    "upgrade": "アップグレード"
+  },
+  "toasts": {
+    "workspaceCreated": "ワークスペースを作成しました",
+    "checkoutFailed": "チェックアウトに失敗しました"
+  },
+  "customPrice": "カスタム",
+  "detectionsPerMonth": "検出数 / 月"
+}

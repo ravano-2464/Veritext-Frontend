@@ -1,0 +1,30 @@
+{
+  "title": "Dirancang Khusus untuk Operasi Deteksi",
+  "description": "Dibangun dengan arsitektur perangkat lunak perusahaan dan ergonomi frontend modern, sehingga tim dapat beralih dari kecurigaan ke bukti dalam satu alur kerja.",
+  "features": {
+    "sentenceForensics": {
+      "title": "Forensik Tingkat Kalimat",
+      "body": "Setiap kalimat menerima probabilitas AI, kepercayaan diri, dan pelabelan rentang mencurigakan."
+    },
+    "fusionEngine": {
+      "title": "Mesin Skor Fusi",
+      "body": "Fusi sinyal berbobot menggabungkan empat model linguistik menjadi skor akhir yang terkalibrasi."
+    },
+    "burstinessCurves": {
+      "title": "Kurva Burstiness & Entropi",
+      "body": "Visualisasikan konsistensi ritmis dan entropi token untuk mendiagnosis pola penulisan sintetis."
+    },
+    "analystDashboards": {
+      "title": "Dasbor Analis",
+      "body": "Lacak tren historis berdasarkan pengguna, sumber, dan kepercayaan model dengan catatan siap ekspor."
+    },
+    "securityHardening": {
+      "title": "Pengerasan Keamanan",
+      "body": "Sanitasi input, batas tingkat, validasi unggahan, dan kontrol anti-injeksi prompt."
+    },
+    "queueProcessing": {
+      "title": "Pemrosesan Berbasis Antrean",
+      "body": "BullMQ and Redis memungkinkan beban kerja asinkron yang andal untuk throughput perusahaan yang besar."
+    }
+  }
+}

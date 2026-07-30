@@ -1,0 +1,13 @@
+{
+  "badge": "Keaslian Penulisan AI Perusahaan",
+  "title": "VeriText",
+  "description": "Platform intelijen penulisan AI untuk universitas, perusahaan, penerbit, perekrut, dan tim riset yang membutuhkan bukti, bukan tebakan.",
+  "startFree": "Mulai Gratis",
+  "dashboard": "Dasbor",
+  "openDetector": "Buka Detektor",
+  "proofPoints": {
+    "multilingual": "Teks multilingual campuran Inggris, Indonesia",
+    "controls": "Kontrol ruang kerja, kunci API, penagihan, dan admin",
+    "features": "Skor berlapis, unggahan, ekspor, dan webhook"
+  }
+}

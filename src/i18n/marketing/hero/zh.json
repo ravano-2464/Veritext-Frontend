@@ -1,0 +1,13 @@
+{
+  "badge": "企业级 AI 写作真实性检测",
+  "title": "VeriText",
+  "description": "专为大学、企业、出版商、招聘人员和研究团队打造的 AI 写作智能平台，提供证据，而非猜测。",
+  "startFree": "免费开始",
+  "dashboard": "控制台",
+  "openDetector": "打开检测器",
+  "proofPoints": {
+    "multilingual": "英语、印尼语及混合多语言文本",
+    "controls": "工作区、API 密钥、账单及管理员控制",
+    "features": "多层评分、上传、导出与 Webhook"
+  }
+}

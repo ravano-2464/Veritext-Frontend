@@ -1,0 +1,85 @@
+{
+  "title": "AI टेक्स्ट डिटेक्टर",
+  "description": "वाक्य-स्तरीय साक्ष्य और चार्टेड लेखन पैटर्न के साथ बहुस्तरीय AI-संभावना विश्लेषण प्राप्त करने के लिए टेक्स्ट सबमिट करें या दस्तावेज़ अपलोड करें।",
+  "cards": {
+    "analyzeTextInput": "टेक्स्ट इनपुट विश्लेषण करें",
+    "uploadForAnalysis": "विश्लेषण के लिए अपलोड करें"
+  },
+  "detectorForm": {
+    "analysisTitleLabel": "विश्लेषण शीर्षक",
+    "analysisTitlePlaceholder": "नीति समीक्षा बैच",
+    "languageLabel": "भाषा",
+    "languagePlaceholder": "भाषा चुनें",
+    "languageOptions": {
+      "auto": "स्वतः पहचान",
+      "en": "अंग्रेज़ी",
+      "id": "बहासा इंडोनेशिया",
+      "es": "स्पेनिश",
+      "fr": "फ्रेंच",
+      "de": "जर्मन",
+      "ar": "अरबी",
+      "zh": "चीनी"
+    },
+    "textLabel": "मूल्यांकन करने के लिए टेक्स्ट",
+    "textPlaceholder": "AI लेखकत्व विश्लेषण के लिए यहाँ टेक्स्ट सामग्री पेस्ट करें...",
+    "charactersLabel": "अक्षर",
+    "submitButton": "टेक्स्ट विश्लेषण करें"
+  },
+  "uploadArea": {
+    "title": "टेक्स्ट फ़ाइल अपलोड करें",
+    "description": "TXT, CSV, Markdown, या JSON 4MB तक",
+    "chooseFile": "फ़ाइल चुनें",
+    "uploadAriaLabel": "टेक्स्ट फ़ाइल अपलोड करें",
+    "removeFileAriaLabel": "फ़ाइल हटाएं"
+  },
+  "uploadFields": {
+    "titleLabel": "शीर्षक",
+    "titlePlaceholder": "अपलोड किया गया मॉडरेशन बैच",
+    "languageLabel": "भाषा",
+    "languagePlaceholder": "स्वतः"
+  },
+  "buttons": {
+    "analyzeUploadedFile": "अपलोड की गई फ़ाइल विश्लेषण करें"
+  },
+  "toasts": {
+    "textAnalyzed": "टेक्स्ट सफलतापूर्वक विश्लेषण किया गया।",
+    "detectionFailed": "पहचान विफल रही।",
+    "fileAnalyzed": "फ़ाइल सफलतापूर्वक विश्लेषण की गई।",
+    "uploadFailed": "अपलोड विश्लेषण विफल रहा।",
+    "signInRequired": "जारी रखने के लिए कृपया फिर से साइन इन करें।",
+    "selectFileFirst": "पहले एक फ़ाइल चुनें।"
+  },
+  "summary": {
+    "title": "समग्र पहचान सारांश",
+    "aiLikelihoodSuffix": "AI संभावना",
+    "mixedSignalLabel": "मिश्रित AI-मानव संकेत",
+    "aiHeavyLabel": "AI-प्रधान संकेत",
+    "humanHeavyLabel": "मानव-प्रधान संकेत",
+    "aiProbabilityLabel": "AI संभावना",
+    "confidenceLabel": "विश्वास",
+    "humanLikelihoodLabel": "मानव संभावना",
+    "suspiciousRatioLabel": "संदिग्ध वाक्य अनुपात",
+    "modelInterpretationTitle": "मॉडल व्याख्या",
+    "modelInterpretationMixed": "टेक्स्ट में मिश्रित लेखकत्व पैटर्न दिखते हैं: कुछ वाक्य AI-जैसी संरचना से मेल खाते हैं जबकि अन्य मानव-लिखित लगते हैं।",
+    "modelInterpretationAiHeavy": "AI-सहायता प्राप्त उत्पादन की उच्च संभावना।",
+    "modelInterpretationHumanHeavy": "संकेत जैविक मानव रचना के करीब हैं।",
+    "riskControlsTitle": "जोखिम नियंत्रण",
+    "riskControlsBody": "अंतिम मॉडरेशन निर्णयों से पहले वाक्य हाइलाइट और एंट्रॉपी विसंगतियों का उपयोग करें।",
+    "multilayerScoringBadge": "बहुस्तरीय स्कोरिंग",
+    "explainabilityBadge": "व्याख्यात्मकता-प्रथम आउटपुट"
+  },
+  "charts": {
+    "burstinessVsComplexity": "Burstiness बनाम जटिलता",
+    "entropyDistribution": "एंट्रॉपी वितरण",
+    "aiProbabilityHeatmapBars": "AI संभावना हीटमैप बार",
+    "burstinessLegend": "Burstiness",
+    "complexityLegend": "जटिलता",
+    "entropyLegend": "एंट्रॉपी",
+    "aiProbabilityLegend": "AI संभावना"
+  },
+  "heatmap": {
+    "title": "वाक्य-स्तरीय संभावना हीटमैप",
+    "sentenceLabel": "वाक्य",
+    "aiLabel": "AI"
+  }
+}

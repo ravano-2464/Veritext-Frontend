@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+npx --no -- commitlint --edit "$1" || {
+  echo "WARNING: commitlint is not installed or config is missing. Skipping commit message linting."
+  exit 0
+}

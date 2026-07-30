@@ -1,0 +1,20 @@
+{
+  "title": "Faturamento",
+  "description": "Gerencie assentos, limites, nível de assinatura e acesso ao portal do cliente Stripe.",
+  "workspaceLabel": "Espaço de trabalho",
+  "workspacePlaceholder": "Selecionar espaço de trabalho",
+  "newWorkspaceLabel": "Novo espaço de trabalho",
+  "newWorkspaceDefault": "Espaço de trabalho VeriText",
+  "buttons": {
+    "create": "Criar",
+    "portal": "Portal",
+    "currentStarter": "Plano Starter Atual",
+    "upgrade": "Fazer upgrade"
+  },
+  "toasts": {
+    "workspaceCreated": "Espaço de trabalho criado",
+    "checkoutFailed": "Falha no checkout"
+  },
+  "customPrice": "Personalizado",
+  "detectionsPerMonth": "detecções / mês"
+}

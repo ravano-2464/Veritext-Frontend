@@ -1,0 +1,54 @@
+{
+  "title": "Administración",
+  "description": "Operaciones de usuarios, revisión de contenido marcado, monitoreo de API y estado del sistema.",
+  "accessRequired": {
+    "title": "Se requiere acceso de administrador",
+    "description": "El monitoreo de la plataforma y la gestión de usuarios están restringidos a administradores."
+  },
+  "refreshingRole": {
+    "title": "Actualizando acceso de administrador",
+    "description": "Comprobando tu rol más reciente antes de abrir las herramientas de administración."
+  },
+  "totals": {
+    "users": "Usuarios",
+    "organizations": "Organizaciones",
+    "detections": "Detecciones",
+    "activeApiKeys": "Claves API activas",
+    "flaggedDetections": "Detecciones marcadas",
+    "failedDetections": "Detecciones fallidas"
+  },
+  "cards": {
+    "users": "Usuarios",
+    "system": "Sistema",
+    "apiMonitoring": "Monitoreo de API"
+  },
+  "table": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "role": "Rol",
+    "provider": "Proveedor",
+    "actions": "Acciones"
+  },
+  "roles": {
+    "USER": "Usuario",
+    "ADMIN": "Administrador"
+  },
+  "actions": {
+    "promote": "Promover",
+    "delete": "Eliminar",
+    "deleteSelfDisabled": "No puedes eliminar tu propia cuenta"
+  },
+  "deleteDialog": {
+    "title": "¿Eliminar usuario?",
+    "description": "Esto eliminará a {{user}} y sus datos relacionados. Esta acción no se puede deshacer.",
+    "fallbackUser": "este usuario",
+    "cancel": "Cancelar",
+    "confirm": "Eliminar usuario"
+  },
+  "toasts": {
+    "roleUpdated": "Rol de usuario actualizado.",
+    "roleUpdateFailed": "No se pudo actualizar el rol de usuario.",
+    "userDeleted": "Usuario eliminado.",
+    "userDeleteFailed": "No se pudo eliminar el usuario."
+  }
+}
