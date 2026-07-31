@@ -19,17 +19,19 @@ import { ApiError } from '@/lib/api/client';
 import { ROUTES } from '@/lib/constants/routes';
 import { LoginValues, loginSchema } from '@/lib/validators/auth.schemas';
 import { authService } from '@/services/auth.service';
+import { useDashboardCopy } from '@/components/providers/i18n-provider';
+import { AuthLanguageToggle } from '@/components/common/auth-language-toggle';
 
-const getLoginErrorMessage = (error: unknown) => {
+const getLoginErrorMessage = (error: unknown, loginCopy: Record<string, string>) => {
   if (error instanceof ApiError && error.status === 401) {
-    return 'Email atau password tidak cocok. Kalau belum punya akun, silakan daftar dulu.';
+    return loginCopy.errorInvalidCredentials || 'Email atau password tidak cocok. Kalau belum punya akun, silakan daftar dulu.';
   }
 
   if (error instanceof Error && error.message) {
     return error.message;
   }
 
-  return 'Sign in gagal. Coba lagi sebentar ya.';
+  return loginCopy.errorDefault || 'Sign in gagal. Coba lagi sebentar ya.';
 };
 
 function LoginPageContent() {
@@ -39,6 +41,9 @@ function LoginPageContent() {
   const [submitError, setSubmitError] = useState<string | null>(null);
   const registerSuccess = searchParams.get('registered') === '1';
   const resetSuccess = searchParams.get('reset') === '1';
+
+  const authCopy = useDashboardCopy('auth');
+  const loginCopy = authCopy.login;
 
   const form = useForm<LoginValues>({
     resolver: zodResolver(loginSchema),
@@ -53,7 +58,7 @@ function LoginPageContent() {
         await login(values);
         router.replace(ROUTES.dashboard);
       } catch (error) {
-        setSubmitError(getLoginErrorMessage(error));
+        setSubmitError(getLoginErrorMessage(error, loginCopy));
       }
     },
     () => {
@@ -62,122 +67,125 @@ function LoginPageContent() {
   );
 
   return (
-    <main className="grid min-h-screen place-items-center px-4 py-10">
-      <Card className="w-full max-w-md border-border/60 bg-card/90">
-        <CardHeader className="space-y-4">
-          <BrandLogo />
-          <CardTitle className="text-2xl">Sign in to VeriText</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          {registerSuccess && (
-            <p
-              role="status"
-              className="rounded-md border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-700"
-            >
-              Akun berhasil dibuat. Silakan login dengan email dan password kamu.
-            </p>
-          )}
-          {resetSuccess && (
-            <p
-              role="status"
-              className="rounded-md border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-700"
-            >
-              Password berhasil diperbarui. Silakan login pakai password baru kamu.
-            </p>
-          )}
-          <form className="space-y-4" onSubmit={onSubmit}>
-            <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
-              <Input
-                id="email"
-                type="email"
-                autoComplete="email"
-                aria-invalid={!!form.formState.errors.email}
-                placeholder="you@company.com"
-                {...form.register('email')}
-              />
-              {form.formState.errors.email?.message && (
-                <p className="text-sm text-destructive">{form.formState.errors.email.message}</p>
-              )}
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
-              <PasswordInput
-                id="password"
-                autoComplete="current-password"
-                aria-invalid={!!form.formState.errors.password}
-                placeholder="Enter your password"
-                {...form.register('password')}
-              />
-              {form.formState.errors.password?.message && (
-                <p className="text-sm text-destructive">{form.formState.errors.password.message}</p>
-              )}
-            </div>
-            <div className="flex items-center justify-between text-sm">
-              <Link
-                className="text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
-                href={ROUTES.forgotPassword}
-              >
-                Forgot password?
-              </Link>
-              <Link
-                className="text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
-                href={ROUTES.findAccount}
-              >
-                Find account
-              </Link>
-            </div>
-            {submitError && (
+    <div className="relative min-h-screen">
+      <AuthLanguageToggle />
+      <main className="grid min-h-screen place-items-center px-4 py-10">
+        <Card className="w-full max-w-md border-border/60 bg-card/90">
+          <CardHeader className="space-y-4">
+            <BrandLogo />
+            <CardTitle className="text-2xl">{loginCopy.title}</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {registerSuccess && (
               <p
-                role="alert"
-                className="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive"
+                role="status"
+                className="rounded-md border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-700"
               >
-                {submitError}
+                {loginCopy.successRegister}
               </p>
             )}
-            <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
-              {form.formState.isSubmitting && (
-                <Loader2 className="animate-spin" data-icon="inline-start" />
+            {resetSuccess && (
+              <p
+                role="status"
+                className="rounded-md border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-sm text-emerald-700"
+              >
+                {loginCopy.successReset}
+              </p>
+            )}
+            <form className="space-y-4" onSubmit={onSubmit}>
+              <div className="space-y-2">
+                <Label htmlFor="email">{loginCopy.emailLabel}</Label>
+                <Input
+                  id="email"
+                  type="email"
+                  autoComplete="email"
+                  aria-invalid={!!form.formState.errors.email}
+                  placeholder="you@company.com"
+                  {...form.register('email')}
+                />
+                {form.formState.errors.email?.message && (
+                  <p className="text-sm text-destructive">{form.formState.errors.email.message}</p>
+                )}
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="password">{loginCopy.passwordLabel}</Label>
+                <PasswordInput
+                  id="password"
+                  autoComplete="current-password"
+                  aria-invalid={!!form.formState.errors.password}
+                  placeholder={loginCopy.passwordPlaceholder}
+                  {...form.register('password')}
+                />
+                {form.formState.errors.password?.message && (
+                  <p className="text-sm text-destructive">{form.formState.errors.password.message}</p>
+                )}
+              </div>
+              <div className="flex items-center justify-between text-sm">
+                <Link
+                  className="text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  href={ROUTES.forgotPassword}
+                >
+                  {loginCopy.forgotPassword}
+                </Link>
+                <Link
+                  className="text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  href={ROUTES.findAccount}
+                >
+                  {loginCopy.findAccount}
+                </Link>
+              </div>
+              {submitError && (
+                <p
+                  role="alert"
+                  className="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive"
+                >
+                  {submitError}
+                </p>
               )}
-              Continue
-            </Button>
-          </form>
+              <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
+                {form.formState.isSubmitting && (
+                  <Loader2 className="animate-spin" data-icon="inline-start" />
+                )}
+                {loginCopy.continue}
+              </Button>
+            </form>
 
-          <Button
-            type="button"
-            variant="outline"
-            className="w-full"
-            onClick={() => {
-              window.location.href = authService.googleOauthUrl();
-            }}
-          >
-            <Chrome data-icon="inline-start" />
-            Continue with Google
-          </Button>
-          <Button
-            type="button"
-            variant="outline"
-            className="w-full"
-            onClick={() => {
-              window.location.href = authService.githubOauthUrl();
-            }}
-          >
-            <Github data-icon="inline-start" />
-            Continue with GitHub
-          </Button>
-
-          <p className="text-center text-sm text-muted-foreground">
-            New here?{' '}
-            <Link
-              className="font-medium text-foreground underline-offset-4 hover:underline"
-              href={ROUTES.register}
+            <Button
+              type="button"
+              variant="outline"
+              className="w-full"
+              onClick={() => {
+                window.location.href = authService.googleOauthUrl();
+              }}
             >
-              Create account
-            </Link>
-          </p>
-        </CardContent>
-      </Card>
-    </main>
+              <Chrome data-icon="inline-start" />
+              {loginCopy.continueGoogle}
+            </Button>
+            <Button
+              type="button"
+              variant="outline"
+              className="w-full"
+              onClick={() => {
+                window.location.href = authService.githubOauthUrl();
+              }}
+            >
+              <Github data-icon="inline-start" />
+              {loginCopy.continueGithub}
+            </Button>
+
+            <p className="text-center text-sm text-muted-foreground">
+              {loginCopy.newHere}{' '}
+              <Link
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+                href={ROUTES.register}
+              >
+                {loginCopy.createAccount}
+              </Link>
+            </p>
+          </CardContent>
+        </Card>
+      </main>
+    </div>
   );
 }
 
@@ -190,3 +198,4 @@ export default function LoginPage() {
     </GuestOnly>
   );
 }
+

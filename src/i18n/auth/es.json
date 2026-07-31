@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "Iniciar sesión en VeriText",
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Introduce tu contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "findAccount": "Buscar cuenta",
+    "continue": "Continuar",
+    "continueGoogle": "Continuar con Google",
+    "continueGithub": "Continuar con GitHub",
+    "newHere": "¿Eres nuevo?",
+    "createAccount": "Crear cuenta",
+    "successRegister": "Cuenta creada con éxito. Inicia sesión con tu correo y contraseña.",
+    "successReset": "Contraseña actualizada con éxito. Inicia sesión con tu nueva contraseña.",
+    "errorInvalidCredentials": "El correo o la contraseña no coinciden. Si no tienes cuenta, regístrate primero.",
+    "errorDefault": "Error al iniciar sesión. Inténtalo de nuevo en unos momentos."
+  },
+  "register": {
+    "title": "Crea tu espacio de trabajo VeriText",
+    "fullNameLabel": "Nombre completo",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@empresa.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Crea una contraseña fuerte",
+    "button": "Crear cuenta",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "signIn": "Iniciar sesión",
+    "errorConflict": "Este correo ya está registrado. Inicia sesión o usa otro.",
+    "errorDefault": "Error en el registro. Inténtalo de nuevo en unos momentos."
+  },
+  "findAccount": {
+    "title": "Buscar tu cuenta",
+    "description": "Busca tu cuenta por correo electrónico para ver el método de inicio de sesión.",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@empresa.com",
+    "button": "Buscar cuenta",
+    "errorNotFound": "No hay ninguna cuenta registrada con este correo electrónico.",
+    "errorDefault": "Error al buscar la cuenta. Inténtalo de nuevo en unos momentos.",
+    "loginMethod": "Método de inicio de sesión: {method}",
+    "continueReset": "Continuar para restablecer la contraseña",
+    "googleInfo": "Esta cuenta está conectada a Google. Usa el botón de Google al iniciar sesión.",
+    "backToSignIn": "Volver a iniciar sesión",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google y contraseña",
+    "providerEmailPassword": "Correo electrónico y contraseña"
+  },
+  "forgotPassword": {
+    "title": "Olvidé mi contraseña",
+    "description": "Introduce tu correo. Si lo encontramos, procederemos a la página de restablecimiento.",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@empresa.com",
+    "button": "Continuar para restablecer",
+    "errorNotFound": "Este correo no está registrado. Compruébalo de nuevo o busca tu cuenta primero.",
+    "errorDefault": "Error al solicitar restablecer contraseña. Inténtalo de nuevo en unos momentos.",
+    "rememberPassword": "¿Recuerdas tu contraseña?",
+    "backToSignIn": "Volver a iniciar sesión",
+    "notSureEmail": "¿No estás seguro de qué correo usaste?",
+    "findAccount": "Buscar cuenta"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "تسجيل الدخول إلى VeriText",
+    "emailLabel": "البريد الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور الخاصة بك",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "findAccount": "البحث عن حساب",
+    "continue": "متابعة",
+    "continueGoogle": "متابعة باستخدام Google",
+    "continueGithub": "متابعة باستخدام GitHub",
+    "newHere": "جديد هنا؟",
+    "createAccount": "إنشاء حساب",
+    "successRegister": "تم إنشاء الحساب بنجاح. يرجى تسجيل الدخول باستخدام البريد الإلكتروني وكلمة المرور.",
+    "successReset": "تم تحديث كلمة المرور بنجاح. يرجى تسجيل الدخول باستخدام كلمة المرور الجديدة.",
+    "errorInvalidCredentials": "البريد الإلكتروني أو كلمة المرور غير متطابقة. إذا لم يكن لديك حساب بعد، يرجى التسجيل أولاً.",
+    "errorDefault": "فشل تسجيل الدخول. يرجى المحاولة مرة أخرى بعد قليل."
+  },
+  "register": {
+    "title": "إنشاء مساحة عمل VeriText الخاصة بك",
+    "fullNameLabel": "الاسم الكامل",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "you@company.com",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أنشئ كلمة مرور قوية",
+    "button": "إنشاء حساب",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "signIn": "تسجيل الدخول",
+    "errorConflict": "هذا البريد الإلكتروني مسجل بالفعل. يرجى تسجيل الدخول أو استخدام بريد إلكتروني آخر.",
+    "errorDefault": "فشلت عملية التسجيل. يرجى المحاولة مرة أخرى بعد قليل."
+  },
+  "findAccount": {
+    "title": "البحث عن حسابك",
+    "description": "ابحث عن حسابك بالبريد الإلكتروني لعرض طريقة تسجيل الدخول.",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "you@company.com",
+    "button": "البحث عن الحساب",
+    "errorNotFound": "لا يوجد حساب مسجل بهذا البريد الإلكتروني.",
+    "errorDefault": "فشل البحث عن الحساب. يرجى المحاولة مرة أخرى بعد قليل.",
+    "loginMethod": "طريقة تسجيل الدخول: {method}",
+    "continueReset": "المتابعة لإعادة تعيين كلمة المرور",
+    "googleInfo": "هذا الحساب متصل بـ Google. استخدم زر Google عند تسجيل الدخول.",
+    "backToSignIn": "العودة لتسجيل الدخول",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google وكلمة المرور",
+    "providerEmailPassword": "البريد الإلكتروني وكلمة المرور"
+  },
+  "forgotPassword": {
+    "title": "نسيت كلمة المرور",
+    "description": "أدخل بريدك الإلكتروني. إذا تم العثور عليه، فسننتقل إلى صفحة إعادة التعيين.",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "you@company.com",
+    "button": "متابعة لإعادة التعيين",
+    "errorNotFound": "هذا البريد الإلكتروني غير مسجل. يرجى التحقق مرة أخرى أو البحث عن الحساب أولاً.",
+    "errorDefault": "فشل طلب إعادة تعيين كلمة المرور. يرجى المحاولة مرة أخرى بعد قليل.",
+    "rememberPassword": "هل تتذكر كلمة المرور الخاصة بك؟",
+    "backToSignIn": "العودة لتسجيل الدخول",
+    "notSureEmail": "غير متأكد من البريد الإلكتروني الذي استخدمته؟",
+    "findAccount": "البحث عن حساب"
+  }
+}

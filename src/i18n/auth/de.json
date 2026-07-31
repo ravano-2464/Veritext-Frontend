@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "Bei VeriText anmelden",
+    "emailLabel": "E-Mail",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
+    "forgotPassword": "Passwort vergessen?",
+    "findAccount": "Konto finden",
+    "continue": "Weiter",
+    "continueGoogle": "Mit Google fortfahren",
+    "continueGithub": "Mit GitHub fortfahren",
+    "newHere": "Neu hier?",
+    "createAccount": "Konto erstellen",
+    "successRegister": "Konto erfolgreich erstellt. Bitte melden Sie sich mit Ihrer E-Mail und Ihrem Passwort an.",
+    "successReset": "Passwort erfolgreich aktualisiert. Bitte melden Sie sich mit Ihrem neuen Passwort an.",
+    "errorInvalidCredentials": "E-Mail oder Passwort stimmt nicht überein. Wenn Sie noch kein Konto haben, registrieren Sie sich bitte zuerst.",
+    "errorDefault": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es in einem Moment erneut."
+  },
+  "register": {
+    "title": "Erstellen Sie Ihren VeriText-Arbeitsbereich",
+    "fullNameLabel": "Vollständiger Name",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihr@unternehmen.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Erstellen Sie ein starkes Passwort",
+    "button": "Konto erstellen",
+    "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
+    "signIn": "Anmelden",
+    "errorConflict": "Diese E-Mail ist bereits registriert. Bitte melden Sie sich an oder verwenden Sie eine andere E-Mail.",
+    "errorDefault": "Registrierung fehlgeschlagen. Bitte versuchen Sie es in einem Moment erneut."
+  },
+  "findAccount": {
+    "title": "Konto finden",
+    "description": "Suchen Sie Ihr Konto per E-Mail, um die Anmeldemethode anzuzeigen.",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihr@unternehmen.com",
+    "button": "Konto finden",
+    "errorNotFound": "Unter dieser E-Mail ist kein Konto registriert.",
+    "errorDefault": "Kontosuche fehlgeschlagen. Bitte versuchen Sie es in einem Moment erneut.",
+    "loginMethod": "Anmeldemethode: {method}",
+    "continueReset": "Mit Passwort-Zurücksetzung fortfahren",
+    "googleInfo": "Dieses Konto ist mit Google verknüpft. Verwenden Sie bei der Anmeldung die Google-Schaltfläche.",
+    "backToSignIn": "Zurück zur Anmeldung",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google und Passwort",
+    "providerEmailPassword": "E-Mail und Passwort"
+  },
+  "forgotPassword": {
+    "title": "Passwort vergessen",
+    "description": "Geben Sie Ihre E-Mail ein. Wenn sie gefunden wird, fahren wir mit der Seite zur Passwort-Zurücksetzung fort.",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihr@unternehmen.com",
+    "button": "Weiter zum Zurücksetzen",
+    "errorNotFound": "Diese E-Mail ist nicht registriert. Bitte überprüfen Sie sie erneut oder suchen Sie zuerst Ihr Konto.",
+    "errorDefault": "Anforderung zur Passwort-Zurücksetzung fehlgeschlagen. Bitte versuchen Sie es in einem Moment erneut.",
+    "rememberPassword": "Erinnern Sie sich an Ihr Passwort?",
+    "backToSignIn": "Zurück zur Anmeldung",
+    "notSureEmail": "Nicht sicher, welche E-Mail Sie verwendet haben?",
+    "findAccount": "Konto finden"
+  }
+}

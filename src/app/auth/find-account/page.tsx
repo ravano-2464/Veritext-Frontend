@@ -17,23 +17,31 @@ import { ROUTES } from '@/lib/constants/routes';
 import { FindAccountResponse } from '@/lib/types/api';
 import { FindAccountValues, findAccountSchema } from '@/lib/validators/auth.schemas';
 import { authService } from '@/services/auth.service';
+import { useDashboardCopy } from '@/components/providers/i18n-provider';
+import { AuthLanguageToggle } from '@/components/common/auth-language-toggle';
 
-const getSignInMethodLabel = (account: NonNullable<FindAccountResponse['account']>) => {
+const getSignInMethodLabel = (
+  account: NonNullable<FindAccountResponse['account']>,
+  findAccountCopy: Record<string, string>,
+) => {
   if (account.provider === 'GOOGLE' && account.canResetPassword) {
-    return 'Google dan password';
+    return findAccountCopy.providerGooglePassword || 'Google dan password';
   }
 
   if (account.provider === 'GOOGLE') {
-    return 'Google';
+    return findAccountCopy.providerGoogle || 'Google';
   }
 
-  return 'Email dan password';
+  return findAccountCopy.providerEmailPassword || 'Email dan password';
 };
 
 function FindAccountPageContent() {
   const searchParams = useSearchParams();
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [account, setAccount] = useState<FindAccountResponse['account']>(null);
+
+  const authCopy = useDashboardCopy('auth');
+  const findAccountCopy = authCopy.findAccount;
 
   const form = useForm<FindAccountValues>({
     resolver: zodResolver(findAccountSchema),
@@ -51,14 +59,16 @@ function FindAccountPageContent() {
         const response = await authService.findAccount(values);
 
         if (!response.found || !response.account) {
-          setSubmitError('Belum ada akun yang terdaftar dengan email ini.');
+          setSubmitError(findAccountCopy.errorNotFound || 'Belum ada akun yang terdaftar dengan email ini.');
           return;
         }
 
         setAccount(response.account);
       } catch (error) {
         setSubmitError(
-          error instanceof Error ? error.message : 'Pencarian akun gagal. Coba lagi sebentar ya.',
+          error instanceof Error
+            ? error.message
+            : (findAccountCopy.errorDefault || 'Pencarian akun gagal. Coba lagi sebentar ya.'),
         );
       }
     },
@@ -69,84 +79,85 @@ function FindAccountPageContent() {
   );
 
   return (
-    <main className="grid min-h-screen place-items-center px-4 py-10">
-      <Card className="w-full max-w-md border-border/60 bg-card/90">
-        <CardHeader className="space-y-4">
-          <BrandLogo />
-          <div className="space-y-2">
-            <CardTitle className="text-2xl">Find your account</CardTitle>
-            <p className="text-sm text-muted-foreground">
-              Cari akun berdasarkan email. Nanti kita tampilkan akun yang cocok dan metode
-              login-nya.
-            </p>
-          </div>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <form className="space-y-4" onSubmit={onSubmit}>
+    <div className="relative min-h-screen">
+      <AuthLanguageToggle />
+      <main className="grid min-h-screen place-items-center px-4 py-10">
+        <Card className="w-full max-w-md border-border/60 bg-card/90">
+          <CardHeader className="space-y-4">
+            <BrandLogo />
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
-              <Input
-                id="email"
-                type="email"
-                autoComplete="email"
-                aria-invalid={!!form.formState.errors.email}
-                placeholder="you@company.com"
-                {...form.register('email')}
-              />
-              {form.formState.errors.email?.message && (
-                <p className="text-sm text-destructive">{form.formState.errors.email.message}</p>
-              )}
-            </div>
-            {submitError && (
-              <p
-                role="alert"
-                className="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive"
-              >
-                {submitError}
-              </p>
-            )}
-            <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
-              {form.formState.isSubmitting && (
-                <Loader2 className="animate-spin" data-icon="inline-start" />
-              )}
-              Find Account
-            </Button>
-          </form>
-
-          {account && (
-            <div className="space-y-3 rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-4">
-              <p className="text-sm font-medium text-foreground">{account.fullName}</p>
-              <p className="text-sm text-muted-foreground">{account.email}</p>
+              <CardTitle className="text-2xl">{findAccountCopy.title}</CardTitle>
               <p className="text-sm text-muted-foreground">
-                Metode login: {getSignInMethodLabel(account)}
+                {findAccountCopy.description}
               </p>
-              {account.canResetPassword ? (
-                <Link
-                  className="inline-flex text-sm font-medium text-foreground underline-offset-4 hover:underline"
-                  href={`${ROUTES.forgotPassword}?email=${encodeURIComponent(account.email)}`}
+            </div>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <form className="space-y-4" onSubmit={onSubmit}>
+              <div className="space-y-2">
+                <Label htmlFor="email">{findAccountCopy.emailLabel}</Label>
+                <Input
+                  id="email"
+                  type="email"
+                  autoComplete="email"
+                  aria-invalid={!!form.formState.errors.email}
+                  placeholder={findAccountCopy.emailPlaceholder || "you@company.com"}
+                  {...form.register('email')}
+                />
+                {form.formState.errors.email?.message && (
+                  <p className="text-sm text-destructive">{form.formState.errors.email.message}</p>
+                )}
+              </div>
+              {submitError && (
+                <p
+                  role="alert"
+                  className="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive"
                 >
-                  Lanjut reset password
-                </Link>
-              ) : (
-                <p className="text-sm text-muted-foreground">
-                  Akun ini tersambung ke Google. Gunakan tombol Google saat login.
+                  {submitError}
                 </p>
               )}
-            </div>
-          )}
+              <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
+                {form.formState.isSubmitting && (
+                  <Loader2 className="animate-spin" data-icon="inline-start" />
+                )}
+                {findAccountCopy.button}
+              </Button>
+            </form>
 
-          <p className="text-center text-sm text-muted-foreground">
-            Back to{' '}
-            <Link
-              className="font-medium text-foreground underline-offset-4 hover:underline"
-              href={ROUTES.login}
-            >
-              sign in
-            </Link>
-          </p>
-        </CardContent>
-      </Card>
-    </main>
+            {account && (
+              <div className="space-y-3 rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-4">
+                <p className="text-sm font-medium text-foreground">{account.fullName}</p>
+                <p className="text-sm text-muted-foreground">{account.email}</p>
+                <p className="text-sm text-muted-foreground">
+                  {findAccountCopy.loginMethod.replace('{method}', getSignInMethodLabel(account, findAccountCopy))}
+                </p>
+                {account.canResetPassword ? (
+                  <Link
+                    className="inline-flex text-sm font-medium text-foreground underline-offset-4 hover:underline"
+                    href={`${ROUTES.forgotPassword}?email=${encodeURIComponent(account.email)}`}
+                  >
+                    {findAccountCopy.continueReset}
+                  </Link>
+                ) : (
+                  <p className="text-sm text-muted-foreground">
+                    {findAccountCopy.googleInfo}
+                  </p>
+                )}
+              </div>
+            )}
+
+            <p className="text-center text-sm text-muted-foreground">
+              <Link
+                className="font-medium text-foreground underline-offset-4 hover:underline"
+                href={ROUTES.login}
+              >
+                {findAccountCopy.backToSignIn}
+              </Link>
+            </p>
+          </CardContent>
+        </Card>
+      </main>
+    </div>
   );
 }
 
@@ -166,3 +177,4 @@ export default function FindAccountPage() {
     </GuestOnly>
   );
 }
+

@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "Войти в VeriText",
+    "emailLabel": "Электронная почта",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите ваш пароль",
+    "forgotPassword": "Забыли пароль?",
+    "findAccount": "Найти аккаунт",
+    "continue": "Продолжить",
+    "continueGoogle": "Войти через Google",
+    "continueGithub": "Войти через GitHub",
+    "newHere": "Впервые здесь?",
+    "createAccount": "Создать аккаунт",
+    "successRegister": "Аккаунт успешно создан. Пожалуйста, войдите, используя ваш адрес электронной почты и пароль.",
+    "successReset": "Пароль успешно обновлен. Пожалуйста, войдите с новым паролем.",
+    "errorInvalidCredentials": "Электронная почта или пароль не совпадают. Если у вас еще нет аккаунта, сначала зарегистрируйтесь.",
+    "errorDefault": "Ошибка входа. Пожалуйста, попробуйте еще раз через некоторое время."
+  },
+  "register": {
+    "title": "Создать рабочую область VeriText",
+    "fullNameLabel": "Полное имя",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "Электронная почта",
+    "emailPlaceholder": "you@company.com",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Создайте надежный пароль",
+    "button": "Создать аккаунт",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "signIn": "Войти",
+    "errorConflict": "Этот адрес электронной почты уже зарегистрирован. Пожалуйста, войдите или используйте другой адрес.",
+    "errorDefault": "Ошибка регистрации. Пожалуйста, попробуйте еще раз через некоторое время."
+  },
+  "findAccount": {
+    "title": "Найти ваш аккаунт",
+    "description": "Поиск аккаунта по электронной почте для просмотра метода входа.",
+    "emailLabel": "Электронная почта",
+    "emailPlaceholder": "you@company.com",
+    "button": "Найти аккаунт",
+    "errorNotFound": "Аккаунт с этой электронной почтой не зарегистрирован.",
+    "errorDefault": "Ошибка поиска аккаунта. Пожалуйста, попробуйте еще раз через некоторое время.",
+    "loginMethod": "Метод входа: {method}",
+    "continueReset": "Продолжить для сброса пароля",
+    "googleInfo": "Этот аккаунт подключен к Google. Используйте кнопку Google при входе в систему.",
+    "backToSignIn": "Назад к входу",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google и пароль",
+    "providerEmailPassword": "Электронная почта и пароль"
+  },
+  "forgotPassword": {
+    "title": "Забыли пароль",
+    "description": "Введите адрес электронной почты вашего аккаунта. Если он будет найден, мы перейдем к странице сброса пароля.",
+    "emailLabel": "Электронная почта",
+    "emailPlaceholder": "you@company.com",
+    "button": "Продолжить для сброса",
+    "errorNotFound": "Этот адрес электронной почты не зарегистрирован. Проверьте еще раз или сначала найдите свой аккаунт.",
+    "errorDefault": "Ошибка запроса на сброс пароля. Пожалуйста, попробуйте еще раз через некоторое время.",
+    "rememberPassword": "Помните свой пароль?",
+    "backToSignIn": "Назад к входу",
+    "notSureEmail": "Не уверены, какую почту использовали?",
+    "findAccount": "Найти аккаунт"
+  }
+}

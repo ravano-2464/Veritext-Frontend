@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "Entrar no VeriText",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Digite sua senha",
+    "forgotPassword": "Esqueceu a senha?",
+    "findAccount": "Encontrar conta",
+    "continue": "Continuar",
+    "continueGoogle": "Continuar com Google",
+    "continueGithub": "Continuar com GitHub",
+    "newHere": "Novo aqui?",
+    "createAccount": "Criar conta",
+    "successRegister": "Conta criada com sucesso. Faça login com seu e-mail e senha.",
+    "successReset": "Senha atualizada com sucesso. Faça login com sua nova senha.",
+    "errorInvalidCredentials": "E-mail ou senha incorretos. Se ainda não possui uma conta, registre-se primeiro.",
+    "errorDefault": "Falha ao entrar. Tente novamente em alguns instantes."
+  },
+  "register": {
+    "title": "Crie seu espaço de trabalho VeriText",
+    "fullNameLabel": "Nome completo",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "seu@empresa.com",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Crie uma senha forte",
+    "button": "Criar conta",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "signIn": "Entrar",
+    "errorConflict": "Este e-mail já está registrado. Faça login ou use outro e-mail.",
+    "errorDefault": "Falha no registro. Tente novamente em alguns instantes."
+  },
+  "findAccount": {
+    "title": "Encontrar sua conta",
+    "description": "Busque sua conta por e-mail para ver o método de login.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "seu@empresa.com",
+    "button": "Encontrar conta",
+    "errorNotFound": "Nenhuma conta registrada com este e-mail.",
+    "errorDefault": "Falha ao buscar conta. Tente novamente em alguns instantes.",
+    "loginMethod": "Método de login: {method}",
+    "continueReset": "Continuar para redefinir senha",
+    "googleInfo": "Esta conta está conectada ao Google. Use o botão do Google ao fazer login.",
+    "backToSignIn": "Voltar para entrar",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google e senha",
+    "providerEmailPassword": "E-mail e senha"
+  },
+  "forgotPassword": {
+    "title": "Esqueceu a senha",
+    "description": "Digite seu e-mail. Se encontrado, prosseguiremos para a página de redefinição.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "seu@empresa.com",
+    "button": "Continuar para Redefinir",
+    "errorNotFound": "Este e-mail não está registrado. Verifique novamente ou encontre sua conta primeiro.",
+    "errorDefault": "Falha na solicitação de redefinição. Tente novamente em alguns instantes.",
+    "rememberPassword": "Lembra da sua senha?",
+    "backToSignIn": "Voltar para entrar",
+    "notSureEmail": "Não tem certeza de qual e-mail usou?",
+    "findAccount": "Encontrar conta"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "Masuk ke VeriText",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Masukkan password Anda",
+    "forgotPassword": "Lupa password?",
+    "findAccount": "Cari akun",
+    "continue": "Lanjutkan",
+    "continueGoogle": "Lanjutkan dengan Google",
+    "continueGithub": "Lanjutkan dengan GitHub",
+    "newHere": "Baru di sini?",
+    "createAccount": "Buat akun",
+    "successRegister": "Akun berhasil dibuat. Silakan login dengan email dan password kamu.",
+    "successReset": "Password berhasil diperbarui. Silakan login pakai password baru kamu.",
+    "errorInvalidCredentials": "Email atau password tidak cocok. Kalau belum punya akun, silakan daftar dulu.",
+    "errorDefault": "Sign in gagal. Coba lagi sebentar ya."
+  },
+  "register": {
+    "title": "Buat workspace VeriText Anda",
+    "fullNameLabel": "Nama lengkap",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Buat password yang kuat",
+    "button": "Buat Akun",
+    "alreadyHaveAccount": "Sudah punya akun?",
+    "signIn": "Masuk",
+    "errorConflict": "Email ini sudah terdaftar. Silakan login atau gunakan email lain.",
+    "errorDefault": "Pendaftaran gagal. Coba lagi sebentar ya."
+  },
+  "findAccount": {
+    "title": "Cari akun Anda",
+    "description": "Cari akun berdasarkan email. Nanti kita tampilkan akun yang cocok dan metode login-nya.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "button": "Cari Akun",
+    "errorNotFound": "Belum ada akun yang terdaftar dengan email ini.",
+    "errorDefault": "Pencarian akun gagal. Coba lagi sebentar ya.",
+    "loginMethod": "Metode login: {method}",
+    "continueReset": "Lanjut reset password",
+    "googleInfo": "Akun ini tersambung ke Google. Gunakan tombol Google saat login.",
+    "backToSignIn": "Kembali masuk",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google dan password",
+    "providerEmailPassword": "Email dan password"
+  },
+  "forgotPassword": {
+    "title": "Lupa password",
+    "description": "Masukkan email akun kamu. Kalau ditemukan, kita lanjut ke halaman buat password baru.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "button": "Lanjutkan ke Reset",
+    "errorNotFound": "Email ini belum terdaftar. Coba cek lagi atau cari akun terlebih dulu.",
+    "errorDefault": "Permintaan reset password gagal. Coba lagi sebentar ya.",
+    "rememberPassword": "Ingat password Anda?",
+    "backToSignIn": "Kembali masuk",
+    "notSureEmail": "Tidak yakin email mana yang Anda gunakan?",
+    "findAccount": "Cari akun"
+  }
+}

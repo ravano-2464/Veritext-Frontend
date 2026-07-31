@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "VeriText में साइन इन करें",
+    "emailLabel": "ईमेल",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "findAccount": "खाता ढूंढें",
+    "continue": "जारी रखें",
+    "continueGoogle": "Google के साथ जारी रखें",
+    "continueGithub": "GitHub के साथ जारी रखें",
+    "newHere": "यहाँ नए हैं?",
+    "createAccount": "खाता बनाएं",
+    "successRegister": "खाता सफलतापूर्वक बन गया है। कृपया अपने ईमेल और पासवर्ड के साथ लॉगिन करें।",
+    "successReset": "पासवर्ड सफलतापूर्वक अपडेट हो गया है। कृपया अपने नए पासवर्ड के साथ लॉगिन करें।",
+    "errorInvalidCredentials": "ईमेल या पासवर्ड मेल नहीं खाता। यदि आपका अभी तक कोई खाता नहीं है, तो कृपया पहले पंजीकरण करें।",
+    "errorDefault": "साइन इन विफल रहा। कृपया कुछ समय बाद पुनः प्रयास करें।"
+  },
+  "register": {
+    "title": "अपना VeriText वर्कस्पेस बनाएं",
+    "fullNameLabel": "पूरा नाम",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "ईमेल",
+    "emailPlaceholder": "you@company.com",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "एक मजबूत पासवर्ड बनाएं",
+    "button": "खाता बनाएं",
+    "alreadyHaveAccount": "पहले से ही एक खाता है?",
+    "signIn": "साइन इन करें",
+    "errorConflict": "यह ईमेल पहले से ही पंजीकृत है। कृपया लॉगिन करें या किसी अन्य ईमेल का उपयोग करें।",
+    "errorDefault": "पंजीकरण विफल रहा। कृपया कुछ समय बाद पुनः प्रयास करें।"
+  },
+  "findAccount": {
+    "title": "अपना खाता ढूंढें",
+    "description": "लॉगिन विधि देखने के लिए ईमेल द्वारा अपना खाता खोजें।",
+    "emailLabel": "ईमेल",
+    "emailPlaceholder": "you@company.com",
+    "button": "खाता ढूंढें",
+    "errorNotFound": "इस ईमेल के साथ कोई खाता पंजीकृत नहीं है।",
+    "errorDefault": "खाता खोज विफल रही। कृपया कुछ समय बाद पुनः प्रयास करें।",
+    "loginMethod": "लॉगिन विधि: {method}",
+    "continueReset": "पासवर्ड रीसेट करने के लिए जारी रखें",
+    "googleInfo": "यह खाता Google से जुड़ा हुआ है। लॉग इन करते समय Google बटन का उपयोग करें।",
+    "backToSignIn": "साइन इन पर वापस जाएं",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google और पासवर्ड",
+    "providerEmailPassword": "ईमेल और पासवर्ड"
+  },
+  "forgotPassword": {
+    "title": "पासवर्ड भूल गए",
+    "description": "अपना ईमेल दर्ज करें। यदि मिल गया, तो हम पासवर्ड रीसेट पेज पर आगे बढ़ेंगे।",
+    "emailLabel": "ईमेल",
+    "emailPlaceholder": "you@company.com",
+    "button": "रीसेट करने के लिए जारी रखें",
+    "errorNotFound": "यह ईमेल पंजीकृत नहीं है। कृपया दोबारा जाँचें या पहले अपना खाता ढूंढें।",
+    "errorDefault": "पासवर्ड रीसेट अनुरोध विफल रहा। कृपया कुछ समय बाद पुनः प्रयास करें।",
+    "rememberPassword": "अपना पासवर्ड याद है?",
+    "backToSignIn": "साइन इन पर वापस जाएं",
+    "notSureEmail": "सुनिश्चित नहीं हैं कि आपने किस ईमेल का उपयोग किया था?",
+    "findAccount": "खाता ढूंढें"
+  }
+}

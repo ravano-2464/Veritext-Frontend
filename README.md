@@ -201,6 +201,7 @@ graph TD
 │   │   ├── 📁 common
 │   │   │   ├── 📄 EmptyState.tsx
 │   │   │   ├── 📄 auth-guard.tsx
+│   │   │   ├── 📄 auth-language-toggle.tsx
 │   │   │   ├── 📄 auth-page-fallback.tsx
 │   │   │   ├── 📄 brand-logo.tsx
 │   │   │   ├── 📄 country-flag.tsx
@@ -301,6 +302,19 @@ graph TD
 │   │   │   ├── ⚙️ ru.json
 │   │   │   └── ⚙️ zh.json
 │   │   ├── 📁 api
+│   │   │   ├── ⚙️ ar.json
+│   │   │   ├── ⚙️ de.json
+│   │   │   ├── ⚙️ en.json
+│   │   │   ├── ⚙️ es.json
+│   │   │   ├── ⚙️ fr.json
+│   │   │   ├── ⚙️ hi.json
+│   │   │   ├── ⚙️ id.json
+│   │   │   ├── ⚙️ ja.json
+│   │   │   ├── ⚙️ ko.json
+│   │   │   ├── ⚙️ pt.json
+│   │   │   ├── ⚙️ ru.json
+│   │   │   └── ⚙️ zh.json
+│   │   ├── 📁 auth
 │   │   │   ├── ⚙️ ar.json
 │   │   │   ├── ⚙️ de.json
 │   │   │   ├── ⚙️ en.json

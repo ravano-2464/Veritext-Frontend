@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "VeriText にサインイン",
+    "emailLabel": "メールアドレス",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "findAccount": "アカウントを探す",
+    "continue": "次へ",
+    "continueGoogle": "Google でサインイン",
+    "continueGithub": "GitHub でサインイン",
+    "newHere": "アカウントをお持ちではありませんか？",
+    "createAccount": "アカウントを作成",
+    "successRegister": "アカウントが作成されました。メールアドレスとパスワードでログインしてください。",
+    "successReset": "パスワードが更新されました。新しいパスワードでログインしてください。",
+    "errorInvalidCredentials": "メールアドレスまたはパスワードが一致しません。まだ登録されていない場合は、登録してください。",
+    "errorDefault": "サインインに失敗しました。時間をおいてもう一度お試しください。"
+  },
+  "register": {
+    "title": "VeriText ワークスペースの作成",
+    "fullNameLabel": "氏名",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@company.com",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "強力なパスワードを入力してください",
+    "button": "アカウント作成",
+    "alreadyHaveAccount": "既にアカウントをお持ちですか？",
+    "signIn": "サインイン",
+    "errorConflict": "このメールアドレスは既に登録されています。ログインするか、別のメールアドレスをお試しください。",
+    "errorDefault": "登録に失敗しました。時間をおいてもう一度お試しください。"
+  },
+  "findAccount": {
+    "title": "アカウントの検索",
+    "description": "メールアドレスでアカウントを検索し、ログイン方法を確認します。",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@company.com",
+    "button": "アカウントを検索",
+    "errorNotFound": "このメールアドレスで登録されているアカウントはありません。",
+    "errorDefault": "アカウント検索に失敗しました。時間をおいてもう一度お試しください。",
+    "loginMethod": "ログイン方法: {method}",
+    "continueReset": "パスワード再設定へ進む",
+    "googleInfo": "このアカウントは Google に連携されています。ログイン時は Google ボタンを使用してください。",
+    "backToSignIn": "サインインに戻る",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google とパスワード",
+    "providerEmailPassword": "メールアドレスとパスワード"
+  },
+  "forgotPassword": {
+    "title": "パスワードをお忘れの場合",
+    "description": "メールアドレスを入力してください。アカウントが見つかった場合、再設定ページへ進みます。",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "you@company.com",
+    "button": "再設定へ進む",
+    "errorNotFound": "このメールアドレスは登録されていません。入力内容を確認するか、アカウント検索をお試しください。",
+    "errorDefault": "パスワード再設定リクエストに失敗しました。時間をおいてもう一度お試しください。",
+    "rememberPassword": "パスワードを覚えていますか？",
+    "backToSignIn": "サインインに戻る",
+    "notSureEmail": "登録メールアドレスが不明な場合",
+    "findAccount": "アカウントを探す"
+  }
+}

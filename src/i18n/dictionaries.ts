@@ -8,6 +8,7 @@ import analyticsEn from '@/i18n/analytics/en.json';
 import apiEn from '@/i18n/api/en.json';
 import adminEn from '@/i18n/admin/en.json';
 import billingEn from '@/i18n/billing/en.json';
+import authEn from '@/i18n/auth/en.json';
 
 import shellId from '@/i18n/shell/id.json';
 import overviewId from '@/i18n/overview/id.json';
@@ -19,6 +20,7 @@ import analyticsId from '@/i18n/analytics/id.json';
 import apiId from '@/i18n/api/id.json';
 import adminId from '@/i18n/admin/id.json';
 import billingId from '@/i18n/billing/id.json';
+import authId from '@/i18n/auth/id.json';
 
 import shellZh from '@/i18n/shell/zh.json';
 import overviewZh from '@/i18n/overview/zh.json';
@@ -30,6 +32,7 @@ import analyticsZh from '@/i18n/analytics/zh.json';
 import apiZh from '@/i18n/api/zh.json';
 import adminZh from '@/i18n/admin/zh.json';
 import billingZh from '@/i18n/billing/zh.json';
+import authZh from '@/i18n/auth/zh.json';
 
 import shellEs from '@/i18n/shell/es.json';
 import overviewEs from '@/i18n/overview/es.json';
@@ -41,6 +44,7 @@ import analyticsEs from '@/i18n/analytics/es.json';
 import apiEs from '@/i18n/api/es.json';
 import adminEs from '@/i18n/admin/es.json';
 import billingEs from '@/i18n/billing/es.json';
+import authEs from '@/i18n/auth/es.json';
 
 import shellAr from '@/i18n/shell/ar.json';
 import overviewAr from '@/i18n/overview/ar.json';
@@ -52,6 +56,7 @@ import analyticsAr from '@/i18n/analytics/ar.json';
 import apiAr from '@/i18n/api/ar.json';
 import adminAr from '@/i18n/admin/ar.json';
 import billingAr from '@/i18n/billing/ar.json';
+import authAr from '@/i18n/auth/ar.json';
 
 import shellHi from '@/i18n/shell/hi.json';
 import overviewHi from '@/i18n/overview/hi.json';
@@ -63,6 +68,7 @@ import analyticsHi from '@/i18n/analytics/hi.json';
 import apiHi from '@/i18n/api/hi.json';
 import adminHi from '@/i18n/admin/hi.json';
 import billingHi from '@/i18n/billing/hi.json';
+import authHi from '@/i18n/auth/hi.json';
 
 import shellPt from '@/i18n/shell/pt.json';
 import overviewPt from '@/i18n/overview/pt.json';
@@ -74,6 +80,7 @@ import analyticsPt from '@/i18n/analytics/pt.json';
 import apiPt from '@/i18n/api/pt.json';
 import adminPt from '@/i18n/admin/pt.json';
 import billingPt from '@/i18n/billing/pt.json';
+import authPt from '@/i18n/auth/pt.json';
 
 import shellJa from '@/i18n/shell/ja.json';
 import overviewJa from '@/i18n/overview/ja.json';
@@ -85,6 +92,7 @@ import analyticsJa from '@/i18n/analytics/ja.json';
 import apiJa from '@/i18n/api/ja.json';
 import adminJa from '@/i18n/admin/ja.json';
 import billingJa from '@/i18n/billing/ja.json';
+import authJa from '@/i18n/auth/ja.json';
 
 import shellKo from '@/i18n/shell/ko.json';
 import overviewKo from '@/i18n/overview/ko.json';
@@ -96,6 +104,7 @@ import analyticsKo from '@/i18n/analytics/ko.json';
 import apiKo from '@/i18n/api/ko.json';
 import adminKo from '@/i18n/admin/ko.json';
 import billingKo from '@/i18n/billing/ko.json';
+import authKo from '@/i18n/auth/ko.json';
 
 import shellFr from '@/i18n/shell/fr.json';
 import overviewFr from '@/i18n/overview/fr.json';
@@ -107,6 +116,7 @@ import analyticsFr from '@/i18n/analytics/fr.json';
 import apiFr from '@/i18n/api/fr.json';
 import adminFr from '@/i18n/admin/fr.json';
 import billingFr from '@/i18n/billing/fr.json';
+import authFr from '@/i18n/auth/fr.json';
 
 import shellDe from '@/i18n/shell/de.json';
 import overviewDe from '@/i18n/overview/de.json';
@@ -118,6 +128,7 @@ import analyticsDe from '@/i18n/analytics/de.json';
 import apiDe from '@/i18n/api/de.json';
 import adminDe from '@/i18n/admin/de.json';
 import billingDe from '@/i18n/billing/de.json';
+import authDe from '@/i18n/auth/de.json';
 
 import shellRu from '@/i18n/shell/ru.json';
 import overviewRu from '@/i18n/overview/ru.json';
@@ -129,6 +140,7 @@ import analyticsRu from '@/i18n/analytics/ru.json';
 import apiRu from '@/i18n/api/ru.json';
 import adminRu from '@/i18n/admin/ru.json';
 import billingRu from '@/i18n/billing/ru.json';
+import authRu from '@/i18n/auth/ru.json';
 
 import marketingHeaderEn from '@/i18n/marketing/header/en.json';
 import marketingHeroEn from '@/i18n/marketing/hero/en.json';
@@ -216,6 +228,7 @@ const enDashboardDictionary = {
   api: apiEn,
   admin: adminEn,
   billing: billingEn,
+  auth: authEn,
   marketing: {
     header: marketingHeaderEn,
     hero: marketingHeroEn,
@@ -243,6 +256,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiId,
     admin: adminId,
     billing: billingId,
+    auth: authId,
     marketing: {
       header: marketingHeaderId,
       hero: marketingHeroId,
@@ -262,6 +276,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiZh,
     admin: adminZh,
     billing: billingZh,
+    auth: authZh,
     marketing: {
       header: marketingHeaderZh,
       hero: marketingHeroZh,
@@ -281,6 +296,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiEs,
     admin: adminEs,
     billing: billingEs,
+    auth: authEs,
     marketing: {
       header: marketingHeaderEs,
       hero: marketingHeroEs,
@@ -300,6 +316,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiAr,
     admin: adminAr,
     billing: billingAr,
+    auth: authAr,
     marketing: {
       header: marketingHeaderAr,
       hero: marketingHeroAr,
@@ -319,6 +336,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiHi,
     admin: adminHi,
     billing: billingHi,
+    auth: authHi,
     marketing: {
       header: marketingHeaderHi,
       hero: marketingHeroHi,
@@ -338,6 +356,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiPt,
     admin: adminPt,
     billing: billingPt,
+    auth: authPt,
     marketing: {
       header: marketingHeaderPt,
       hero: marketingHeroPt,
@@ -357,6 +376,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiJa,
     admin: adminJa,
     billing: billingJa,
+    auth: authJa,
     marketing: {
       header: marketingHeaderJa,
       hero: marketingHeroJa,
@@ -376,6 +396,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiKo,
     admin: adminKo,
     billing: billingKo,
+    auth: authKo,
     marketing: {
       header: marketingHeaderKo,
       hero: marketingHeroKo,
@@ -395,6 +416,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiFr,
     admin: adminFr,
     billing: billingFr,
+    auth: authFr,
     marketing: {
       header: marketingHeaderFr,
       hero: marketingHeroFr,
@@ -414,6 +436,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiDe,
     admin: adminDe,
     billing: billingDe,
+    auth: authDe,
     marketing: {
       header: marketingHeaderDe,
       hero: marketingHeroDe,
@@ -433,6 +456,7 @@ export const dashboardDictionaries: Record<DashboardLanguage, DashboardDictionar
     api: apiRu,
     admin: adminRu,
     billing: billingRu,
+    auth: authRu,
     marketing: {
       header: marketingHeaderRu,
       hero: marketingHeroRu,

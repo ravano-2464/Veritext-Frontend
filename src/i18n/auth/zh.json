@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "登录到 VeriText",
+    "emailLabel": "电子邮件",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "输入您的密码",
+    "forgotPassword": "忘记密码？",
+    "findAccount": "查找帐户",
+    "continue": "继续",
+    "continueGoogle": "使用 Google 继续",
+    "continueGithub": "使用 GitHub 继续",
+    "newHere": "新用户？",
+    "createAccount": "创建帐户",
+    "successRegister": "帐户创建成功。请使用您的电子邮件和密码登录。",
+    "successReset": "密码更新成功。请使用您的新密码登录。",
+    "errorInvalidCredentials": "电子邮件或密码不匹配。如果您还没有帐户，请先注册。",
+    "errorDefault": "登录失败。请稍后再试。"
+  },
+  "register": {
+    "title": "创建您的 VeriText 工作区",
+    "fullNameLabel": "全名",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "you@company.com",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "创建强密码",
+    "button": "创建帐户",
+    "alreadyHaveAccount": "已经有帐户了？",
+    "signIn": "登录",
+    "errorConflict": "此电子邮件已被注册。请登录或使用其他电子邮件。",
+    "errorDefault": "注册失败。请稍后再试。"
+  },
+  "findAccount": {
+    "title": "查找您的帐户",
+    "description": "通过电子邮件搜索您的帐户以查看登录方式。",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "you@company.com",
+    "button": "查找帐户",
+    "errorNotFound": "没有使用此电子邮件注册的帐户。",
+    "errorDefault": "帐户搜索失败。请稍后再试。",
+    "loginMethod": "登录方式：{method}",
+    "continueReset": "继续重置密码",
+    "googleInfo": "此帐户已连接到 Google。登录时请使用 Google 按钮。",
+    "backToSignIn": "返回登录",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google 和密码",
+    "providerEmailPassword": "电子邮件和密码"
+  },
+  "forgotPassword": {
+    "title": "忘记密码",
+    "description": "输入您的电子邮件。如果找到，我们将进入重置密码页面。",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "you@company.com",
+    "button": "继续重置",
+    "errorNotFound": "此电子邮件未注册。请重新检查或先查找您的帐户。",
+    "errorDefault": "重置密码请求失败。请稍后再试。",
+    "rememberPassword": "记住密码？",
+    "backToSignIn": "返回登录",
+    "notSureEmail": "不确定您使用了哪个电子邮件？",
+    "findAccount": "查找帐户"
+  }
+}

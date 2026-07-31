@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "Sign in to VeriText",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot password?",
+    "findAccount": "Find account",
+    "continue": "Continue",
+    "continueGoogle": "Continue with Google",
+    "continueGithub": "Continue with GitHub",
+    "newHere": "New here?",
+    "createAccount": "Create account",
+    "successRegister": "Account created successfully. Please log in with your email and password.",
+    "successReset": "Password updated successfully. Please log in with your new password.",
+    "errorInvalidCredentials": "Email or password does not match. If you don't have an account yet, please register first.",
+    "errorDefault": "Sign in failed. Please try again in a moment."
+  },
+  "register": {
+    "title": "Create your VeriText workspace",
+    "fullNameLabel": "Full name",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Create a strong password",
+    "button": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "errorConflict": "This email is already registered. Please log in or use another email.",
+    "errorDefault": "Registration failed. Please try again in a moment."
+  },
+  "findAccount": {
+    "title": "Find your account",
+    "description": "Search for your account by email to view the login method.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "button": "Find Account",
+    "errorNotFound": "No account is registered with this email.",
+    "errorDefault": "Account search failed. Please try again in a moment.",
+    "loginMethod": "Login method: {method}",
+    "continueReset": "Continue to reset password",
+    "googleInfo": "This account is connected to Google. Use the Google button when logging in.",
+    "backToSignIn": "Back to sign in",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google and password",
+    "providerEmailPassword": "Email and password"
+  },
+  "forgotPassword": {
+    "title": "Forgot password",
+    "description": "Enter your email. If found, we will proceed to the reset password page.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "button": "Continue to Reset",
+    "errorNotFound": "This email is not registered. Please check again or find your account first.",
+    "errorDefault": "Reset password request failed. Please try again in a moment.",
+    "rememberPassword": "Remember your password?",
+    "backToSignIn": "Back to sign in",
+    "notSureEmail": "Not sure which email you used?",
+    "findAccount": "Find account"
+  }
+}

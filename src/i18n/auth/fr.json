@@ -1,0 +1,62 @@
+{
+  "login": {
+    "title": "Se connecter à VeriText",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Saisissez votre mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "findAccount": "Trouver un compte",
+    "continue": "Continuer",
+    "continueGoogle": "Continuer avec Google",
+    "continueGithub": "Continuer avec GitHub",
+    "newHere": "Nouveau ici ?",
+    "createAccount": "Créer un compte",
+    "successRegister": "Compte créé avec succès. Veuillez vous connecter avec votre e-mail et mot de passe.",
+    "successReset": "Mot de passe mis à jour avec succès. Veuillez vous connecter avec votre nouveau mot de passe.",
+    "errorInvalidCredentials": "L'e-mail ou le mot de passe ne correspond pas. Si vous n'avez pas encore de compte, veuillez vous inscrire d'abord.",
+    "errorDefault": "Échec de la connexion. Veuillez réessayer dans un instant."
+  },
+  "register": {
+    "title": "Créez votre espace de travail VeriText",
+    "fullNameLabel": "Nom complet",
+    "fullNamePlaceholder": "John Doe",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vous@entreprise.com",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Créez un mot de passe fort",
+    "button": "Créer un compte",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "signIn": "Se connecter",
+    "errorConflict": "Cet e-mail est déjà enregistré. Veuillez vous connecter ou utiliser un autre e-mail.",
+    "errorDefault": "Échec de l'inscription. Veuillez réessayer dans un instant."
+  },
+  "findAccount": {
+    "title": "Trouver votre compte",
+    "description": "Recherchez votre compte par e-mail pour voir la méthode de connexion.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vous@entreprise.com",
+    "button": "Trouver le compte",
+    "errorNotFound": "Aucun compte n'est enregistré avec cet e-mail.",
+    "errorDefault": "Échec de la recherche de compte. Veuillez réessayer dans un instant.",
+    "loginMethod": "Méthode de connexion : {method}",
+    "continueReset": "Continuer pour réinitialiser le mot de passe",
+    "googleInfo": "Ce compte est connecté à Google. Utilisez le bouton Google lors de la connexion.",
+    "backToSignIn": "Retour à la connexion",
+    "providerGoogle": "Google",
+    "providerGooglePassword": "Google et mot de passe",
+    "providerEmailPassword": "E-mail et mot de passe"
+  },
+  "forgotPassword": {
+    "title": "Mot de passe oublié",
+    "description": "Saisissez votre e-mail. S'il est trouvé, nous passerons à la page de réinitialisation.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vous@entreprise.com",
+    "button": "Continuer pour réinitialiser",
+    "errorNotFound": "Cet e-mail n'est pas enregistré. Veuillez vérifier ou rechercher votre compte d'abord.",
+    "errorDefault": "Échec de la demande de réinitialisation. Veuillez réessayer dans un instant.",
+    "rememberPassword": "Vous vous souvenez de votre mot de passe ?",
+    "backToSignIn": "Retour à la connexion",
+    "notSureEmail": "Vous ne savez pas quel e-mail vous avez utilisé ?",
+    "findAccount": "Trouver un compte"
+  }
+}
